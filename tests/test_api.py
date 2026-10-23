@@ -2,11 +2,11 @@
 
 The critical invariant: the API MUST expose exactly 78 GET endpoints.
 """
+import re
 import sys
 from pathlib import Path
 
 import pytest
-from fastapi.routing import APIRoute
 from fastapi.testclient import TestClient
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -108,34 +108,37 @@ def test_reports():
     assert client.get("/api/v1/reports/missing_report").status_code == 404
 
 
+# Representative example values for path parameters (openapi path templates).
+EXAMPLES = {
+    "role": "assassin", "lane": "jungle", "year": "2024", "hero": "lancelot",
+    "change_type": "Buff", "version": "2.2.16", "item": "blade-of-despair",
+    "edition": "m7", "region": "Philippines", "category": "Moniyan Empire",
+    "aspect": "Collab", "topic": "Moonton", "system": "Spell",
+    "report_name": "research_report", "table": "currencies",
+}
+
+
+def _example_path(template: str) -> str:
+    """Fill openapi path-template params with representative values."""
+    path = template
+    for param in re.findall(r"\{(\w+)\}", template):
+        if param == "region" and "lore-region" in path:
+            path = path.replace(f"{{{param}}}", "moniyan")
+        elif param == "year" and "patches" in path:
+            path = path.replace(f"{{{param}}}", "2022")  # no 2024 rows in patch_index
+        elif param == "category" and "items" in path:
+            path = path.replace(f"{{{param}}}", "T1 Attack")
+        else:
+            path = path.replace(f"{{{param}}}", EXAMPLES.get(param, "lancelot"))
+    if path.endswith("/search"):
+        path += "?q=a"
+    return path
+
+
 def test_all_endpoints_respond():
     """Every documented endpoint must return 200 with a representative example."""
-    examples = {
-        "role": "assassin", "lane": "jungle", "year": "2024", "hero": "lancelot",
-        "change_type": "Buff", "version": "2.2.16", "item": "blade-of-despair",
-        "edition": "m7", "region": "Philippines", "category": "Moniyan Empire",
-        "aspect": "Collab", "topic": "Moonton", "system": "Spell",
-        "report_name": "research_report", "table": "roles",
-    }
-    n = 0
-    for route in app.routes:
-        if isinstance(route, APIRoute) and "GET" in route.methods and route.include_in_schema:
-            if route.path == "/":
-                assert client.get("/").status_code == 200
-                n += 1
-                continue
-            path = route.path
-            for param in route.param_convertors:
-                if param == "region" and "lore-region" in path:
-                    path = path.replace(f"{{{param}}}", "moniyan")
-                elif param == "year" and "patches" in path:
-                    path = path.replace(f"{{{param}}}", "2022")  # no 2024 rows in patch_index
-                elif param == "category" and "items" in path:
-                    path = path.replace(f"{{{param}}}", "T1 Attack")
-                else:
-                    path = path.replace(f"{{{param}}}", examples.get(param, "lancelot"))
-            if path.endswith("/search"):
-                path += "?q=a"
-            assert client.get(path).status_code == 200, f"endpoint failed: {path}"
-            n += 1
-    assert n == 78
+    templates = [p for p, ops in app.openapi()["paths"].items() if "get" in ops]
+    for template in templates:
+        url = _example_path(template)
+        assert client.get(url).status_code == 200, f"endpoint failed: {url}"
+    assert len(templates) == 78

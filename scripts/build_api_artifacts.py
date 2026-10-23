@@ -1,20 +1,23 @@
 #!/usr/bin/env python3
 """Build API artifacts: static JSON mirror (78 files), openapi.json, API.md,
-static index page and references/README.md. Run from anywhere."""
+static index page and references/README.md. Run from anywhere.
+
+Endpoint enumeration uses the generated OpenAPI schema — the stable contract —
+instead of introspecting app.routes, so this works on every FastAPI version
+(including >= 0.160 / Starlette 1.x, where included routers stay nested)."""
 import json
+import re
 import shutil
 import sys
 from pathlib import Path
 
-import sys
-sys.path.insert(0, "/home/z/my-project/download/mlbb-historical-database")
+REPO = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO))
 
-from fastapi.routing import APIRoute
-from fastapi.testclient import TestClient
+from fastapi.testclient import TestClient  # noqa: E402
 
 from api.main import app, count_api_routes  # noqa: E402
 
-REPO = Path("/home/z/my-project/download/mlbb-historical-database")
 STATIC = REPO / "api" / "static" / "v1"
 
 EXAMPLES = {
@@ -26,9 +29,16 @@ EXAMPLES = {
 }
 
 
-def example_path(route: APIRoute) -> str:
-    path = route.path
-    for param in route.param_convertors:
+# ---------------- openapi-derived endpoint catalog ----------------
+_spec = app.openapi()
+GET_PATHS: list[str] = [p for p, ops in _spec["paths"].items() if "get" in ops]
+GET_TAG = {p: (_spec["paths"][p]["get"].get("tags") or ["other"])[0] for p in GET_PATHS}
+GET_SUMMARY = {p: _spec["paths"][p]["get"].get("summary", "") for p in GET_PATHS}
+
+
+def example_path(template: str) -> str:
+    path = template
+    for param in re.findall(r"\{(\w+)\}", template):
         if param == "region" and "lore-region" in path:
             path = path.replace(f"{{{param}}}", "moniyan")
         elif param == "year" and "patches" in path:
@@ -53,8 +63,7 @@ assert n == 78, f"expected 78 endpoints, got {n}"
 print(f"endpoint count verified: {n}/78")
 
 # sanity: the 78 endpoints must map to 78 UNIQUE static files
-_names = [static_name(example_path(r)) for r in app.routes
-          if isinstance(r, APIRoute) and "GET" in r.methods and r.include_in_schema]
+_names = [static_name(example_path(p)) for p in GET_PATHS]
 assert len(set(_names)) == 78, "static mirror filenames are not unique"
 
 # ---------------- openapi.json ----------------
@@ -67,18 +76,16 @@ if STATIC.exists():
     shutil.rmtree(STATIC)
 STATIC.mkdir(parents=True)
 failures, built = [], []
-for route in app.routes:
-    if not (isinstance(route, APIRoute) and "GET" in route.methods and route.include_in_schema):
-        continue
-    url = example_path(route)
+for template in GET_PATHS:
+    url = example_path(template)
     r = client.get(url)
     if r.status_code != 200:
-        failures.append((route.path, r.status_code))
+        failures.append((template, r.status_code))
         continue
     body = r.json()
     fname = static_name(url.split("?")[0])
     (STATIC / fname).write_text(json.dumps(body, indent=2, ensure_ascii=False), encoding="utf-8")
-    built.append((route.path, fname))
+    built.append((template, fname))
 if failures:
     raise SystemExit(f"static mirror failures: {failures}")
 print(f"api/static/v1: {len(built)} JSON files")
@@ -103,11 +110,8 @@ print("api/static/index.html written")
 
 # ---------------- API.md ----------------
 by_tag: dict[str, list[tuple[str, str, str]]] = {}
-for route in app.routes:
-    if not (isinstance(route, APIRoute) and "GET" in route.methods and route.include_in_schema):
-        continue
-    tag = route.tags[0] if route.tags else "other"
-    by_tag.setdefault(tag, []).append((route.path, route.summary or "", ""))
+for template in GET_PATHS:
+    by_tag.setdefault(GET_TAG[template], []).append((template, GET_SUMMARY[template], ""))
 
 order = ["meta", "heroes", "extras", "items", "patches", "mseries",
          "esports", "systems", "client", "business", "reference"]
@@ -120,8 +124,7 @@ for tag in order:
     lines.append("| # | Method | Endpoint | Description | Static mirror |")
     lines.append("|---|--------|----------|-------------|---------------|")
     for i, (p, s, _) in enumerate(eps, 1):
-        fname = static_name(example_path(
-            next(r for r in app.routes if isinstance(r, APIRoute) and r.path == p)))
+        fname = static_name(example_path(p))
         lines.append(f"| {total - len(eps) + i} | GET | `{p}` | {s} | [`v1/{fname}`](api/static/v1/{fname}) |")
 assert total == 78, f"API.md table mismatch: {total}"
 endpoint_table = "\n".join(lines)

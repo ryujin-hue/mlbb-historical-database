@@ -35,7 +35,12 @@ app.mount("/img", StaticFiles(directory=BASE_DIR / "images"), name="images")
 
 
 def count_api_routes() -> int:
-    """Count the public GET endpoints defined by this API (78 expected)."""
-    from fastapi.routing import APIRoute
-    return sum(1 for r in app.routes
-               if isinstance(r, APIRoute) and "GET" in r.methods)
+    """Count the public GET endpoints defined by this API (78 expected).
+
+    Counts via the generated OpenAPI schema instead of introspecting
+    app.routes: FastAPI >= 0.160 (Starlette 1.x) keeps included routers
+    nested, so isinstance(r, APIRoute) no longer finds included endpoints,
+    while the OpenAPI contract is stable across all FastAPI versions.
+    """
+    paths = app.openapi().get("paths", {})
+    return sum(1 for ops in paths.values() if "get" in ops)
