@@ -1,0 +1,141 @@
+{
+  "endpoint": "/api/v1/items/changes/type/Buff",
+  "data": [
+    {
+      "version": "1.5.96",
+      "date": "2021-07-23",
+      "item": "Shadow Twinblades",
+      "change_type": "Buff",
+      "detail": "Magic Power 70 to 75",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-5-96-notes/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE",
+      "image_url": null
+    },
+    {
+      "version": "1.5.96",
+      "date": "2021-07-23",
+      "item": "Twilight Armor",
+      "change_type": "Buff",
+      "detail": "Unique Passive Defiance extra dmg 4% of max HP to 5%",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-5-96-notes/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE",
+      "image_url": null
+    },
+    {
+      "version": "1.6.94",
+      "date": "2022-06-28",
+      "item": "Blood Wings",
+      "change_type": "Buff",
+      "detail": "Magic Power 150 to 175",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-6-94-notes/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE",
+      "image_url": null
+    },
+    {
+      "version": "1.7.44",
+      "date": "2022-12-20",
+      "item": "Golden Staff",
+      "change_type": "Buff",
+      "detail": "When Endless Strike active, basic attack AS can temporarily exceed cap",
+      "source": "https://www.oneesports.gg/mobile-legends/patch-1-7-44-notes-buff-nerf/; https://www.gosugamers.net/mobile-legends/news/63992-m4-world-championships-a-new-patch-brings-many-changes",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE",
+      "image_url": null
+    },
+    {
+      "version": "1.7.44",
+      "date": "2022-12-20",
+      "item": "Clock of Destiny",
+      "change_type": "Buff",
+      "detail": "Max stacks 12 to 15 (4 to 5 min to max); base HP 615 to 625; extra mana 300 to 600; build path changed to Hero's Ring + Vitality Crystal + Leather Jerkin",
+      "source": "https://www.oneesports.gg/mobile-legends/patch-1-7-44-notes-buff-nerf/; https://www.gosugamers.net/mobile-legends/news/63992-m4-world-championships-a-new-patch-brings-many-changes",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE",
+      "image_url": null
+    },
+    {
+      "version": "1.7.44",
+      "date": "2022-12-20",
+      "item": "Lightning Truncheon",
+      "change_type": "Buff",
+      "detail": "Min dmg 20 to 50; base mana 300 to 400; dmg formula 30% mana -300 to 35% mana -450",
+      "source": "https://www.oneesports.gg/mobile-legends/patch-1-7-44-notes-buff-nerf/; https://www.gosugamers.net/mobile-legends/news/63992-m4-world-championships-a-new-patch-brings-many-changes",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE",
+      "image_url": null
+    },
+    {
+      "version": "1.7.44",
+      "date": "2022-12-20",
+      "item": "Brute Force Breastplate",
+      "change_type": "Buff",
+      "detail": "Buffed in 1.7.44 among 'quite a few' item changes (qualitative per GosuGamers)",
+      "source": "https://www.oneesports.gg/mobile-legends/patch-1-7-44-notes-buff-nerf/; https://www.gosugamers.net/mobile-legends/news/63992-m4-world-championships-a-new-patch-brings-many-changes",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE",
+      "image_url": null
+    },
+    {
+      "version": "2.1.88",
+      "date": "2026-06-17",
+      "item": "Conceal (Roaming Blessing)",
+      "change_type": "Buff",
+      "detail": "Cd 80s >> 60s",
+      "source": "https://www.mobilelegends.com/news (official news article 3314600",
+      "image_path": " 2.1.88 PATCH NOTES)",
+      "image_source": "MISSING_IMAGE",
+      "image_url": "/img/%202.1.88%20PATCH%20NOTES%29"
+    },
+    {
+      "version": "2.1.88",
+      "date": "2026-06-17",
+      "item": "Retribution",
+      "change_type": "Buff",
+      "detail": "Basic Retribution 520 (+80*Lv) >> 750 (+150*Lv); Advanced 780 (+120*Lv) >> 750 (+150*Lv)",
+      "source": "https://www.mobilelegends.com/news (official news article 3314600",
+      "image_path": " 2.1.88 PATCH NOTES)",
+      "image_source": "MISSING_IMAGE",
+      "image_url": "/img/%202.1.88%20PATCH%20NOTES%29"
+    },
+    {
+      "version": "1.6.94",
+      "date": "2022-06-28",
+      "item": "Blood Wings",
+      "change_type": "buff",
+      "detail": "Magic Power 150 >> 175",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-6-94-notes/",
+      "image_path": "images/items/blood-wings.png",
+      "image_source": "https://mlbbhub.com/images/items/blood-wings.png",
+      "image_url": "/img/images/items/blood-wings.png"
+    },
+    {
+      "version": "2.1.88",
+      "date": "2026-06-17",
+      "item": "Conceal (Roaming Blessing)",
+      "change_type": "buff",
+      "detail": "Cooldown 80s >> 60s",
+      "source": "Official 2.1.88 patch notes (article 3314600)",
+      "image_path": "images/items/conceal.png",
+      "image_source": "https://mlbbhub.com/images/items/conceal.png",
+      "image_url": "/img/images/items/conceal.png"
+    },
+    {
+      "version": "2.1.88",
+      "date": "2026-06-17",
+      "item": "Retribution (spell damage)",
+      "change_type": "buff",
+      "detail": "Basic Retribution 520 (+80*Lv) >> 750 (+150*Lv); Advanced 780 (+120*Lv) >> 750 (+150*Lv)",
+      "source": "Official 2.1.88 patch notes (article 3314600)",
+      "image_path": "images/spells/retribution.png",
+      "image_source": "https://mlbbhub.com/images/spells/retribution.png",
+      "image_url": "/img/images/spells/retribution.png"
+    }
+  ],
+  "count": 12,
+  "total": 12,
+  "limit": 50,
+  "offset": 0
+}

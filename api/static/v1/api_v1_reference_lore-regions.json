@@ -1,0 +1,91 @@
+{
+  "endpoint": "/api/v1/reference/lore-regions",
+  "data": [
+    {
+      "region": "Moniyan Empire",
+      "hero_count": "21",
+      "heroes": "Alucard, Arlott, Cici, Granger, Guinevere, Gusion, Harith, Julian, Kimmy, Lancelot, Lesley, Lolita, Lukas, Marcel, Melissa, Natalia, Paquito, Ruby, Silvanna, Terizla, Tigreal",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Cadia Riverlands",
+      "hero_count": "14",
+      "heroes": "Chang'e, Hanabi, Hayabusa, Hirara, Kagura, Ling, Luo Yi, Sun, Suyou, Yi Sun-shin, Yin, Yu Zhong, Zetian, Zhuxin",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Eruditio",
+      "hero_count": "8",
+      "heroes": "Bruno, Diggie, Johnson, Layla, Natan, Nolan, Novaria, X.Borg",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Northern Vale",
+      "hero_count": "8",
+      "heroes": "Aurora, Franco, Freya, Harley, Hilda, Lylia, Masha, Popol and Kupa",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Agelta Drylands",
+      "hero_count": "4",
+      "heroes": "Aldous, Esmeralda, Khaleed, Valir",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Azrya Woodlands",
+      "hero_count": "1",
+      "heroes": "Joy",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Sanctum Island",
+      "hero_count": "1",
+      "heroes": "Edith",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "The Barren Lands",
+      "hero_count": "1",
+      "heroes": "Phoveus",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Mithlora",
+      "hero_count": "1",
+      "heroes": "Yve",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Moonlit Forest",
+      "hero_count": "1",
+      "heroes": "Belerick",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Shura Clan",
+      "hero_count": "1",
+      "heroes": "Martis",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Frozen Sea",
+      "hero_count": "1",
+      "heroes": "Zhask",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Alaghat",
+      "hero_count": "1",
+      "heroes": "Karrie",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    },
+    {
+      "region": "Abyss",
+      "hero_count": "1",
+      "heroes": "Alice",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)"
+    }
+  ],
+  "count": 14,
+  "total": 14
+}

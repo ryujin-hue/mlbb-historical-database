@@ -1,0 +1,39 @@
+{
+  "endpoint": "/api/v1/client/aspects",
+  "data": [
+    {
+      "aspect": "Collab",
+      "record_count": 18
+    },
+    {
+      "aspect": "ClientUpdate",
+      "record_count": 10
+    },
+    {
+      "aspect": "Servers",
+      "record_count": 6
+    },
+    {
+      "aspect": "Graphics",
+      "record_count": 5
+    },
+    {
+      "aspect": "Social",
+      "record_count": 5
+    },
+    {
+      "aspect": "Bug",
+      "record_count": 4
+    },
+    {
+      "aspect": "AntiToxicity",
+      "record_count": 3
+    },
+    {
+      "aspect": "Security",
+      "record_count": 2
+    }
+  ],
+  "count": 8,
+  "total": 8
+}

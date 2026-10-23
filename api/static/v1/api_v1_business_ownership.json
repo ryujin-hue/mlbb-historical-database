@@ -1,0 +1,63 @@
+{
+  "endpoint": "/api/v1/business/ownership",
+  "data": [
+    {
+      "topic": "Ownership",
+      "detail": "ByteDance agreed to acquire Moonton on 22 March 2021 at a valuation of around US$4 billion (Reuters sources; ByteDance matched a competing Tencent bid); Moonton to operate independently under CEO Yuan Jing; covered by Reuters, CNBC (2021-03-23) and Esports Insider (Tom Daniels, 2021-03-22)",
+      "date_or_value": "22 March 2021",
+      "source": "https://en.wikipedia.org/wiki/Moonton (refs: Reuters 'ByteDance acquires gaming studio Moonton at around $4 billion valuation'; CNBC Kharpal 2021-03-23) + https://esportsinsider.com/2021/03/bytedance-acquires-mobile-legends-publisher-moonton-at-a-reported-4bn-valuation",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "CONFLICT NOTE (Wikipedia internal): Wikipedia Moonton lead sentence says 'In October 2021, ByteDance acquired Moonton' while the article body and Reuters/CNBC/Esports Insider date the acquisition agreement to 22 March 2021; October 2021 likely reflects deal completion (ContentAsia eNewsletter 18-24 Oct 2021 cited on Wikipedia) - both dates recorded",
+      "date_or_value": "March vs October 2021",
+      "source": "https://en.wikipedia.org/wiki/Moonton (fetched 2026-10-22; lead vs body discrepancy)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "27 November 2025: Bloomberg reported ByteDance revived the Moonton sale and was in talks with Savvy Games Group (owned by Saudi Arabia's Public Investment Fund)",
+      "date_or_value": "27 November 2025",
+      "source": "https://news.google.com/rss/search?q=ByteDance+Moonton+sale (headline: 'ByteDance Is Said to Revive Moonton Sale in Talks With PIF's Savvy Games - Bloomberg.com' seen 2026-10-22)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "13 February 2026: Reuters exclusive - ByteDance in talks to sell gaming unit Moonton for more than US$6 billion, sources say; deal could be signed that quarter with key terms agreed",
+      "date_or_value": "13 February 2026",
+      "source": "https://www.reuters.com/world/asia-pacific/bytedance-talks-sell-gaming-unit-moonton-more-than-6-billion-sources-say-2026-02-13 (headline cross-verified via Google News RSS 2026-10-22: 'EXCLUSIVE: ByteDance in talks to sell gaming unit Moonton for more than $6 billion - Reuters')",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "16-18 February 2026: GamesIndustry.biz reported 'advanced talks' to sell Moonton Technology to Savvy Games for over $6bn (Sophie McEvoy, 2026-02-16); Esports Insider (2026-02-18) reported the figure as $7 billion - CONFLICT on amount ($6B vs $7B) during talks phase",
+      "date_or_value": "16-18 February 2026",
+      "source": "https://news.google.com/rss/search?q=ByteDance+Moonton+sale (headlines seen 2026-10-22) + https://esportsinsider.com/2026/02",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "20 March 2026 (deal day) - cross-verified across 7+ independent outlets via Google News RSS headlines: Reuters 'ByteDance to sell gaming unit Moonton to Saudi PIF-owned firm'; Bloomberg 'ByteDance Agrees to Sell Moonton to Savvy Games for $6 Billion'; GamesBeat 'Savvy Games Group confirms purchase of Moonton Games from ByteDance for over $6 billion (updated)'; SCMP 'ByteDance sells games studio Moonton to Saudi firm for over US$6 billion'; PocketGamer.biz '$6bn deal'; Engadget and Game Developer concur",
+      "date_or_value": "20 March 2026",
+      "source": "https://news.google.com/rss/search?q=Moonton+Savvy (headlines with pubDates seen 2026-10-22)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "Wikipedia (fetched 2026-10-22, last edited 2026-10-20) now lists Moonton parent as ByteDance then Savvy Games Group, citing GamesIndustry.biz (Vikki Blake, 2026-03-23): 'Savvy Games acquires Mobile Legends developer Moonton for $6 billion'; reported terms: leadership to remain in place with incentive programs for existing employees; Savvy CEO Brian Ward said the deal develops Savvy's mobile games division and esports reach",
+      "date_or_value": "March 2026",
+      "source": "https://en.wikipedia.org/wiki/Moonton (infobox + ref) + https://www.gamesindustry.biz/savvy-games-acquires-mobile-legends-developer-moonton-for-6-billion",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    }
+  ],
+  "count": 7,
+  "total": 7
+}

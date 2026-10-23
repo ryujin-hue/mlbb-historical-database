@@ -1,0 +1,41 @@
+{
+  "endpoint": "/api/v1/heroes/lancelot/changes",
+  "data": [
+    {
+      "version": "1.2.22",
+      "date": "2017 (year-only, day UNVERIFIED)",
+      "hero": "Lancelot",
+      "change_type": "New",
+      "detail": "Released — assassin, Jungle",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.22 (Fandom patch page, release anchor via search snippet); https://mlbb.io/en/hero/lancelot (release date/price); https://www.mobilelegends.com/hero (official hero data, patch 2.2.16); https://mlbb.io/en/hero/lancelot (release date/price)",
+      "image_path": "images/heroes/lancelot.png",
+      "image_source": "https://akmweb.youngjoygame.com/web/svnres/img/test/homepage_2_2_16_1232_1/100_aa4070a1eb5a53e1824bc9b2d9a47ed2.png",
+      "image_url": "/img/images/heroes/lancelot.png"
+    },
+    {
+      "version": "1.6.18",
+      "date": "2021-09-21",
+      "hero": "Lancelot",
+      "change_type": "Rework",
+      "detail": "Project NEXT phase 3 revamp; S1 Puncture applies Sword Mark and resets CD on marked hit",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-6-18-notes/; https://www.oneesports.gg/mobile-legends/popol-and-kupa-best-marksman/",
+      "image_path": "images/heroes/floryn.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2021/09/MLBB_patch1618_revampedheroes.jpg",
+      "image_url": "/img/images/heroes/floryn.png"
+    }
+  ],
+  "count": 2,
+  "total": 2,
+  "limit": 50,
+  "offset": 0,
+  "hero_summary": {
+    "hero": "Lancelot",
+    "role": "assassin",
+    "lane": "Jungle",
+    "release_date": "2017 (year-only, day UNVERIFIED)",
+    "release_version": "UNVERIFIED",
+    "total_buffs": "0",
+    "total_nerfs": "0",
+    "total_adjusts": "0"
+  }
+}

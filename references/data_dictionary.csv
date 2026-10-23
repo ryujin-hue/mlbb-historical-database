@@ -1,0 +1,25 @@
+table,file,columns,row_count,description
+business,business.csv,"topic, detail, date_or_value, source, image_path, image_source",70,"70 rows: Moonton, legal, ownership, player base, revenue, monetization, creators, esports business, awards."
+client,client.csv,"aspect, date_or_version, detail, source, image_path, image_source",53,"53 rows: client updates, graphics, servers, bugs, social, anti-toxicity, collaborations, security."
+esports,esports.csv,"event, region, season, dates, host, champion, runner_up, mvp, prize_pool_usd, format_notes, sources, image_path, image_source",38,"38 regional/international event records (MSC, EWC-era MSC, MWI, MPL Philippines)."
+hero_changes,hero_changes.csv,"version, date, hero, change_type, detail, source, image_path, image_source",350,350 hero balance changes 2016-2026 with old->new values where documented.
+hero_master,hero_master.csv,"hero, role, lane, release_version, release_date, price_bp, price_diamond, reworked_or_revamped, total_buffs, total_nerfs, total_adjusts, sources, image_path, image_source",133,"Master roster: 133 heroes with role, lane, release date/version, prices, buff/nerf/adjust totals (patch 2.2.16 era)."
+heroes_extra,heroes_extra.csv,"hero, category, detail, source, image_path, image_source",45,"45 rows: lore regions, Legend/Collector skins, role-tag changes, era tier summaries, counters, upcoming heroes."
+images_manifest,images_manifest.csv,"image_path, url, credit, status, bytes, source_used",683,"683 local images with source URLs, credit and status."
+item_changes,item_changes.csv,"version, date, item, change_type, detail, source, image_path, image_source",99,99 item/equipment/spell-line changes 2016-2026.
+items_master,items_master.csv,"item, category, price_gold, build_path, unique_passives, sources, image_path, image_source",104,"Full current shop snapshot (104 items) with prices, build paths and passives."
+mseries,mseries.csv,"event, year, dates, host_city, host_country, teams_count, champion, runner_up, finals_mvp, prize_pool_usd, patch_played, top_picks, top_bans, peak_viewers, format, sources, image_path, image_source",8,"M1-M7 world championship editions + announced M8 (2027, Turkiye)."
+patch_index,patch_index.csv,"version, date, source",85,85 patch versions 1.1.23.109.1 -> 2.2.16a with dates and sources.
+systems,systems.csv,"system, aspect, period_or_version, detail, source, image_path, image_source",98,"98 rows: maps, objectives, economy, modes, ranking, draft, emblems, spells, jungle, roam, academy."
+battle_spells,references/battle_spells.csv,"spell, cooldown_seconds, effect, source",12,Reference lookup table (see references/README.md).
+change_types,references/change_types.csv,"dataset, raw_change_type, normalized_type, record_count",21,Reference lookup table (see references/README.md).
+currencies,references/currencies.csv,"code, currency, used_in, source",13,Reference lookup table (see references/README.md).
+emblem_sets,references/emblem_sets.csv,"emblem_set, base_attributes, notes, source",7,Reference lookup table (see references/README.md).
+game_modes,references/game_modes.csv,"mode, period_or_version, description, source",17,Reference lookup table (see references/README.md).
+hero_lanes,references/hero_lanes.csv,"lane, hero_count, description",14,Reference lookup table (see references/README.md).
+hero_roles,references/hero_roles.csv,"role, hero_count, description",24,Reference lookup table (see references/README.md).
+host_countries,references/host_countries.csv,"country, mseries_editions_hosted, esports_events_hosted, esports_event_count",7,Reference lookup table (see references/README.md).
+item_categories,references/item_categories.csv,"category, item_count, min_price_gold, max_price_gold, items",16,Reference lookup table (see references/README.md).
+lore_regions,references/lore_regions.csv,"region, hero_count, heroes, source",14,Reference lookup table (see references/README.md).
+ranked_ladder,references/ranked_ladder.csv,"tier_order, tier, star_band, notes, source",10,Reference lookup table (see references/README.md).
+tournament_event_types,references/tournament_event_types.csv,"event_type, description, events, record_count",5,Reference lookup table (see references/README.md).

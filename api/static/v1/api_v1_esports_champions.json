@@ -1,0 +1,123 @@
+{
+  "endpoint": "/api/v1/esports/champions",
+  "data": [
+    {
+      "champion": "Team Liquid PH",
+      "titles": 4
+    },
+    {
+      "champion": "Blacklist International",
+      "titles": 3
+    },
+    {
+      "champion": "ONIC Esports (Indonesia)",
+      "titles": 2
+    },
+    {
+      "champion": "RSG Philippines",
+      "titles": 2
+    },
+    {
+      "champion": "Sunsparks",
+      "titles": 2
+    },
+    {
+      "champion": "IDONOTSLEEP (Thailand)",
+      "titles": 1
+    },
+    {
+      "champion": "Aether Main (Philippines)",
+      "titles": 1
+    },
+    {
+      "champion": "Execration (Philippines)",
+      "titles": 1
+    },
+    {
+      "champion": "Selangor Red Giants (Malaysia)",
+      "titles": 1
+    },
+    {
+      "champion": "Team Spirit (EECA)",
+      "titles": 1
+    },
+    {
+      "champion": "Aether Main",
+      "titles": 1
+    },
+    {
+      "champion": "Cignal Ultra",
+      "titles": 1
+    },
+    {
+      "champion": "ArkAngel",
+      "titles": 1
+    },
+    {
+      "champion": "Bren Esports",
+      "titles": 1
+    },
+    {
+      "champion": "ECHO Philippines",
+      "titles": 1
+    },
+    {
+      "champion": "AP Bren",
+      "titles": 1
+    },
+    {
+      "champion": "Team Liquid PH (competed as Liquid ECHO)",
+      "titles": 1
+    },
+    {
+      "champion": "ONIC Philippines (competed as Fnatic ONIC Philippines)",
+      "titles": 1
+    },
+    {
+      "champion": "TBD (ongoing as of Oct 22, 2026)",
+      "titles": 1
+    },
+    {
+      "champion": "Selangor Red Giants (MYS)",
+      "titles": 1
+    },
+    {
+      "champion": "Team Liquid PH (4-1)",
+      "titles": 1
+    },
+    {
+      "champion": "Team Spirit (RUS/EECA) (4-3)",
+      "titles": 1
+    },
+    {
+      "champion": "Bigetron Era (INA)",
+      "titles": 1
+    },
+    {
+      "champion": "Smart Omega Empress (PHL) (3-0)",
+      "titles": 1
+    },
+    {
+      "champion": "Team Vitality (INA; 3rd MWI title)",
+      "titles": 1
+    },
+    {
+      "champion": "Team Vitality (INA; 4th MWI title) (4-2)",
+      "titles": 1
+    },
+    {
+      "champion": "Execration (PHL) (4-1)",
+      "titles": 1
+    },
+    {
+      "champion": "RSG Philippines (4-0)",
+      "titles": 1
+    },
+    {
+      "champion": "ONIC Esports (INA) (4-2)",
+      "titles": 1
+    }
+  ],
+  "count": 29,
+  "total": 29
+}

@@ -1,0 +1,409 @@
+{
+  "endpoint": "/api/v1/business",
+  "data": [
+    {
+      "topic": "Moonton",
+      "detail": "Shanghai Moonton Technology Co. Ltd. (上海沐瞳科技有限公司) founded July 2014 in Shanghai (Minhang District), China; video game development, publishing and esports company with offices in Indonesia, Malaysia, Singapore, Philippines, Latin America, Hong Kong and mainland China",
+      "date_or_value": "July 2014",
+      "source": "https://en.wikipedia.org/wiki/Moonton (fetched 2026-10-22)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "Founders: Xu Zhenhua (Watson Xu), a former Tencent employee who founded Moonton; Yuan Jing also a co-founder and was CEO at the time of the 2021 ByteDance deal; Yuan Jing described as founder interpreting MLBB's rise in Chinese press (ref listed on Wikipedia Moonton page)",
+      "date_or_value": "2014",
+      "source": "https://en.wikipedia.org/wiki/Moonton (refs: Caixin Global 2021-03-24; 36kr/Jakarta Globe ref 'Yuan Jing founder of Mutong Technology')",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "First commercial release: Magic Rush: Heroes (RPG), launched worldwide excluding mainland China in April 2015; listed in Google Play 2015 Best of the Year - Best Strategy Games (per official Moonton company timeline)",
+      "date_or_value": "April 2015",
+      "source": "https://en.moonton.com/about/index.html (fetched 2026-10-22) + https://en.wikipedia.org/wiki/Moonton",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "MLBB first released 14 July 2016 as 'Mobile Legends: 5v5 MOBA' (Android, distributed by Elex in US); removed after Riot complaint and relaunched as Mobile Legends: Bang Bang on 9 November 2016; official Moonton timeline states MLBB launched worldwide November 2016 excluding mainland China and was listed in Google Play 2016 Best of the Year - Best Competitive Games",
+      "date_or_value": "14 July 2016 / November 2016",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://en.moonton.com/about/index.html",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "Growth milestones: first MLBB offline esports tournament in Indonesia May 2017; inaugural MSC (Southeast Asia Cup) September 2017; MPL launched November 2017 in Indonesia/Malaysia/Singapore; Philippines MPL March 2018; Myanmar MPL February 2019; Singapore branch May 2018; Indonesia branch October 2018",
+      "date_or_value": "2017-2019",
+      "source": "https://en.wikipedia.org/wiki/Moonton + https://en.moonton.com/about/index.html",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "Other titles: Mobile Legends: Adventure (August 2019 worldwide ex-China; Japan/Korea 2021 reaching #1 free charts); Watcher of Realms (July 2023 global; mainland China October 2024); Magic Chess: Go Go (February 2025 APAC); Silver and Blood (June 2025); Acecraft (August 2025); MLBB itself launched in mainland China January 2025 after April 2023 Chinese import approval",
+      "date_or_value": "2019-2025",
+      "source": "https://en.wikipedia.org/wiki/Moonton + https://en.moonton.com/about/index.html",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "Leadership over time: CEO Xu Zhenhua cited during 2017-2018 lawsuits; CEO Yuan Jing at March 2021 ByteDance acquisition; Zhang Yunfan (Yunfan Zhang) appointed CEO May 2024 when ByteDance shelved a planned sale (Bloomberg 2024-05-13; SCMP 2024-05-16)",
+      "date_or_value": "2014-2024",
+      "source": "https://en.wikipedia.org/wiki/Moonton (infobox key people; refs Bloomberg + SCMP)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "Company scale: 2,000+ employees reported for 2025 (Borneo Bulletin Nov 2023 via Wikipedia infobox); Moonton named National Key Cultural Export Enterprise by China Ministry of Commerce in 2022, 2023, 2024 and 2025 listings",
+      "date_or_value": "2025",
+      "source": "https://en.wikipedia.org/wiki/Moonton",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Legal",
+      "detail": "Original game 'Mobile Legends: 5v5 MOBA' removed from Google Play in 2016 after Riot complained to Google; relaunched as Mobile Legends: Bang Bang on 9 November 2016; Riot also complained the name sounded confusingly similar to League of Legends",
+      "date_or_value": "9 November 2016",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Legal",
+      "detail": "Riot Games sued Shanghai Moonton in US District Court C.D. Cal. (case 2:17-cv-04986, filed July 2017; Riot's parent Tencent named in coverage dated 2017-07-12) alleging Mobile Legends copied League of Legends; case dismissed with US court ruling the dispute belonged under Chinese court jurisdiction",
+      "date_or_value": "July 2017",
+      "source": "https://en.wikipedia.org/wiki/Moonton (ref: GamesIndustry.biz 2017-07-12) + https://www.plainsite.org/dockets/35wwf1m2q/california-central-district-court/riot-games-inc-v-shanghai-moonton-technology-co-ltd-et-al",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Legal",
+      "detail": "Tencent (on behalf of Riot) separately sued Moonton CEO Xu Zhenhua in Shanghai No.1 Intermediate People's Court over non-compete violations; ruled in Tencent's favor July 2018 awarding RMB19.4 million (~US$2.9 million) - reported as largest domestic non-compete award in China at the time",
+      "date_or_value": "July 2018",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.gamesindustry.biz/tencent-awarded-usd2-89-million-in-lawsuit-again-mobile-legends-ceo",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Legal",
+      "detail": "Moonton sued Tencent in China in 2019 for unfair competition/defamation; Moonton won the commercial defamation suit reported October 2022 with compensation reported around 308,000 yuan (~US$30.8K) - single-source (Pandaily), not independently re-verified",
+      "date_or_value": "2019-2022",
+      "source": "https://pandaily.com/bytedances-moonton-sues-tencent-for-defamation-compensated-30-8k",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Legal",
+      "detail": "Riot Games filed a second US lawsuit against Moonton in May 2022 (C.D. Cal.) claiming MLBB copied expressive elements from League of Legends and Wild Rift; dismissed with court ruling the case should be heard in China",
+      "date_or_value": "May 2022",
+      "source": "https://www.reuters.com/legal/litigation/riot-games-lawsuit-says-bytedance-unit-ripped-off-league-legends-2022-05-09 + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Legal",
+      "detail": "Moonton and Riot Games reached a global settlement ending all IP disputes (2024; reported 2 April 2024): both parties signed a settlement agreement and Riot formally withdrew all related lawsuits after disputes dating back to 2017 (verified directly on ONE Esports article + Wikipedia summary)",
+      "date_or_value": "2024",
+      "source": "https://www.oneesports.gg/mobile-legends/moonton-games-riot-games-lawsuit/ (fetched 2026-10-22) + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Legal",
+      "detail": "India ban: MLBB banned in India 29 June 2020 with other apps of alleged Chinese origin after the China-India skirmishes; returned to India 24 April 2024 as 'Moba Legends: 5v5!' published by Vizta Games (Android)",
+      "date_or_value": "29 June 2020",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Legal",
+      "detail": "US ban episode (what actually happened): on ~18-19 January 2025 MLBB went offline in US Apple/Google app stores alongside TikTok, Marvel Snap and other ByteDance/Nuverse-linked apps when the Protecting Americans from Foreign Adversary Controlled Applications Act took effect; headlines verified via Google News RSS: GamesIndustry.biz 2025-01-20 'Marvel Snap and Mobile Legends: Bang Bang unavailable in US following TikTok ban', esports.gg and PocketGamer.biz and Mobilegamer.biz 2025-01-19; service returned within days - mxdwn Games 2025-01-24 'Mobile Legends Returns to the U.S. After Temporary Ban'; Wikipedia describes it as a brief unenforced ban",
+      "date_or_value": "18-24 January 2025",
+      "source": "https://news.google.com/rss/search?q=Mobile+Legends+ban+US+app+stores (headlines seen 2026-10-22) + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Legal",
+      "detail": "US publishing handover: on 26 March 2025 Moonton announced US publishing operations for MLBB transferred to Skystone Games; a US-specific version 'Mobile Legends: Bang Bang US' went live 27 March 2025 following the earlier removal of the original version from US app stores (also stated on Wikipedia Moonton page)",
+      "date_or_value": "26-27 March 2025",
+      "source": "https://en.wikipedia.org/wiki/Moonton (refs: Esports Insider 2025-03-26 'Mobile Legends: Bang Bang moves US publishing operations') + https://www.pocketgamer.biz/skystone-games-takes-us-publishing-rights-for-mobile-legends-as-tiktok-ban-looms",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Legal",
+      "detail": "July 2021: Moonton reportedly required MLBB esports organizations to sign optional exclusivity contracts barring them from fielding League of Legends: Wild Rift teams (with benefits attached); criticized by Team Secret CEO; ahead of MSC 2025 S8UL Esports was disqualified after two players promoted rival MOBA Honor of Kings",
+      "date_or_value": "2021-2025",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "ByteDance agreed to acquire Moonton on 22 March 2021 at a valuation of around US$4 billion (Reuters sources; ByteDance matched a competing Tencent bid); Moonton to operate independently under CEO Yuan Jing; covered by Reuters, CNBC (2021-03-23) and Esports Insider (Tom Daniels, 2021-03-22)",
+      "date_or_value": "22 March 2021",
+      "source": "https://en.wikipedia.org/wiki/Moonton (refs: Reuters 'ByteDance acquires gaming studio Moonton at around $4 billion valuation'; CNBC Kharpal 2021-03-23) + https://esportsinsider.com/2021/03/bytedance-acquires-mobile-legends-publisher-moonton-at-a-reported-4bn-valuation",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "CONFLICT NOTE (Wikipedia internal): Wikipedia Moonton lead sentence says 'In October 2021, ByteDance acquired Moonton' while the article body and Reuters/CNBC/Esports Insider date the acquisition agreement to 22 March 2021; October 2021 likely reflects deal completion (ContentAsia eNewsletter 18-24 Oct 2021 cited on Wikipedia) - both dates recorded",
+      "date_or_value": "March vs October 2021",
+      "source": "https://en.wikipedia.org/wiki/Moonton (fetched 2026-10-22; lead vs body discrepancy)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "27 November 2025: Bloomberg reported ByteDance revived the Moonton sale and was in talks with Savvy Games Group (owned by Saudi Arabia's Public Investment Fund)",
+      "date_or_value": "27 November 2025",
+      "source": "https://news.google.com/rss/search?q=ByteDance+Moonton+sale (headline: 'ByteDance Is Said to Revive Moonton Sale in Talks With PIF's Savvy Games - Bloomberg.com' seen 2026-10-22)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "13 February 2026: Reuters exclusive - ByteDance in talks to sell gaming unit Moonton for more than US$6 billion, sources say; deal could be signed that quarter with key terms agreed",
+      "date_or_value": "13 February 2026",
+      "source": "https://www.reuters.com/world/asia-pacific/bytedance-talks-sell-gaming-unit-moonton-more-than-6-billion-sources-say-2026-02-13 (headline cross-verified via Google News RSS 2026-10-22: 'EXCLUSIVE: ByteDance in talks to sell gaming unit Moonton for more than $6 billion - Reuters')",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "16-18 February 2026: GamesIndustry.biz reported 'advanced talks' to sell Moonton Technology to Savvy Games for over $6bn (Sophie McEvoy, 2026-02-16); Esports Insider (2026-02-18) reported the figure as $7 billion - CONFLICT on amount ($6B vs $7B) during talks phase",
+      "date_or_value": "16-18 February 2026",
+      "source": "https://news.google.com/rss/search?q=ByteDance+Moonton+sale (headlines seen 2026-10-22) + https://esportsinsider.com/2026/02",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "20 March 2026 (deal day) - cross-verified across 7+ independent outlets via Google News RSS headlines: Reuters 'ByteDance to sell gaming unit Moonton to Saudi PIF-owned firm'; Bloomberg 'ByteDance Agrees to Sell Moonton to Savvy Games for $6 Billion'; GamesBeat 'Savvy Games Group confirms purchase of Moonton Games from ByteDance for over $6 billion (updated)'; SCMP 'ByteDance sells games studio Moonton to Saudi firm for over US$6 billion'; PocketGamer.biz '$6bn deal'; Engadget and Game Developer concur",
+      "date_or_value": "20 March 2026",
+      "source": "https://news.google.com/rss/search?q=Moonton+Savvy (headlines with pubDates seen 2026-10-22)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Ownership",
+      "detail": "Wikipedia (fetched 2026-10-22, last edited 2026-10-20) now lists Moonton parent as ByteDance then Savvy Games Group, citing GamesIndustry.biz (Vikki Blake, 2026-03-23): 'Savvy Games acquires Mobile Legends developer Moonton for $6 billion'; reported terms: leadership to remain in place with incentive programs for existing employees; Savvy CEO Brian Ward said the deal develops Savvy's mobile games division and esports reach",
+      "date_or_value": "March 2026",
+      "source": "https://en.wikipedia.org/wiki/Moonton (infobox + ref) + https://www.gamesindustry.biz/savvy-games-acquires-mobile-legends-developer-moonton-for-6-billion",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "PlayerBase",
+      "detail": "By April 2018 MLBB exceeded 200 million total registered accounts (Wikipedia Moonton history section)",
+      "date_or_value": "April 2018",
+      "source": "https://en.wikipedia.org/wiki/Moonton",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "PlayerBase",
+      "detail": "As of July 2019 (official Moonton PR Newswire release, fetched directly): MLBB downloaded over 500 million times since 2016, localized into 23 languages, over 75 million monthly users globally",
+      "date_or_value": "July 2019",
+      "source": "https://enmobile.prnasia.com/releases/apac/-mobile-legends-advances-southeast-asia-s-e-sports-industry-by-introducing-the-first-franchised-league-model-252753.shtml",
+      "image_path": "research/t1k_img/mpl_id_s4_franchise_presscon.jpg",
+      "image_source": "photos.prnasia.com (PR Newswire MOONTON release)"
+    },
+    {
+      "topic": "PlayerBase",
+      "detail": "Moonton announced MLBB passed 1 billion cumulative downloads worldwide (ONE Esports article by Amanda Tan, 2020-11-03; official Moonton timeline states October 2020); accompanying official stats: peak monthly active users exceeded 100 million; also announced 9.77 billion matches played and 9.8 million Mythic-rank players (ONE Esports)",
+      "date_or_value": "October-November 2020",
+      "source": "https://en.moonton.com/about/index.html (fetched 2026-10-22) + https://www.oneesports.gg/mobile-legends/mobile-legends-surpasses-1-billion-downloads/ + https://en.wikipedia.org/wiki/Moonton",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "PlayerBase",
+      "detail": "By August 2021 total registered accounts exceeded 1 billion (official Moonton timeline + Wikipedia Moonton)",
+      "date_or_value": "August 2021",
+      "source": "https://en.moonton.com/about/index.html + https://en.wikipedia.org/wiki/Moonton",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "PlayerBase",
+      "detail": "2025 scale (official Moonton about page, fetched 2026-10-22): more than 1.5 billion installations and over 110 million monthly active users across more than 80 countries, top-10 most-played mobile game in 80+ countries; same figures cited on Wikipedia Moonton (refs: Statista 'Mobile Legends revenue worldwide 2025'; Marketing-Interactive 2025-11-03)",
+      "date_or_value": "2025",
+      "source": "https://en.moonton.com/about/index.html + https://en.wikipedia.org/wiki/Moonton",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "PlayerBase",
+      "detail": "18 March 2026: Moonton celebrated a new record high in daily active users (DAU) for MLBB (Wikipedia Moonton history section, ref: Pressroom Philippines)",
+      "date_or_value": "18 March 2026",
+      "source": "https://en.wikipedia.org/wiki/Moonton",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Revenue",
+      "detail": "July 2018: MLBB had generated ~US$200 million in global revenues (PocketGamer.biz, Iain Harris, 20 July 2018 - reference entry verified on Wikipedia Moonton; the pocketgamer.biz article itself returns 403 from this sandbox)",
+      "date_or_value": "July 2018",
+      "source": "https://en.wikipedia.org/wiki/Moonton (ref: pocketgamer.biz 'Moonton's popular MOBA Mobile Legends plunders $200m in global revenues' 2018-07-20)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Revenue",
+      "detail": "Revenue milestones by year from Sensor Tower / AppMagic / data.ai could NOT be verified in this environment: sensortower.com reachable but the MLBB $1B-lifetime-spending article was not located on-site (404s), appmagic.rocks returns 403, Statista paywalled; any specific annual revenue figure beyond the July 2018 $200M is UNVERIFIED for this dataset",
+      "date_or_value": "UNVERIFIED",
+      "source": "https://sensortower.com (404 on candidate URLs) / https://appmagic.rocks (403)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Revenue",
+      "detail": "Proxy monetization-scale datapoint: Double 11 re-release coverage states Collector-tier draw skins typically cost 2,000-3,000 diamonds (see Monetization rows); Diamond Vault Legend skins guaranteed at ~9,000 diamonds (~US$200) per ONE Esports - indicates diamond-economy pricing scale circa 2023",
+      "date_or_value": "2023",
+      "source": "https://www.oneesports.gg/mobile-legends/double-11-skins-mobile-legends/ + https://www.oneesports.gg/mobile-legends/rarest-skins-mobile-legends/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Monetization",
+      "detail": "MLBB is free-to-play monetized through in-app purchases of heroes and cosmetic skins; premium currency is diamonds bought via in-app purchase and third-party top-up channels; Wikipedia describes progression as not pay-to-win",
+      "date_or_value": "2016-present",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Monetization",
+      "detail": "Starlight membership revamp announced 27 January 2023 (effective 1 February 2023): added exclusive Starlight trail effect, first-purchase bundle worth 1700 diamonds, Starlight shop with past skins (e.g. 2021 Water Lily Kagura) and Starlight chests; per ONE Esports the standard Starlight member price then cost 550 diamonds (guarantees exclusive + painted monthly skin) and Starlight member+ (instant level 30) cost 1,100 diamonds",
+      "date_or_value": "27 January 2023",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-starlight-membership-revamp/ (fetched 2026-10-22)",
+      "image_path": "research/t1k_img/mlbb_starlight_revamp_2023.webp",
+      "image_source": "cdn.oneesports.gg (ONE Esports: MLBB Starlight membership revamp)"
+    },
+    {
+      "topic": "Monetization",
+      "detail": "CONFLICT NOTE (Starlight pricing): ONE Esports monthly skin articles state the monthly Starlight skin releases 'for 300 diamonds' (Iron Hound Saber 1 Feb 2023; Twilight Waltz Layla 1 Oct 2023; Nightwalker Melissa 1 Nov 2023) while the revamp article states standard membership costs 550 diamonds - likely skin-alone vs membership pricing; treated as conflicting sourced figures",
+      "date_or_value": "2023",
+      "source": "https://www.oneesports.gg/mobile-legends/iron-hound-saber-starlight-skin/ + https://www.oneesports.gg/mobile-legends/nightwalker-melissa-skin/ + https://www.oneesports.gg/mobile-legends/twilight-waltz-layla-starlight/",
+      "image_path": "research/t1k_img/mlbb_iron_hound_saber.webp",
+      "image_source": "cdn.oneesports.gg (ONE Esports: Iron Hound Saber)"
+    },
+    {
+      "topic": "Monetization",
+      "detail": "Starlight history: Saber's Force Warrior was his second Starlight skin and was released in 2016 (per ONE Esports Jan 2023), corroborating the Starlight system existing in 2016; fan compilations list Starlight skins from December 2016, but the official launch year/month of the Starlight Member system itself is UNVERIFIED by trusted press (MLBB Fandom unreachable)",
+      "date_or_value": "2016",
+      "source": "https://www.oneesports.gg/mobile-legends/iron-hound-saber-starlight-skin/",
+      "image_path": "research/t1k_img/mlbb_cyber_agent_valentina.webp",
+      "image_source": "cdn.oneesports.gg (ONE Esports: Cyber Agent Valentina)"
+    },
+    {
+      "topic": "Monetization",
+      "detail": "Limited-time draw/lucky-box events are a core monetization format: Double 11 (11 November) re-release events bring back coveted Collector-tier skins which 'typically cost between 2,000 and 3,000 diamonds, with the final price depending on your luck during the event draws' (ONE Esports, November 2023)",
+      "date_or_value": "November 2023",
+      "source": "https://www.oneesports.gg/mobile-legends/double-11-skins-mobile-legends/ (fetched 2026-10-22)",
+      "image_path": "research/t1k_img/mlbb_flying_swallow_wanwan.jpg",
+      "image_source": "cdn.oneesports.gg (ONE Esports: Double 11 skins)"
+    },
+    {
+      "topic": "Monetization",
+      "detail": "Diamond Vault (time-limited dig event for Legend skins): Angelic Agent Lesley was the first Legend skin in the Diamond Vault; one dig cost 100 diamonds, five digs 450; at 100 digs (~9,000 diamonds, ~US$200) the skin was guaranteed (ONE Esports 'rarest skins', January 2023)",
+      "date_or_value": "2023",
+      "source": "https://www.oneesports.gg/mobile-legends/rarest-skins-mobile-legends/ (fetched 2026-10-22)",
+      "image_path": "research/t1k_img/mlbb_twilight_waltz_layla.jpg",
+      "image_source": "cdn.oneesports.gg (ONE Esports: rarest MLBB skins)"
+    },
+    {
+      "topic": "Monetization",
+      "detail": "Typical Epic (899-diamond list) and Legend (2199-diamond list) skin price tiers are widely cited by fan wikis/guides but were NOT verified against a reachable trusted source in this environment - UNVERIFIED, do not publish as fact",
+      "date_or_value": "UNVERIFIED",
+      "source": "MISSING_SOURCE (fan wikis unreachable)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Monetization",
+      "detail": "Regional price differences for diamonds (e.g. cheaper SEA top-up channels) are commonly claimed by community sources but no trusted source was reachable to confirm specific examples - UNVERIFIED",
+      "date_or_value": "UNVERIFIED",
+      "source": "MISSING_SOURCE",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Monetization",
+      "detail": "Championship honorary skins: each M-Series winning team gets a limited-time purchasable skin of a chosen hero; since M5 the Finals MVP also receives an FMVP skin (first: David 'FlapTzy' Canon, Paquito); December 2021 #WeWantEstes controversy over Moonton citing 'marketability' before reversing and granting Estes for Blacklist International's M3 skin (announced 24 December 2021)",
+      "date_or_value": "2019-2023",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Monetization",
+      "detail": "Licensed collaboration skins (limited-time paid events): SNK King of Fighters series from March 2019 (first MLBB collaboration; e.g. Karina as Leona redeemable for free, Guinevere as Athena, Aurora as Kula Diamond, Dyrroth as Orochi Chris, Gusion as K', Chou as Iori Yagami); Star Wars July 2021 (SEA/Japan); Transformers August 2021; Sanrio February 2022; Kung Fu Panda August 2022; Saint Seiya October 2022 (gold skins via draw); KOF third series 2024",
+      "date_or_value": "2019-2024",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.oneesports.gg/mobile-legends/rarest-skins-mobile-legends/",
+      "image_path": "research/t1k_img/mlbb_kof_aldous_gusion.jpg",
+      "image_source": "cdn.oneesports.gg (ONE Esports: rarest MLBB skins)"
+    },
+    {
+      "topic": "Monetization",
+      "detail": "Retail/top-up tie-ins: AF Payments (Beep card) partnered Moonton and UniPin (October 2024) for co-branded MLBB transit cards with in-game item codes in the Philippines; J&T Express Malaysia 'Golden Month 2026' campaign awarded diamonds/skins/merchandise",
+      "date_or_value": "2024-2026",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Creators",
+      "detail": "MLBB Creator Camp - official Moonton creator/content program with regional Discord hubs; the EN-PH Creator Camp Discord alone listed ~411,890 members at time of capture (inherited from prior session; discord.com not re-reachable this session)",
+      "date_or_value": "2025",
+      "source": "https://discord.com/invite/mlbb-creator-camp-en-ph-783636411890663455 (prior session capture)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Creators",
+      "detail": "MLBB Creator Base - official global creator community (@mlbbcreators_official) showing 12M followers / 3M likes on TikTok at time of capture (inherited from prior session; tiktok.com not re-reachable this session); separate from Creator Camp",
+      "date_or_value": "2025",
+      "source": "https://www.tiktok.com/@mlbbcreators_official (prior session capture)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Creators",
+      "detail": "MLBB runs an official Creator Contest with an identity-verification platform (sg-play.mobilelegends.com) so only verified genuine creators can receive event rewards (inherited from prior session)",
+      "date_or_value": "2025-2026",
+      "source": "https://sg-play.mobilelegends.com/events/creatorverify (prior session capture)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Creators",
+      "detail": "Celebrity/ambassador partnerships: Manny Pacquiao announced as MLBB brand ambassador for the Philippines (November 2020) with dedicated hero Paquito; Southeast Asian folklore heroes (Lapu-Lapu, Minsitthar, Kadita, Badang) and Garudayana creator Is Yuniarto collaboration (Gatotkaca, 2017)",
+      "date_or_value": "2017-2020",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "EsportsBiz",
+      "detail": "MPL Indonesia became the first franchised MLBB/esports league in Southeast Asia at MPL-ID Season 4 (verified directly on official PR Newswire release, 24 July 2019): permanent slot via one-time franchise fee of USD 1 million for eight teams (Alter Ego, Aura, Bigetron, EVOS, Geek Fam, Genflix Aerowolf, ONIC, RRQ); >50% league revenue share to teams before operational/marketing costs borne fully by Moonton; hard salary cap; player minimum salary + 6-month minimum contracts; no relegation; Moonton also committed USD 8 million to develop the Indonesian MLBB esports community",
+      "date_or_value": "24 July 2019",
+      "source": "https://enmobile.prnasia.com/releases/apac/-mobile-legends-advances-southeast-asia-s-e-sports-industry-by-introducing-the-first-franchised-league-model-252753.shtml (fetched 2026-10-22)",
+      "image_path": "research/t1k_img/mpl_id_s4_franchise_presscon.jpg",
+      "image_source": "photos.prnasia.com (PR Newswire MOONTON release)"
+    }
+  ],
+  "count": 50,
+  "total": 70,
+  "limit": 50,
+  "offset": 0
+}

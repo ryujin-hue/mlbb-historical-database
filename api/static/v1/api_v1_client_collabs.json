@@ -1,0 +1,151 @@
+{
+  "endpoint": "/api/v1/client/collabs",
+  "data": [
+    {
+      "aspect": "Collab",
+      "date_or_version": "2019-03-19",
+      "detail": "King of Fighters wave 1 (SNK; March 2019): Chou as Iori Yagami; Karina as Leona Heidern; Guinevere as Athena Asamiya; obtained through a bingo-mechanic event; KOF skins introduced unique ability effects; sound effects and Japanese voice-overs (first skin line with full effect sets outside Legend skins)",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.oneesports.gg/mobile-legends/anime-skins-mobile-legends/ (2024-12-19) + https://www.oneesports.gg/mobile-legends/rarest-skins-mobile-legends/ (2025-02-11)",
+      "image_path": "images/events/collab-kof-2019.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/01/MLBB_KingofSupremacyAldous_KOFGusion-1024x576.webp"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2019-08-20",
+      "detail": "King of Fighters wave 2: Aurora as Kula Diamond; Gusion as K'; Dyrroth as Orochi Chris (same bingo-style event)",
+      "source": "https://www.oneesports.gg/mobile-legends/anime-skins-mobile-legends/ + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-kof-2019-wave2.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2024-04-24",
+      "detail": "King of Fighters wave 3: Valir as Kyo Kusanagi; Masha as Mai Shiranui; Paquito as Terry Bogard",
+      "source": "https://www.oneesports.gg/mobile-legends/anime-skins-mobile-legends/ + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-kof-2024.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2021-07",
+      "detail": "Star Wars: Master Yoda for Cyclops and Darth Vader for Argus released July 2021 (teaser poster on Star Wars Day 2021-05-05); time-limited purchase region-locked to Indonesia / Malaysia / Thailand / Philippines / Singapore / Vietnam / Myanmar / Cambodia / Brunei / Laos / East Timor / Japan",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.oneesports.gg/mobile-legends/mobile-legends-x-star-wars-play-as-yoda-and-darth-vader-will-you/ (2021-05-05)",
+      "image_path": "images/events/collab-star-wars-2021.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2021/05/MLBB_Star_Wars_Yoda_Cyclops_DarthVader_Argus.jpg"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2021-12",
+      "detail": "Star Wars phase 2: Obi-Wan Kenobi epic skin for Alucard (same regional restriction)",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-star-wars-2021-p2.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2022",
+      "detail": "Star Wars phase 3: First Order Jet Trooper for Kimmy (region-restricted); the collaboration returned September 2024 with the same skins re-released",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-star-wars-2022-p3.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2021-08-14",
+      "detail": "Transformers phase 1 (14 Aug - 11 Nov 2021): Optimus Prime for Johnson; Megatron for Granger; Bumblebee for X.Borg; players collected Transformers parts to obtain a random skin; Wikipedia describes the 2021 event as four phases with lottery and exchange mechanics (ONE Esports presents it as one phase window - see notes CONFLICT)",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.oneesports.gg/mobile-legends/list-mlbb-x-transformers-skins/ (2022-07-16)",
+      "image_path": "images/events/collab-transformers-2021.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2022-05-24",
+      "detail": "Transformers phase 2 (24 May - 7 Jul 2022): Starscream for Aldous; Grimlock for Roger; Soundwave & Ravage for Popol and Kupa; bingo event format like King of Fighters",
+      "source": "https://www.oneesports.gg/mobile-legends/list-mlbb-x-transformers-skins/ + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-transformers-2022.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2022/05/MLBB_Transformers_collab_phase2.webp"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2022-02",
+      "detail": "Sanrio characters: Hello Kitty for Angela (skin Heartstring); Pompompurin for Chang'e (Moon Artist); Cinnamoroll for Floryn (Fluffy Dream); Badtz-Maru for Claude (Bad Bro); event re-ran in 2025 and 2026",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.oneesports.gg/mobile-legends/mlbb-sanrio-characters-skins/ (2022-02-22)",
+      "image_path": "images/events/collab-sanrio-2022.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2022/02/MLBB_SanrioCharacters_skins.webp"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2022-08-20",
+      "detail": "Kung Fu Panda: General Kai for Thamuz; Akai as Po (ONE Esports names the skin Kung Fu Panda Akai; Wikipedia says Po Ping - see notes CONFLICT); Lord Shen for Ling; jade-ornament draw event with 800 jade ornaments per skin; first 10x draw auto-granted General Kai Thamuz per Advanced Server dry run; extra rewards incl. recall / kill notification / spawn / emotes and exclusive custom actions; no re-run due to failed negotiations with rights holders",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-kung-fu-panda-skins-rewards/ (2022-08-18) + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-kung-fu-panda-2022.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2022/08/MLBB_KungFuPanda_GeneralKaiThamuz_KungFuPandaAkai_LordShenLing.webp"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2022-10-24",
+      "detail": "Saint Seiya (Shueisha; 24 Oct - 23 Nov 2022): Bronze + Gold pairs - Badang Pegasus Seiya / Sagittarius Seiya; Chou Dragon Shiryu / Libra Shiryu; Valir Phoenix Ikki / Leo Ikki; draw event with Badge of Victory exchange (800 badges per Gold Saint skin); Pegasus Seiya guaranteed within the first 10 draws; Dragon Shiryu and Phoenix Ikki priced 1288 diamonds in shop from 27 Oct and 3 Nov; two recharge phases from 29 Oct; rerun July 2025 with revamped skin effects",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-saint-seiya-skins-release/ (2022-10-21) + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-saint-seiya-2022.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2022/10/MLBB_SaintSeiya_skinspreview.webp"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2023-02-18",
+      "detail": "Jujutsu Kaisen: Satoru Gojo for Xavier; Nobara Kugisaki for Melissa; Megumi Fushiguro for Julian; Yuji Itadori for Yin; return event June 2024 with updated visual effects (Sukuna) on Yin ultimate when using the Itadori skin",
+      "source": "https://www.oneesports.gg/mobile-legends/anime-skins-mobile-legends/ + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-jujutsu-kaisen-2023.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2024-02-02",
+      "detail": "Attack on Titan (announced January 2024; live 2 February 2024): Eren Yeager for Yin; Mikasa Ackerman for Fanny; Levi Ackerman for Martis",
+      "source": "https://www.oneesports.gg/mobile-legends/new-eren-yin-skin-mlbb/ (2024-02-02) + https://www.oneesports.gg/mobile-legends/mikasa-fanny-skin-mlbb/ (2024-02-02) + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-attack-on-titan-2024.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2024/02/MLBB_AttackonTitan_ErenJaeger_Yin_splashart.jpg"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2025-01",
+      "detail": "Hunter x Hunter (28-day event): Gon Freecss for Dyrroth; Hisoka Morow for Cecilion; Kurapika for Julian; Killua Zoldyck for Harith; Hunter Coins earned from draws and exchanged in the event shop at 1200 coins per skin",
+      "source": "https://www.oneesports.gg/mobile-legends/hunter-x-hunter-mlbb-skins/ (2025-01-03) + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-hunter-x-hunter-2025.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2025/01/MLBB_HunterXHunter_splashart_skins-1.jpg"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2025-05-02",
+      "detail": "Naruto Shippuden phase 1 (announced 2025-03-24): Naruto Uzumaki for Lukas; Sasuke Uchiha for Suyou; Sakura Haruno for Kalea; Kakashi Hatake for Hayabusa (Team 7 via draw event); Gaara for Vale (free via event requirements); introduced two new item categories - Common Sacred Statue (Gamakichi) and Loading Effect; themed chat bubbles; sacred statues; battle emotes; free iPhone 16 Pro giveaway",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-x-naruto-skins/ (2025-04-21) + Esports Insider 2025-03-24 via news.google.com/rss/search + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-naruto-2025.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2025/04/MLBB_Naruto_KV.jpg"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2026-03-27",
+      "detail": "Naruto Shippuden phase 2: Itachi Uchiha for Julian; Minato Namikaze for Gusion; return of all phase-1 skins; final arc announced by Moonton 2026-04-27 with final phase running into May 2026",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + Playasia Blog 2026-03-27 + Moonton 2026-04-27 and AppSpy 2026-04-28 (via news.google.com/rss/search)",
+      "image_path": "images/events/collab-naruto-2026-p2.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2025/04/MLBB_Naruto_KV.jpg"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2025-11",
+      "detail": "SpongeBob SquarePants (Nickelodeon) global collab inside the annual Friend Fest campaign: Cyclops as SpongeBob SquarePants; Gloo as Patrick Star; Undersea Restaurant friend minigame with event currency; friendship-themed missions; battle emotes and limited-time rewards; worldwide with some regional restrictions incl. Russia",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-spongebob-2025.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2021-2026",
+      "detail": "Localized brand collaborations (Wikipedia): McDonald's Malaysia 2021-05 (MPL MY S7 playoffs); Sour Sally Indonesia 2021-08 (Kadita Freeze and Lancelot Like-It-A-Lot frozen yogurt); AF Payments Beep cards 2024-10 (PH transit cards with hero codes); OPPO Smooth Legend Cup 2025 (APAC); Samsung Galaxy Gaming Academy Campus Series 2025-07; Friend Fest PH creator campaign 2025-12; Visa + GCash M7 watch parties 2026-01; J&T Express Malaysia Golden Month 2026-02/03; SexBomb Girls Summer Break and Jollibee login emote 2026-04",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-local-brands.png",
+      "image_source": "MISSING_IMAGE"
+    }
+  ],
+  "count": 18,
+  "total": 18
+}

@@ -1,0 +1,259 @@
+{
+  "endpoint": "/api/v1/patches",
+  "data": [
+    {
+      "version": "1.1.23.109.1",
+      "date": "2016 (post-launch hotfix era; exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.1.23.109.1"
+    },
+    {
+      "version": "1.1.24.110.1",
+      "date": "2016 (post-launch hotfix era; exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.1.24.110.1"
+    },
+    {
+      "version": "1.1.40",
+      "date": "2016 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.1.40"
+    },
+    {
+      "version": "1.1.42",
+      "date": "2016 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.1.42"
+    },
+    {
+      "version": "1.1.50",
+      "date": "2016 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.1.50"
+    },
+    {
+      "version": "1.1.54",
+      "date": "2016 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.1.54"
+    },
+    {
+      "version": "1.1.56",
+      "date": "2016 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.1.56"
+    },
+    {
+      "version": "1.1.85",
+      "date": "2016 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.1.85"
+    },
+    {
+      "version": "1.1.86",
+      "date": "2016 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.1.86"
+    },
+    {
+      "version": "1.1.94",
+      "date": "2016-2017 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.1.94"
+    },
+    {
+      "version": "1.2.06",
+      "date": "2016-2017 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.06"
+    },
+    {
+      "version": "1.2.10",
+      "date": "2016-2017 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.10"
+    },
+    {
+      "version": "1.2.12",
+      "date": "2016-2017 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.12"
+    },
+    {
+      "version": "1.2.14",
+      "date": "2017 (exact date UNVERIFIED; introduced major map/jungle changes; Argus release patch)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.14"
+    },
+    {
+      "version": "1.2.16",
+      "date": "2017-09-15 (date from Google-indexed Fandom snippet)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.16"
+    },
+    {
+      "version": "1.2.22",
+      "date": "2017 (exact date UNVERIFIED; Lancelot release patch)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.22"
+    },
+    {
+      "version": "1.2.26",
+      "date": "2017 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.26"
+    },
+    {
+      "version": "1.2.40",
+      "date": "2017 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.40"
+    },
+    {
+      "version": "1.2.46",
+      "date": "2017 (exact date UNVERIFIED; Retribution 30s->35s; emblem talents adjusted)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.46"
+    },
+    {
+      "version": "1.2.48",
+      "date": "2017 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.48"
+    },
+    {
+      "version": "1.2.50",
+      "date": "2017 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.50"
+    },
+    {
+      "version": "1.2.62",
+      "date": "2017-2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.62"
+    },
+    {
+      "version": "1.2.64",
+      "date": "2017-2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.64"
+    },
+    {
+      "version": "1.2.66",
+      "date": "2017-2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.66"
+    },
+    {
+      "version": "1.2.78",
+      "date": "2017-2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.78"
+    },
+    {
+      "version": "1.2.82",
+      "date": "2017-2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.82"
+    },
+    {
+      "version": "1.2.86",
+      "date": "2017-2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.2.86"
+    },
+    {
+      "version": "1.3.22",
+      "date": "2018 (exact date UNVERIFIED; Kimmy release patch)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.22"
+    },
+    {
+      "version": "1.3.36",
+      "date": "2018 (exact date UNVERIFIED; Celestial Palace map revamped)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.36"
+    },
+    {
+      "version": "1.3.44",
+      "date": "2018 (exact date UNVERIFIED; Mythic+ matchmaking display)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.44"
+    },
+    {
+      "version": "1.3.46",
+      "date": "2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.46"
+    },
+    {
+      "version": "1.3.52 (Original Server)",
+      "date": "2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.52_(Original_Server)"
+    },
+    {
+      "version": "1.3.56",
+      "date": "2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.56"
+    },
+    {
+      "version": "1.3.58",
+      "date": "2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.58"
+    },
+    {
+      "version": "1.3.60",
+      "date": "2018 (exact date UNVERIFIED; Esmeralda release patch)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.60"
+    },
+    {
+      "version": "1.3.66",
+      "date": "2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.66"
+    },
+    {
+      "version": "1.3.68",
+      "date": "2018 (exact date UNVERIFIED; Granger release patch)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.68"
+    },
+    {
+      "version": "1.3.72",
+      "date": "2018 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.72"
+    },
+    {
+      "version": "1.3.76",
+      "date": "2018-2019 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.76"
+    },
+    {
+      "version": "1.3.80",
+      "date": "2019 (exact date UNVERIFIED; Terizla release patch)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.80"
+    },
+    {
+      "version": "1.3.88",
+      "date": "2019 (exact date UNVERIFIED; Faramis release patch; equipment removal listed)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.88"
+    },
+    {
+      "version": "1.3.92",
+      "date": "2019-07-09 (approx; snippet states \"Available from 00:00, July 9th (Server Time)\")",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.92"
+    },
+    {
+      "version": "1.3.94",
+      "date": "2019 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.94"
+    },
+    {
+      "version": "1.3.96 (Original Server)",
+      "date": "2019-08 (approx; snippet states Bruno revamp \"Available from August 20\")",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.96_(Original_Server)"
+    },
+    {
+      "version": "1.3.98",
+      "date": "2019 (exact date UNVERIFIED; Bruno revamp on Advanced Server)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.3.98"
+    },
+    {
+      "version": "1.4.14",
+      "date": "2019 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.4.14"
+    },
+    {
+      "version": "1.4.20",
+      "date": "2019 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.4.20"
+    },
+    {
+      "version": "1.4.36",
+      "date": "2019 Q4 approx (ONE Esports: Harith nerf patch; Celestial Palace jungle revamp; exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.4.36"
+    },
+    {
+      "version": "1.4.40 (Advanced Server)",
+      "date": "2019 (exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.4.40_(Advanced_Server)"
+    },
+    {
+      "version": "1.4.44",
+      "date": "2019 Q4 approx (ONE Esports: partial revert of 1.4.36 Harith nerf; exact date UNVERIFIED)",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.4.44"
+    }
+  ],
+  "count": 50,
+  "total": 85,
+  "limit": 50,
+  "offset": 0
+}

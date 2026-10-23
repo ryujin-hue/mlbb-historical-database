@@ -1,0 +1,71 @@
+{
+  "endpoint": "/api/v1/mseries/hosts",
+  "data": [
+    {
+      "edition": "MLBB M1 World Championship",
+      "year": "2019",
+      "host_city": "Kuala Lumpur",
+      "host_country": "Malaysia",
+      "dates": "2019-11-10 to 2019-11-17",
+      "teams": "16"
+    },
+    {
+      "edition": "MLBB M2 World Championship",
+      "year": "2021",
+      "host_city": "Singapore (Shangri-La Hotel)",
+      "host_country": "Singapore",
+      "dates": "2021-01-18 to 2021-01-24 (2020 edition postponed by COVID-19)",
+      "teams": "12"
+    },
+    {
+      "edition": "MLBB M3 World Championship",
+      "year": "2021",
+      "host_city": "Singapore",
+      "host_country": "Singapore",
+      "dates": "2021-12-06 to 2021-12-19",
+      "teams": "16"
+    },
+    {
+      "edition": "MLBB M4 World Championship",
+      "year": "2023",
+      "host_city": "Bali (Bali United Studio; originally planned for XO Hall/Istora Senayan Jakarta)",
+      "host_country": "Indonesia",
+      "dates": "2023-01-01 to 2023-01-15",
+      "teams": "16"
+    },
+    {
+      "edition": "MLBB M5 World Championship",
+      "year": "2023",
+      "host_city": "Manila",
+      "host_country": "Philippines",
+      "dates": "2023-11-23 to 2023-12-17 (wildcard 23-26 Nov in Malaysia; main event 2-17 Dec in Manila)",
+      "teams": "22"
+    },
+    {
+      "edition": "MLBB M6 World Championship",
+      "year": "2024",
+      "host_city": "Kuala Lumpur (IOI Grand Exhibition & Convention Center; grand final Axiata Arena)",
+      "host_country": "Malaysia",
+      "dates": "2024-11-21 to 2024-12-15",
+      "teams": "23"
+    },
+    {
+      "edition": "MLBB M7 World Championship",
+      "year": "2026",
+      "host_city": "Jakarta (XO Hall wild card to UB QF; Tennis Indoor Senayan knockouts and grand final)",
+      "host_country": "Indonesia",
+      "dates": "2026-01-03 to 2026-01-25",
+      "teams": "22"
+    },
+    {
+      "edition": "MLBB M8 World Championship (officially announced - not yet played)",
+      "year": "2027",
+      "host_city": "UNVERIFIED",
+      "host_country": "Turkiye (wild card stage to be hosted by Thailand)",
+      "dates": "January 2027 (exact dates UNVERIFIED)",
+      "teams": "UNVERIFIED"
+    }
+  ],
+  "count": 8,
+  "total": 8
+}

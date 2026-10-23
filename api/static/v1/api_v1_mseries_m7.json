@@ -1,0 +1,23 @@
+{
+  "endpoint": "/api/v1/mseries/m7",
+  "data": {
+    "event": "MLBB M7 World Championship",
+    "year": "2026",
+    "dates": "2026-01-03 to 2026-01-25",
+    "host_city": "Jakarta (XO Hall wild card to UB QF; Tennis Indoor Senayan knockouts and grand final)",
+    "host_country": "Indonesia",
+    "teams_count": "22",
+    "champion": "Aurora Gaming PH (4-0)",
+    "runner_up": "Alter Ego Esports",
+    "finals_mvp": "Dylan \"Light\" Catipon",
+    "prize_pool_usd": "1000000",
+    "patch_played": "UNVERIFIED",
+    "top_picks": "UNVERIFIED",
+    "top_bans": "UNVERIFIED",
+    "peak_viewers": "5680511 (all-time mobile esports record)",
+    "format": "Wild Card single round robin + Swiss stage + double-elimination knockout; Bo7 grand final; Philippines' 6th consecutive world title",
+    "sources": "https://en.wikipedia.org/wiki/MLBB_M7_World_Championship;https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang_World_Championship;https://production.marketing-interactive.com/mobile-legends-bang-bang-redraws-global-esports-map-as-brands-follow-expanding-audience",
+    "image_path": "images/mseries/mlbb_m7worldchampionship_teaser.jpg",
+    "image_source": "https://cdn.oneesports.gg/ (ONE Esports M7 coverage) | credit: ONE Esports"
+  }
+}

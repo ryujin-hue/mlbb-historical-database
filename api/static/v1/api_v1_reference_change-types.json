@@ -1,0 +1,133 @@
+{
+  "endpoint": "/api/v1/reference/change-types",
+  "data": [
+    {
+      "dataset": "hero_changes",
+      "raw_change_type": "New",
+      "normalized_type": "New",
+      "record_count": "115"
+    },
+    {
+      "dataset": "hero_changes",
+      "raw_change_type": "Buff",
+      "normalized_type": "Buff",
+      "record_count": "81"
+    },
+    {
+      "dataset": "hero_changes",
+      "raw_change_type": "Adjust",
+      "normalized_type": "Adjust",
+      "record_count": "66"
+    },
+    {
+      "dataset": "hero_changes",
+      "raw_change_type": "Nerf",
+      "normalized_type": "Nerf",
+      "record_count": "55"
+    },
+    {
+      "dataset": "hero_changes",
+      "raw_change_type": "Rework",
+      "normalized_type": "Rework",
+      "record_count": "33"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "Adjust",
+      "normalized_type": "Adjust",
+      "record_count": "34"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "Nerf",
+      "normalized_type": "Nerf",
+      "record_count": "14"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "added",
+      "normalized_type": "New",
+      "record_count": "11"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "Buff",
+      "normalized_type": "Buff",
+      "record_count": "9"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "changed",
+      "normalized_type": "Adjust",
+      "record_count": "9"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "New",
+      "normalized_type": "New",
+      "record_count": "6"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "removed",
+      "normalized_type": "Removed",
+      "record_count": "3"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "buff",
+      "normalized_type": "Buff",
+      "record_count": "3"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "Remove",
+      "normalized_type": "Removed",
+      "record_count": "2"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "repriced",
+      "normalized_type": "Repriced",
+      "record_count": "2"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "Rename",
+      "normalized_type": "Rename",
+      "record_count": "1"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "Replace",
+      "normalized_type": "Replaced",
+      "record_count": "1"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "Rework",
+      "normalized_type": "Rework",
+      "record_count": "1"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "bugfix",
+      "normalized_type": "Bugfix",
+      "record_count": "1"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "nerf",
+      "normalized_type": "Nerf",
+      "record_count": "1"
+    },
+    {
+      "dataset": "item_changes",
+      "raw_change_type": "rework",
+      "normalized_type": "Rework",
+      "record_count": "1"
+    }
+  ],
+  "count": 21,
+  "total": 21
+}

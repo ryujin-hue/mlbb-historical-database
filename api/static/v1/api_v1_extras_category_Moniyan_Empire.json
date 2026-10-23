@@ -1,0 +1,17 @@
+{
+  "endpoint": "/api/v1/extras/category/Moniyan Empire",
+  "data": [
+    {
+      "hero": "Lore",
+      "category": "Moniyan Empire",
+      "detail": "Heroes officially listed under region Moniyan Empire on mlbb.io hero pages: Alucard, Arlott, Cici, Granger, Guinevere, Gusion, Harith, Julian, Kimmy, Lancelot, Lesley, Lolita, Lukas, Marcel, Melissa, Natalia, Paquito, Ruby, Silvanna, Terizla, Tigreal",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    }
+  ],
+  "count": 1,
+  "total": 1,
+  "limit": 50,
+  "offset": 0
+}

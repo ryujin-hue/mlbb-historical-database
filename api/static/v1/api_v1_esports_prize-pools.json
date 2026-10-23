@@ -1,0 +1,175 @@
+{
+  "endpoint": "/api/v1/esports/prize-pools",
+  "data": [
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S1",
+      "prize_pool_usd": "100000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S2",
+      "prize_pool_usd": "117000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S3",
+      "prize_pool_usd": "100000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S4",
+      "prize_pool_usd": "100000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S5",
+      "prize_pool_usd": "100000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S6",
+      "prize_pool_usd": "120000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S7",
+      "prize_pool_usd": "120000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S8",
+      "prize_pool_usd": "150000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S9",
+      "prize_pool_usd": "150000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S10",
+      "prize_pool_usd": "150000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S11",
+      "prize_pool_usd": "150000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S12",
+      "prize_pool_usd": "150000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S13 (2024 Split 1)",
+      "prize_pool_usd": "150000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S14 (2024 Split 2)",
+      "prize_pool_usd": "150000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S15 (2025 Split 1)",
+      "prize_pool_usd": "150000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S16 (2025 Split 2)",
+      "prize_pool_usd": "150000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S17 (2026 Split 1)",
+      "prize_pool_usd": "150000"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S18 (2026 Split 2)",
+      "prize_pool_usd": "150000"
+    },
+    {
+      "event": "EWC 2024 - MLBB Mid-Season Cup (MSC 2024)",
+      "region": "Global (Esports World Cup)",
+      "season": "2024",
+      "prize_pool_usd": "3000000"
+    },
+    {
+      "event": "EWC 2025 - MLBB Mid-Season Cup (MSC 2025)",
+      "region": "Global (Esports World Cup)",
+      "season": "2025",
+      "prize_pool_usd": "3000000"
+    },
+    {
+      "event": "EWC 2026 - MLBB Mid-Season Cup (MSC 2026)",
+      "region": "Global (Esports World Cup)",
+      "season": "2026",
+      "prize_pool_usd": "3000000"
+    },
+    {
+      "event": "MWI 2022 - MLBB Women's Invitational",
+      "region": "Global (women; SEA teams)",
+      "season": "2022",
+      "prize_pool_usd": "15000"
+    },
+    {
+      "event": "MWI 2024 - MLBB Women's Invitational",
+      "region": "Global (women; Esports World Cup)",
+      "season": "2024",
+      "prize_pool_usd": "500000"
+    },
+    {
+      "event": "MWI 2025 - MLBB Women's Invitational",
+      "region": "Global (women; Esports World Cup)",
+      "season": "2025",
+      "prize_pool_usd": "500000"
+    },
+    {
+      "event": "MWI 2026 - MLBB Women's International (rebranded)",
+      "region": "Global (women; Esports World Cup)",
+      "season": "2026",
+      "prize_pool_usd": "500000"
+    },
+    {
+      "event": "MSC 2021 - MLBB Southeast Asia Cup (standalone)",
+      "region": "SEA",
+      "season": "2021",
+      "prize_pool_usd": "UNVERIFIED"
+    },
+    {
+      "event": "MSC 2022 - MLBB Southeast Asia Cup (standalone)",
+      "region": "SEA",
+      "season": "2022",
+      "prize_pool_usd": "UNVERIFIED (prize pool doubled vs MSC 2021 per Philstar)"
+    },
+    {
+      "event": "MSC 2023 - MLBB Southeast Asia Cup (standalone)",
+      "region": "SEA",
+      "season": "2023",
+      "prize_pool_usd": "UNVERIFIED"
+    }
+  ],
+  "count": 28,
+  "total": 28
+}

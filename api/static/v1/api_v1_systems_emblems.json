@@ -1,0 +1,49 @@
+{
+  "endpoint": "/api/v1/systems/emblems",
+  "data": [
+    {
+      "emblem_set": "Basic Common",
+      "base_attributes": "+12 Hybrid Regen, +275 HP, +22 Adaptive Attack",
+      "notes": "8 talents in pool",
+      "source": "https://mlbbhub.com/emblems (fetched 2026-10-22); cross-check https://mobile-legends.fandom.com/wiki/Emblems (via search snippet: 16 standard talent types + 8 [core] types)"
+    },
+    {
+      "emblem_set": "Tank",
+      "base_attributes": "+500 HP, +10 Hybrid Def, +4 HP Regen",
+      "notes": "",
+      "source": "https://mlbbhub.com/emblems (fetched 2026-10-22); cross-check https://mobile-legends.fandom.com/wiki/Emblems (via search snippet: 16 standard talent types + 8 [core] types)"
+    },
+    {
+      "emblem_set": "Assassin",
+      "base_attributes": "",
+      "notes": "",
+      "source": "https://mlbbhub.com/emblems (fetched 2026-10-22); cross-check https://mobile-legends.fandom.com/wiki/Emblems (via search snippet: 16 standard talent types + 8 [core] types)"
+    },
+    {
+      "emblem_set": "Mage",
+      "base_attributes": "+30 MP, +5% CDR, +8 Magic Pen",
+      "notes": "",
+      "source": "https://mlbbhub.com/emblems (fetched 2026-10-22); cross-check https://mobile-legends.fandom.com/wiki/Emblems (via search snippet: 16 standard talent types + 8 [core] types)"
+    },
+    {
+      "emblem_set": "Fighter",
+      "base_attributes": "",
+      "notes": "",
+      "source": "https://mlbbhub.com/emblems (fetched 2026-10-22); cross-check https://mobile-legends.fandom.com/wiki/Emblems (via search snippet: 16 standard talent types + 8 [core] types)"
+    },
+    {
+      "emblem_set": "Support",
+      "base_attributes": "",
+      "notes": "",
+      "source": "https://mlbbhub.com/emblems (fetched 2026-10-22); cross-check https://mobile-legends.fandom.com/wiki/Emblems (via search snippet: 16 standard talent types + 8 [core] types)"
+    },
+    {
+      "emblem_set": "Marksman",
+      "base_attributes": "",
+      "notes": "",
+      "source": "https://mlbbhub.com/emblems (fetched 2026-10-22); cross-check https://mobile-legends.fandom.com/wiki/Emblems (via search snippet: 16 standard talent types + 8 [core] types)"
+    }
+  ],
+  "count": 7,
+  "total": 7
+}

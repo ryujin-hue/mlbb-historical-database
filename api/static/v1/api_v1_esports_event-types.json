@@ -1,0 +1,37 @@
+{
+  "endpoint": "/api/v1/esports/event-types",
+  "data": [
+    {
+      "event_type": "World Championship (M-Series)",
+      "description": "Annual MLBB world championship, M1 (2019) to M7 (2026); M8 announced for Türkiye, January 2027.",
+      "events": "M1-M7 (mseries.csv); M8 announced",
+      "record_count": "8"
+    },
+    {
+      "event_type": "Mid-Season Cup (EWC era)",
+      "description": "MLBB Mid-Season Cup held within the Esports World Cup, Riyadh 2024-2026.",
+      "events": "EWC MSC 2024/2025/2026",
+      "record_count": "3"
+    },
+    {
+      "event_type": "Mid-Season Cup (standalone SEA)",
+      "description": "MSC - MLBB Southeast Asia Cup, standalone 2017-2023 editions.",
+      "events": "MSC 2017-2023",
+      "record_count": "7"
+    },
+    {
+      "event_type": "Women's Invitational",
+      "description": "MWI - MLBB Women's Invitational (rebranded Women's International in 2026).",
+      "events": "MWI 2022/2024/2025/2026",
+      "record_count": "4"
+    },
+    {
+      "event_type": "Regional League (MPL)",
+      "description": "MPL national/regional professional leagues; repo currently covers MPL Philippines S1-S18.",
+      "events": "MPL Philippines S1-S18",
+      "record_count": "18"
+    }
+  ],
+  "count": 5,
+  "total": 5
+}

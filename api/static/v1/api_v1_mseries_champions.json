@@ -1,0 +1,71 @@
+{
+  "endpoint": "/api/v1/mseries/champions",
+  "data": [
+    {
+      "edition": "MLBB M1 World Championship",
+      "year": "2019",
+      "champion": "EVOS Legends",
+      "runner_up": "RRQ Hoshi",
+      "finals_mvp": "Eko \"Oura\" Julianto",
+      "prize_pool_usd": "250000"
+    },
+    {
+      "edition": "MLBB M2 World Championship",
+      "year": "2021",
+      "champion": "Bren Esports",
+      "runner_up": "Burmese Ghouls",
+      "finals_mvp": "Karl \"KarlTzy\" Nepomuceno",
+      "prize_pool_usd": "300000"
+    },
+    {
+      "edition": "MLBB M3 World Championship",
+      "year": "2021",
+      "champion": "Blacklist International",
+      "runner_up": "ONIC Philippines",
+      "finals_mvp": "Kiel \"Oheb\" Soriano",
+      "prize_pool_usd": "800000"
+    },
+    {
+      "edition": "MLBB M4 World Championship",
+      "year": "2023",
+      "champion": "ECHO Philippines",
+      "runner_up": "Blacklist International",
+      "finals_mvp": "Benedict \"Bennyqt\" Gonzales",
+      "prize_pool_usd": "800000"
+    },
+    {
+      "edition": "MLBB M5 World Championship",
+      "year": "2023",
+      "champion": "AP Bren",
+      "runner_up": "ONIC Esports",
+      "finals_mvp": "David \"FlapTzy\" Canon",
+      "prize_pool_usd": "900000"
+    },
+    {
+      "edition": "MLBB M6 World Championship",
+      "year": "2024",
+      "champion": "Fnatic ONIC Philippines",
+      "runner_up": "Team Liquid ID",
+      "finals_mvp": "Grant Duane \"Kelra\" Pillas",
+      "prize_pool_usd": "1000000"
+    },
+    {
+      "edition": "MLBB M7 World Championship",
+      "year": "2026",
+      "champion": "Aurora Gaming PH (4-0)",
+      "runner_up": "Alter Ego Esports",
+      "finals_mvp": "Dylan \"Light\" Catipon",
+      "prize_pool_usd": "1000000"
+    },
+    {
+      "edition": "MLBB M8 World Championship (officially announced - not yet played)",
+      "year": "2027",
+      "champion": "UNVERIFIED",
+      "runner_up": "UNVERIFIED",
+      "finals_mvp": "UNVERIFIED",
+      "prize_pool_usd": "UNVERIFIED"
+    }
+  ],
+  "count": 8,
+  "total": 8
+}

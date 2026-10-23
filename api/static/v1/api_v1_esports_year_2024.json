@@ -1,0 +1,82 @@
+{
+  "endpoint": "/api/v1/esports/year/2024",
+  "data": [
+    {
+      "event": "MLBB Mid Season Cup (EWC era)",
+      "region": "International",
+      "season": "2024",
+      "dates": "Jun 28 - Jul 14, 2024",
+      "host": "Boulevard City, Riyadh, Saudi Arabia (Esports World Cup)",
+      "champion": "Selangor Red Giants (Malaysia)",
+      "runner_up": "Falcons AP.Bren (Philippines)",
+      "mvp": "Sekys (Muhammad Haqqullah Ahmad Shahrul Zaman) - Finals MVP",
+      "prize_pool_usd": "",
+      "format_notes": "Rebranded from SEA Cup to Mid Season Cup under EWC (announced Jan 1, 2024); 23 teams; wildcard stage + groups + single-elim; first Malaysia title; DETAIL OWNED BY EWC AGENT - transition row",
+      "sources": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang_Mid_Season_Cup",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S13 (2024 Split 1)",
+      "dates": "Mar 15 - May 26, 2024",
+      "host": "Philippines (offline)",
+      "champion": "Team Liquid PH (competed as Liquid ECHO)",
+      "runner_up": "AP Bren (competed as Falcons AP Bren)",
+      "mvp": "Super Marco (season MVP, Falcons AP Bren); Sanford (finals MVP, 2nd)",
+      "prize_pool_usd": "150000",
+      "format_notes": "After Team Liquid acquired ECHO parent Aura Esports; GF 4-0 sweep; 3rd RSG PH, 4th Blacklist International; Rookie: Nomed (TNC)",
+      "sources": "https://en.wikipedia.org/wiki/MPL_Philippines ; https://liquipedia.net/mobilelegends/MPL/Philippines/Season_13",
+      "image_path": "images/teams/mlbb_mplph_echovsblck_turtlefight.jpg",
+      "image_source": "https://cdn.oneesports.gg/ (ONE Esports coverage) | credit: ONE Esports"
+    },
+    {
+      "event": "MPL Philippines",
+      "region": "Philippines",
+      "season": "S14 (2024 Split 2)",
+      "dates": "Aug 2024 - Oct 2024 (exact UNVERIFIED)",
+      "host": "Philippines (offline)",
+      "champion": "ONIC Philippines (competed as Fnatic ONIC Philippines)",
+      "runner_up": "Aurora Gaming PH",
+      "mvp": "K1NGKONG (season MVP); Kelra (finals MVP)",
+      "prize_pool_usd": "150000",
+      "format_notes": "Aurora Gaming replaced Minana EVOS as franchise; Fnatic ONIC 13-1 regular season record (tied BLK S8); GF full 7 games 4-3, first since S7; Fnatic ONIC won M6 later in 2024",
+      "sources": "https://en.wikipedia.org/wiki/MPL_Philippines ; https://en.wikipedia.org/wiki/2024_MPL_Philippines_season",
+      "image_path": "images/teams/mlbb_esl_snapdragon_season5_apac_fnatic_onic_invitedteam.jpg",
+      "image_source": "https://cdn.oneesports.gg/ (ONE Esports coverage) | credit: ONE Esports"
+    },
+    {
+      "event": "EWC 2024 - MLBB Mid-Season Cup (MSC 2024)",
+      "region": "Global (Esports World Cup)",
+      "season": "2024",
+      "dates": "2024-06-28 to 2024-07-14",
+      "host": "Riyadh Saudi Arabia (Boulevard City)",
+      "champion": "Selangor Red Giants (MYS)",
+      "runner_up": "Falcons AP Bren (PHL)",
+      "mvp": "Muhammad Haqqullah \"Sekys\" Ahmad Shahrul Zaman (SRG)",
+      "prize_pool_usd": "3000000",
+      "format_notes": "16 main-stage teams (23 total incl. wildcard); first MSC edition rebranded from Southeast Asia Cup and first held outside SEA as an EWC flagship title; wildcard round-robin + group stage + single-elimination knockout; played on Patch 1.8.92 (Zhuxin disabled); grand final score UNVERIFIED",
+      "sources": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang_Mid-Season_Cup;https://en.wikipedia.org/wiki/2024_MLBB_Mid_Season_Cup;https://en.wikipedia.org/wiki/MSC_2024",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "NONE"
+    },
+    {
+      "event": "MWI 2024 - MLBB Women's Invitational",
+      "region": "Global (women; Esports World Cup)",
+      "season": "2024",
+      "dates": "2024-07-24 to 2024-07-27",
+      "host": "Riyadh Saudi Arabia (EWC 2024)",
+      "champion": "Smart Omega Empress (PHL) (3-0)",
+      "runner_up": "Team Vitality (INA)",
+      "mvp": "UNVERIFIED",
+      "prize_pool_usd": "500000",
+      "format_notes": "12 teams; largest women's MLBB prize pool at the time; held alongside EWC 2024; Smart Omega Empress swept Team Vitality 3-0 in the final",
+      "sources": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang_Mid-Season_Cup (MWI 2024 section);https://www.gosugamers.net/mobile-legends/news/72319-mwi-2024-smart-omega-empress-are-crowned-as-the-queens;https://www.oneesports.gg/ (article: MWI 2024 schedule results format teams - exact URL stripped in cached copy)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "NONE"
+    }
+  ],
+  "count": 5,
+  "total": 5
+}

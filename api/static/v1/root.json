@@ -1,0 +1,47 @@
+{
+  "name": "MLBB Historical Database API",
+  "version": "1.0.0",
+  "description": "Open REST API over the MLBB (Mobile Legends: Bang Bang) historical database 2016-2026: patches, hero/item balance history, M-Series world championships, esports events, game systems, client/collabs and business records. Exactly 78 endpoints, all read-only.",
+  "repo": "https://github.com/ryujin-hue/mlbb-historical-database",
+  "interactive_docs": "/docs",
+  "openapi": "/openapi.json",
+  "total_endpoints": 78,
+  "datasets": [
+    "hero_master",
+    "hero_changes",
+    "item_changes",
+    "items_master",
+    "patch_index",
+    "mseries",
+    "esports",
+    "systems",
+    "client",
+    "business",
+    "heroes_extra",
+    "images_manifest"
+  ],
+  "reference_tables": [
+    "battle_spells",
+    "change_types",
+    "currencies",
+    "data_dictionary",
+    "emblem_sets",
+    "game_modes",
+    "hero_lanes",
+    "hero_roles",
+    "host_countries",
+    "item_categories",
+    "lore_regions",
+    "ranked_ladder",
+    "tournament_event_types"
+  ],
+  "reports": [
+    "API",
+    "README",
+    "academy_summary",
+    "glossary",
+    "meta_history",
+    "research_report",
+    "timeline"
+  ]
+}

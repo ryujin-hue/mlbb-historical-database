@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>MLBB Historical Database — Static API (78 endpoints)</title>
+<style>body{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem}
+li{margin:.2rem 0}code{background:#f2f2f2;padding:.1rem .3rem;border-radius:4px}</style></head>
+<body><h1>MLBB Historical Database — Static API</h1>
+<p>Static JSON mirror of all <b>78</b> endpoints. Serve this folder via GitHub Pages,
+or run the live FastAPI server (see <a href="https://github.com/ryujin-hue/mlbb-historical-database#readme">README</a>).
+Values shown are representative examples for endpoints with path parameters.</p>
+<ul>
+<li><a href="v1/root.json"><code>GET /</code></a></li>
+<li><a href="v1/api_v1_health.json"><code>GET /api/v1/health</code></a></li>
+<li><a href="v1/api_v1_version.json"><code>GET /api/v1/version</code></a></li>
+<li><a href="v1/api_v1_stats.json"><code>GET /api/v1/stats</code></a></li>
+<li><a href="v1/api_v1_datasets.json"><code>GET /api/v1/datasets</code></a></li>
+<li><a href="v1/api_v1_reports_research_report.json"><code>GET /api/v1/reports/{report_name}</code></a></li>
+<li><a href="v1/api_v1_heroes.json"><code>GET /api/v1/heroes</code></a></li>
+<li><a href="v1/api_v1_heroes_count.json"><code>GET /api/v1/heroes/count</code></a></li>
+<li><a href="v1/api_v1_heroes_random.json"><code>GET /api/v1/heroes/random</code></a></li>
+<li><a href="v1/api_v1_heroes_search.json"><code>GET /api/v1/heroes/search</code></a></li>
+<li><a href="v1/api_v1_heroes_latest.json"><code>GET /api/v1/heroes/latest</code></a></li>
+<li><a href="v1/api_v1_heroes_role_assassin.json"><code>GET /api/v1/heroes/role/{role}</code></a></li>
+<li><a href="v1/api_v1_heroes_lane_jungle.json"><code>GET /api/v1/heroes/lane/{lane}</code></a></li>
+<li><a href="v1/api_v1_heroes_year_2024.json"><code>GET /api/v1/heroes/year/{year}</code></a></li>
+<li><a href="v1/api_v1_heroes_lore-region_moniyan.json"><code>GET /api/v1/heroes/lore-region/{region}</code></a></li>
+<li><a href="v1/api_v1_heroes_changes.json"><code>GET /api/v1/heroes/changes</code></a></li>
+<li><a href="v1/api_v1_heroes_changes_type_Buff.json"><code>GET /api/v1/heroes/changes/type/{change_type}</code></a></li>
+<li><a href="v1/api_v1_heroes_changes_patch_2.2.16.json"><code>GET /api/v1/heroes/changes/patch/{version}</code></a></li>
+<li><a href="v1/api_v1_heroes_lancelot.json"><code>GET /api/v1/heroes/{hero}</code></a></li>
+<li><a href="v1/api_v1_heroes_lancelot_changes.json"><code>GET /api/v1/heroes/{hero}/changes</code></a></li>
+<li><a href="v1/api_v1_extras.json"><code>GET /api/v1/extras</code></a></li>
+<li><a href="v1/api_v1_extras_category_Moniyan_Empire.json"><code>GET /api/v1/extras/category/{category}</code></a></li>
+<li><a href="v1/api_v1_items.json"><code>GET /api/v1/items</code></a></li>
+<li><a href="v1/api_v1_items_count.json"><code>GET /api/v1/items/count</code></a></li>
+<li><a href="v1/api_v1_items_search.json"><code>GET /api/v1/items/search</code></a></li>
+<li><a href="v1/api_v1_items_category_T1_Attack.json"><code>GET /api/v1/items/category/{category}</code></a></li>
+<li><a href="v1/api_v1_items_changes.json"><code>GET /api/v1/items/changes</code></a></li>
+<li><a href="v1/api_v1_items_changes_type_Buff.json"><code>GET /api/v1/items/changes/type/{change_type}</code></a></li>
+<li><a href="v1/api_v1_items_changes_patch_2.2.16.json"><code>GET /api/v1/items/changes/patch/{version}</code></a></li>
+<li><a href="v1/api_v1_items_blade-of-despair.json"><code>GET /api/v1/items/{item}</code></a></li>
+<li><a href="v1/api_v1_patches.json"><code>GET /api/v1/patches</code></a></li>
+<li><a href="v1/api_v1_patches_count.json"><code>GET /api/v1/patches/count</code></a></li>
+<li><a href="v1/api_v1_patches_latest.json"><code>GET /api/v1/patches/latest</code></a></li>
+<li><a href="v1/api_v1_patches_year_2022.json"><code>GET /api/v1/patches/year/{year}</code></a></li>
+<li><a href="v1/api_v1_patches_2.2.16.json"><code>GET /api/v1/patches/{version}</code></a></li>
+<li><a href="v1/api_v1_patches_2.2.16_hero-changes.json"><code>GET /api/v1/patches/{version}/hero-changes</code></a></li>
+<li><a href="v1/api_v1_patches_2.2.16_item-changes.json"><code>GET /api/v1/patches/{version}/item-changes</code></a></li>
+<li><a href="v1/api_v1_patches_2.2.16_summary.json"><code>GET /api/v1/patches/{version}/summary</code></a></li>
+<li><a href="v1/api_v1_mseries.json"><code>GET /api/v1/mseries</code></a></li>
+<li><a href="v1/api_v1_mseries_latest.json"><code>GET /api/v1/mseries/latest</code></a></li>
+<li><a href="v1/api_v1_mseries_champions.json"><code>GET /api/v1/mseries/champions</code></a></li>
+<li><a href="v1/api_v1_mseries_viewership.json"><code>GET /api/v1/mseries/viewership</code></a></li>
+<li><a href="v1/api_v1_mseries_prize-pools.json"><code>GET /api/v1/mseries/prize-pools</code></a></li>
+<li><a href="v1/api_v1_mseries_hosts.json"><code>GET /api/v1/mseries/hosts</code></a></li>
+<li><a href="v1/api_v1_mseries_m7.json"><code>GET /api/v1/mseries/{edition}</code></a></li>
+<li><a href="v1/api_v1_esports.json"><code>GET /api/v1/esports</code></a></li>
+<li><a href="v1/api_v1_esports_regions.json"><code>GET /api/v1/esports/regions</code></a></li>
+<li><a href="v1/api_v1_esports_region_Philippines.json"><code>GET /api/v1/esports/region/{region}</code></a></li>
+<li><a href="v1/api_v1_esports_year_2024.json"><code>GET /api/v1/esports/year/{year}</code></a></li>
+<li><a href="v1/api_v1_esports_champions.json"><code>GET /api/v1/esports/champions</code></a></li>
+<li><a href="v1/api_v1_esports_prize-pools.json"><code>GET /api/v1/esports/prize-pools</code></a></li>
+<li><a href="v1/api_v1_esports_event-types.json"><code>GET /api/v1/esports/event-types</code></a></li>
+<li><a href="v1/api_v1_systems.json"><code>GET /api/v1/systems</code></a></li>
+<li><a href="v1/api_v1_systems_aspects.json"><code>GET /api/v1/systems/aspects</code></a></li>
+<li><a href="v1/api_v1_systems_ranks.json"><code>GET /api/v1/systems/ranks</code></a></li>
+<li><a href="v1/api_v1_systems_game-modes.json"><code>GET /api/v1/systems/game-modes</code></a></li>
+<li><a href="v1/api_v1_systems_battle-spells.json"><code>GET /api/v1/systems/battle-spells</code></a></li>
+<li><a href="v1/api_v1_systems_emblems.json"><code>GET /api/v1/systems/emblems</code></a></li>
+<li><a href="v1/api_v1_systems_Spell.json"><code>GET /api/v1/systems/{system}</code></a></li>
+<li><a href="v1/api_v1_client.json"><code>GET /api/v1/client</code></a></li>
+<li><a href="v1/api_v1_client_aspects.json"><code>GET /api/v1/client/aspects</code></a></li>
+<li><a href="v1/api_v1_client_aspect_Collab.json"><code>GET /api/v1/client/aspect/{aspect}</code></a></li>
+<li><a href="v1/api_v1_client_collabs.json"><code>GET /api/v1/client/collabs</code></a></li>
+<li><a href="v1/api_v1_business.json"><code>GET /api/v1/business</code></a></li>
+<li><a href="v1/api_v1_business_topics.json"><code>GET /api/v1/business/topics</code></a></li>
+<li><a href="v1/api_v1_business_topic_Moonton.json"><code>GET /api/v1/business/topic/{topic}</code></a></li>
+<li><a href="v1/api_v1_business_ownership.json"><code>GET /api/v1/business/ownership</code></a></li>
+<li><a href="v1/api_v1_reference.json"><code>GET /api/v1/reference</code></a></li>
+<li><a href="v1/api_v1_reference_roles.json"><code>GET /api/v1/reference/roles</code></a></li>
+<li><a href="v1/api_v1_reference_lanes.json"><code>GET /api/v1/reference/lanes</code></a></li>
+<li><a href="v1/api_v1_reference_lore-regions.json"><code>GET /api/v1/reference/lore-regions</code></a></li>
+<li><a href="v1/api_v1_reference_battle-spells.json"><code>GET /api/v1/reference/battle-spells</code></a></li>
+<li><a href="v1/api_v1_reference_emblem-sets.json"><code>GET /api/v1/reference/emblem-sets</code></a></li>
+<li><a href="v1/api_v1_reference_ranked-ladder.json"><code>GET /api/v1/reference/ranked-ladder</code></a></li>
+<li><a href="v1/api_v1_reference_game-modes.json"><code>GET /api/v1/reference/game-modes</code></a></li>
+<li><a href="v1/api_v1_reference_change-types.json"><code>GET /api/v1/reference/change-types</code></a></li>
+<li><a href="v1/api_v1_reference_host-countries.json"><code>GET /api/v1/reference/host-countries</code></a></li>
+<li><a href="v1/api_v1_reference_currencies.json"><code>GET /api/v1/reference/{table}</code></a></li>
+</ul></body></html>

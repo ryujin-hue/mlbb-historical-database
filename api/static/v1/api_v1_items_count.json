@@ -1,0 +1,24 @@
+{
+  "endpoint": "/api/v1/items/count",
+  "data": {
+    "total": 104,
+    "categories": [
+      "T1 Attack",
+      "T1 Attack/Magic",
+      "T1 Defense",
+      "T1 Jungling",
+      "T1 Magic",
+      "T1 Movement",
+      "T1 Roaming",
+      "T2 Attack",
+      "T2 Defense",
+      "T2 Magic",
+      "T3 Attack",
+      "T3 Attack/Magic",
+      "T3 Attack/Magic/Defense",
+      "T3 Defense",
+      "T3 Magic",
+      "T3 Movement"
+    ]
+  }
+}

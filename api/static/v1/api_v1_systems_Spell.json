@@ -1,0 +1,61 @@
+{
+  "endpoint": "/api/v1/systems/Spell",
+  "data": [
+    {
+      "system": "Spell",
+      "aspect": "Current battle spell list",
+      "period_or_version": "2026-10-22 (patch 2.2.16 era)",
+      "detail": "12 battle spells with cooldowns: Retribution 35s (750+150*Lv dmg to creep/minion); Execute 90s (100+10*Lv + 13% of target's lost HP as True Damage); Flicker 120s (blink + 5+1*Lv Def for 1s); Sprint 100s (50% MS + Slow Immunity 6s); Purify 90s (remove debuffs + Control Immunity + 15% MS 1.2s); Petrify 75s (100+15*Lv dmg, petrify 0.8s + 50% slow); Aegis 75s (750+90*Lv shield 5s); Inspire 75s (up to 8 BAs in 5s at 1.5x AS, cap 500%); Vengeance 75s (3s: 35% Damage Reduction + reflect 35% of damage taken); Revitalize 75s (Healing Spring 4s, 2.5% Max HP per 0.4s to allies); Flameshot 50s (fire Flaming Shot); Arrival 75s (channel 3s, teleport to allied turret/base/minion/trap + 60% MS decay 3s)",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)",
+      "image_path": "images/spells/flicker.png",
+      "image_source": "https://mlbbhub.com/images/spells/flicker.png"
+    },
+    {
+      "system": "Spell",
+      "aspect": "Flameshot added",
+      "period_or_version": "2019 (present by 1.4.14)",
+      "detail": "Flameshot existed by patch 1.4.14 (advance-server nerf list includes Flameshot; official FB confirms 1.4.14 release). Exact adding patch UNVERIFIED",
+      "source": "https://www.facebook.com/mobilelegendsgame/posts/2818197771576311 (Patch 1.4.14 official); https://www.facebook.com/mobilelegendsguidefanpage/posts/2319542038169331 (1.4.14 preview list incl. Flameshot)",
+      "image_path": "images/spells/flameshot.png",
+      "image_source": "https://mlbbhub.com/images/spells/flameshot.png"
+    },
+    {
+      "system": "Spell",
+      "aspect": "Vengeance change",
+      "period_or_version": "2.1.40 (2025-12-25)",
+      "detail": "Vengeance reflect damage nerfed: 35% of damage taken (before reduction) >> 25%",
+      "source": "Official 2.1.40 patch notes https://www.mobilelegends.com/news (article 3250621)",
+      "image_path": "images/spells/vengeance.png",
+      "image_source": "https://mlbbhub.com/images/spells/vengeance.png"
+    },
+    {
+      "system": "Spell",
+      "aspect": "Vengeance current state",
+      "period_or_version": "by 2026-10",
+      "detail": "Vengeance now reads: 3s of 35% Damage Reduction and reflect 35% of damage taken — differs from 2.1.40's 25% reflect, implying a later rework (exact version UNVERIFIED; not in cached 2.1.88/2.2.16 notes)",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Spell",
+      "aspect": "Revitalize naming",
+      "period_or_version": "current",
+      "detail": "Healing spell is named Revitalize on current live; earlier versions used the name Treatment per community/historical usage — rename date/version UNVERIFIED",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22); rename status UNVERIFIED",
+      "image_path": "images/spells/revitalize.png",
+      "image_source": "https://mlbbhub.com/images/spells/revitalize.png"
+    },
+    {
+      "system": "Spell",
+      "aspect": "Spell vs turret rules",
+      "period_or_version": "2.2.16 (2026-09-16)",
+      "detail": "Enhanced Basic Attack effects from Emblems, Battle Spells and Equipment can no longer trigger when attacking Turrets; Inspire vs turret: attack speed + defense-ignore apply, no regen",
+      "source": "Official 2.2.16 patch notes https://www.mobilelegends.com/news (article 3503357)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    }
+  ],
+  "count": 6,
+  "total": 6
+}

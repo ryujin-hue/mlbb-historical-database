@@ -1,0 +1,8 @@
+{
+  "endpoint": "/api/v1/patches/latest",
+  "data": {
+    "version": "2.2.16",
+    "date": "2026-09-16",
+    "source": "https://www.mobilelegends.com/news (official news API article 3503357)"
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "endpoint": "/api/v1/client",
+  "data": [
+    {
+      "aspect": "ClientUpdate",
+      "date_or_version": "2016-07-14",
+      "detail": "Launch client titled Mobile Legends: 5v5 MOBA released on Android 14 July 2016 (developed by Moonton; distributed by Elex Tech in the US); removed from Google Play after the 2017 Riot Games lawsuit and re-released as Mobile Legends: Bang Bang on 9 November 2016 (same day as iOS launch)",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/client/launch-ui-2016.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "ClientUpdate",
+      "date_or_version": "2019-07-18",
+      "detail": "MLBB 2.0 announced at Moonton Epicon 2019 conference: Unity engine upgrade from version 4 to version 2017; promised up to 60% faster loading/start-up; reduced lag; improved character modelling; new in-game map Imperial Sanctuary",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/client/mlbb2-imperial-sanctuary.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "ClientUpdate",
+      "date_or_version": "2020-06-05",
+      "detail": "Project NEXT announced as flagship client overhaul for the 5th anniversary: user interface changes; older-hero 3D model / skill / story / voice-line revamps; new Smart Targeting aiming method; revamped Brawl mode; new login events; Phase 1 went live 22 September 2020",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.oneesports.gg/mobile-legends/moonton-unveils-mobile-legends-bang-bang-project-next/ (published 2020-06-08)",
+      "image_path": "images/client/project-next-phase1.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/06/MLBB_ProjectNextPhase1_wallpaper.jpg"
+    },
+    {
+      "aspect": "ClientUpdate",
+      "date_or_version": "2021-09-21",
+      "detail": "Project NEXT delivered in three phases: Phase 1 2020-09-22; Phase 2 2021-06-15; Phase 3 2021-09-21",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "ClientUpdate",
+      "date_or_version": "2021-2022",
+      "detail": "Smart Targeting shipped as an official in-game targeting setting after Project NEXT; ONE Esports guide documents where to enable it in settings",
+      "source": "https://www.oneesports.gg/mobile-legends/smart-targeting-how-to-turn-on/",
+      "image_path": "images/client/smart-targeting.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "ClientUpdate",
+      "date_or_version": "2025 (between 1.9.99 and 2.1.02; approx Sep-Oct 2025)",
+      "detail": "Version scheme changed from 1.x to 2.x: mlbbhub patch index shows last 1.x build 1.9.99 followed directly by 2.1.02 (no 1.10.x and no 2.0.x builds listed); first officially-dated 2.x patches: 2.1.40 (2025-12-25); 2.1.88 (2026-06-17); 2.2.16 (2026-09-16)",
+      "source": "https://mlbbhub.com/patch-notes + https://www.mobilelegends.com/news (official 2.x patch notes articles 3250621/3314600/3503357)",
+      "image_path": "images/client/version-2x-scheme.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "ClientUpdate",
+      "date_or_version": "2026-07-21",
+      "detail": "AI-generated main menu tested on the Advanced Server drew fan outrage and Moonton backtracked (headline cross-check via Google News RSS)",
+      "source": "https://www.esports.gg (MLBB backtracks after fans outrage over AI-generated main menu in advanced server; 2026-07-21; via news.google.com/rss/search)",
+      "image_path": "images/client/ai-main-menu-2026.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "ClientUpdate",
+      "date_or_version": "2023-09-19",
+      "detail": "7th anniversary in-client event from 19 Sep 2023: free Starblazer Johnson anniversary skin via anniversary coins; To The Stars mini-game (28 stages / 4 chapters; ran to 22 Oct); 2022 Birthday Harley skin; anniversary border / emote / recall effects",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-7th-anniversary/ (2023-09-14) + https://www.oneesports.gg/mobile-legends/starblazer-johnson-exclusive-free/",
+      "image_path": "images/events/anniversary-7-2023.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/09/MLBB_7th_anniversary_featured.jpg"
+    },
+    {
+      "aspect": "ClientUpdate",
+      "date_or_version": "2024-09-27",
+      "detail": "8th anniversary from 27 Sep 2024: free Marvelous Maestro Akai skin; Carnival Adventure Monopoly board (dice rolls earn Dream Coins exchangeable for the Panda Warrior skin); Friend Skin Clone event (copy skins from friends as Skin Experience cards); Friends Call Back return campaign",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-8th-anniversary-skins/ (2024-09-24)",
+      "image_path": "images/events/anniversary-8-2024.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2024/09/MLBB_8thanniversary_keyvisual_Akai_skin.jpg"
+    },
+    {
+      "aspect": "ClientUpdate",
+      "date_or_version": "2026-10",
+      "detail": "10th anniversary: ALL IN celebration campaign launched 2026-09-04 (free skins and rewards incl. a free Collector per media); October 2026 events across 10 countries in Asia / Europe / Latin America (community gatherings; cosplay; live performances; interactive installations); S42 ranked season hands out avatar border Starward Decade (official 2.2.16 notes)",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + Moonton press releases 2026-09-04 and 2026-10-16 and Esports.gg 2026-10-12 (via news.google.com/rss/search) + official 2.2.16 patch notes",
+      "image_path": "images/events/10th-anniversary-all-in.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Graphics",
+      "date_or_version": "2019-05-07",
+      "detail": "High Frame Rate mode rolled out for Snapdragon 710 devices (headline-dated; extended HFR beyond top flagship chipsets)",
+      "source": "https://revu.com.ph (Mobile Legends now has High Frame Rate mode for SD 710 devices; 2019-05-07; via news.google.com/rss/search)",
+      "image_path": "images/client/high-frame-rate-2019.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Graphics",
+      "date_or_version": "2019-09-15",
+      "detail": "MLBB listed among Android games supporting high frame rates (90/120 FPS) on capable devices",
+      "source": "https://www.androidpolice.com (All the Android games and phones that support high frame rates 90/120FPS; 2019-09-15; via news.google.com/rss/search)",
+      "image_path": "images/client/120fps-android-2019.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Graphics",
+      "date_or_version": "2026-06-28",
+      "detail": "120 FPS verified in MLBB at near-max graphics settings on a 2026 mid-premium device (vivo V70) - 120fps option available on capable hardware",
+      "source": "https://www.astig.ph (vivo V70 held 120fps in Mobile Legends near-max settings; 2026-06-28; via news.google.com/rss/search)",
+      "image_path": "images/client/120fps-2026.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Graphics",
+      "date_or_version": "2019-07-18",
+      "detail": "Device-performance evolution: MLBB 2.0 Unity 2017 engine upgrade targeted reduced lag and up to 60% faster loading / start-up with improved character modelling on the same hardware",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Graphics",
+      "date_or_version": "2026 (UNVERIFIED)",
+      "detail": "Ultra / UHD graphics preset naming appears in community uploads and device reviews but the official per-device preset list (Smooth / Ultra / Ultra HD etc.) was not verified in fetched official sources",
+      "source": "UNVERIFIED (YouTube UHD 120FPS uploads + device reviews via news.google.com/rss/search)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Servers",
+      "date_or_version": "2016-2026",
+      "detail": "Global mobile title with regional server clusters; available on Android; iOS and HarmonyOS; player base concentrated in East and Southeast Asia",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/client/server-regions.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Servers",
+      "date_or_version": "2020-06-29",
+      "detail": "Regional version difference - India: banned 29 June 2020 alongside other Chinese-linked apps; returned on Android 24 April 2024 rebranded as Moba Legends: 5v5! under publisher Vizta Games; players circumvented the ban via VPNs in the interim",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/client/moba-legends-india.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Servers",
+      "date_or_version": "2025",
+      "detail": "Regional publishing difference - US: brief unenforced removal risk under the Protecting Americans from Foreign Adversary Controlled Applications Act due to ByteDance ownership; association severed in 2026 when Moonton was acquired by Savvy Games Group",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Servers",
+      "date_or_version": "Advanced Server (ongoing; verified usage since ~2018)",
+      "detail": "Advanced Server is the public test realm: every patch first ships there as separate Advanced Server patch notes before the Official Server (e.g. 1.4.94 Advanced Server notes dated 2020-07-09); unreleased heroes are granted free access there during the test window (1.3.60 note); media preview upcoming heroes/revamps from it",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.4.94_(Advanced_Server) + Patch_Notes_1.3.60 (cached snippets) + https://www.oneesports.gg/mobile-legends/zhuxin-skills-preview/",
+      "image_path": "images/client/advanced-server.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Servers",
+      "date_or_version": "2026-05-04",
+      "detail": "Advanced Server access is documented by mainstream guides (how to download and play on the Mobile Legends Advanced Server); media also calls it Advance/beta server; the name Experimental Server is NOT used by MLBB",
+      "source": "https://www.esports.gg (How to download and play on the Mobile Legends Advanced Server?; 2026-05-04; via news.google.com/rss/search)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Servers",
+      "date_or_version": "2021-2025",
+      "detail": "Sourced regional feature differences: Star Wars 2021 skins region-locked to 12 SEA markets + Japan; First Order Jet Trooper 2022 restricted to specific regions; SpongeBob 2025 worldwide with Russia excluded",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-x-star-wars-play-as-yoda-and-darth-vader-will-you/ (2021-05-05) + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Bug",
+      "date_or_version": "2022-04-21",
+      "detail": "MPL ID S9 playoffs decider EVOS Legends vs Alter Ego game 5: Alter Ego carry Rafly Pai Alvareza Sudrajat froze / disconnected at the ~20-minute mark during a decisive team fight; 4-minute technical pause; game resumed; Alter Ego lost the series 2-3; Moonton publicly announced an investigation of the lag incident",
+      "source": "https://www.oneesports.gg/mobile-legends/moonton-investigate-evos-legends/ (2022-04-22)",
+      "image_path": "images/client/bug-mplid-s9-disconnect.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Bug",
+      "date_or_version": "2023-05-05",
+      "detail": "MPL PH S11 playoffs: Diggie banned from tournament use until May 16 due to a visual bug in passive Young Again combined with basic-attack lock settings that revealed enemy hero positions outside vision range (virtual map hack); league cited integrity; Blacklist International captain OhMyV33nus publicly criticized the auto-ban",
+      "source": "https://www.oneesports.gg/mobile-legends/ohmyv33nus-diggie-bug-ban/ (2023-05-05)",
+      "image_path": "images/client/bug-diggie-ban.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Bug",
+      "date_or_version": "1.6.42 (2021-12-30 / article 2022-01-01)",
+      "detail": "Franco made unplayable (disabled until further notice) on the official server at the start of patch 1.6.42 right after his major skill revamp; community videos showed Iron Hook fired behind the wall freezing the purple buff monster in place so it could not move or reset",
+      "source": "https://www.oneesports.gg/mobile-legends/why-franco-disabled-patch-1-6-42/ (2022-01-01)",
+      "image_path": "images/client/bug-franco-disabled-1642.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Bug",
+      "date_or_version": "2025-12-19",
+      "detail": "Legend skin trail-effects issue compensation: all players received free Magic Wheel Potions and Diamonds; rollout paired with the revamped Magic Wheel ahead of the Project Reforge update (January 2026)",
+      "source": "https://www.gamingonphone.com + EGW News (2025-12-19 headlines; via news.google.com/rss/search)",
+      "image_path": "images/client/bug-magic-wheel-compensation.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Social",
+      "date_or_version": "1.4.52 (2020)",
+      "detail": "Player guild system is named Squads; patch 1.4.52 (Advanced Server) added the Squads Nearby feature to search for and join Squads of players nearby",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.4.52_(Advanced_Server) (cached snippet)",
+      "image_path": "images/client/social-squads-nearby.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Social",
+      "date_or_version": "2026-09-16",
+      "detail": "Official mode names verified in 2.2.16 notes: VS A.I. and Custom (unlock condition adjusted to reaching Elite rank); Magic Chess (Lv.12); 1 VS 1 (Lv.25)",
+      "source": "https://www.mobilelegends.com/news (official 2.2.16 patch notes; article 3503357)",
+      "image_path": "images/client/social-vsai-custom-unlock.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Social",
+      "date_or_version": "2026-09-16",
+      "detail": "Multiplayer Training Camp added under Mode > VS A.I. & Custom (official patch note)",
+      "source": "https://www.mobilelegends.com/news (official 2.2.16 patch notes; article 3503357)",
+      "image_path": "images/client/social-training-camp.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Social",
+      "date_or_version": "2026-06-17",
+      "detail": "Post-match Highlights added in 2.1.88: cloud-generated highlight videos for outstanding performances in Classic and Ranked; Use Template / Without Template options with built-in music and cinematic effects; view or share via Live > My Videos > Match Replays",
+      "source": "https://www.mobilelegends.com/news (official 2.1.88 patch notes; article 3314600)",
+      "image_path": "images/client/social-highlights.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Social",
+      "date_or_version": "2022 (approx)",
+      "detail": "Profile privacy: option to hide match history from other players (settings how-to)",
+      "source": "https://www.oneesports.gg/mobile-legends/hide-history-in-mobile-legends/",
+      "image_path": "images/client/social-hide-history.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "AntiToxicity",
+      "date_or_version": "Credit Score (current 2025-2026)",
+      "detail": "Credit Score runs 0-100: AFK / Negative Attitude / Intentional Feeding actions deduct 5 points; repeat offences deduct 8-10 points; recovery +1 point from first login each day when below 100 and +1 point per completed match regardless of result",
+      "source": "https://mobile-legends.fandom.com/wiki/Credit_Score (verified via search snippets; consistent with T1-i capture)",
+      "image_path": "images/client/credit-score.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "AntiToxicity",
+      "date_or_version": "2025-2026 (UNVERIFIED)",
+      "detail": "Third-party guide claims Ranked Mode requires a 90+ Credit Score and free Battle Points reduced ~29% at a score of 80; official thresholds not verified",
+      "source": "https://bittopup.com/article/MLBB-Credit-Score-Recovery-80100-in-35-Days-Brawl-Guide (2025-12-18; single third-party source)",
+      "image_path": "images/client/credit-score-gates.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "AntiToxicity",
+      "date_or_version": "2020 (early)",
+      "detail": "Enforcement transparency: during the early-2020 map-hack wave Moonton publicly published punishments on its social media accounts; revealing the account IDs of banned players (report -> punishment pipeline)",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/client/public-punishments-2020.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2019-03-19",
+      "detail": "King of Fighters wave 1 (SNK; March 2019): Chou as Iori Yagami; Karina as Leona Heidern; Guinevere as Athena Asamiya; obtained through a bingo-mechanic event; KOF skins introduced unique ability effects; sound effects and Japanese voice-overs (first skin line with full effect sets outside Legend skins)",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.oneesports.gg/mobile-legends/anime-skins-mobile-legends/ (2024-12-19) + https://www.oneesports.gg/mobile-legends/rarest-skins-mobile-legends/ (2025-02-11)",
+      "image_path": "images/events/collab-kof-2019.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/01/MLBB_KingofSupremacyAldous_KOFGusion-1024x576.webp"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2019-08-20",
+      "detail": "King of Fighters wave 2: Aurora as Kula Diamond; Gusion as K'; Dyrroth as Orochi Chris (same bingo-style event)",
+      "source": "https://www.oneesports.gg/mobile-legends/anime-skins-mobile-legends/ + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-kof-2019-wave2.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2024-04-24",
+      "detail": "King of Fighters wave 3: Valir as Kyo Kusanagi; Masha as Mai Shiranui; Paquito as Terry Bogard",
+      "source": "https://www.oneesports.gg/mobile-legends/anime-skins-mobile-legends/ + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-kof-2024.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2021-07",
+      "detail": "Star Wars: Master Yoda for Cyclops and Darth Vader for Argus released July 2021 (teaser poster on Star Wars Day 2021-05-05); time-limited purchase region-locked to Indonesia / Malaysia / Thailand / Philippines / Singapore / Vietnam / Myanmar / Cambodia / Brunei / Laos / East Timor / Japan",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.oneesports.gg/mobile-legends/mobile-legends-x-star-wars-play-as-yoda-and-darth-vader-will-you/ (2021-05-05)",
+      "image_path": "images/events/collab-star-wars-2021.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2021/05/MLBB_Star_Wars_Yoda_Cyclops_DarthVader_Argus.jpg"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2021-12",
+      "detail": "Star Wars phase 2: Obi-Wan Kenobi epic skin for Alucard (same regional restriction)",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-star-wars-2021-p2.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2022",
+      "detail": "Star Wars phase 3: First Order Jet Trooper for Kimmy (region-restricted); the collaboration returned September 2024 with the same skins re-released",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-star-wars-2022-p3.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2021-08-14",
+      "detail": "Transformers phase 1 (14 Aug - 11 Nov 2021): Optimus Prime for Johnson; Megatron for Granger; Bumblebee for X.Borg; players collected Transformers parts to obtain a random skin; Wikipedia describes the 2021 event as four phases with lottery and exchange mechanics (ONE Esports presents it as one phase window - see notes CONFLICT)",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.oneesports.gg/mobile-legends/list-mlbb-x-transformers-skins/ (2022-07-16)",
+      "image_path": "images/events/collab-transformers-2021.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2022-05-24",
+      "detail": "Transformers phase 2 (24 May - 7 Jul 2022): Starscream for Aldous; Grimlock for Roger; Soundwave & Ravage for Popol and Kupa; bingo event format like King of Fighters",
+      "source": "https://www.oneesports.gg/mobile-legends/list-mlbb-x-transformers-skins/ + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-transformers-2022.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2022/05/MLBB_Transformers_collab_phase2.webp"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2022-02",
+      "detail": "Sanrio characters: Hello Kitty for Angela (skin Heartstring); Pompompurin for Chang'e (Moon Artist); Cinnamoroll for Floryn (Fluffy Dream); Badtz-Maru for Claude (Bad Bro); event re-ran in 2025 and 2026",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.oneesports.gg/mobile-legends/mlbb-sanrio-characters-skins/ (2022-02-22)",
+      "image_path": "images/events/collab-sanrio-2022.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2022/02/MLBB_SanrioCharacters_skins.webp"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2022-08-20",
+      "detail": "Kung Fu Panda: General Kai for Thamuz; Akai as Po (ONE Esports names the skin Kung Fu Panda Akai; Wikipedia says Po Ping - see notes CONFLICT); Lord Shen for Ling; jade-ornament draw event with 800 jade ornaments per skin; first 10x draw auto-granted General Kai Thamuz per Advanced Server dry run; extra rewards incl. recall / kill notification / spawn / emotes and exclusive custom actions; no re-run due to failed negotiations with rights holders",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-kung-fu-panda-skins-rewards/ (2022-08-18) + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-kung-fu-panda-2022.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2022/08/MLBB_KungFuPanda_GeneralKaiThamuz_KungFuPandaAkai_LordShenLing.webp"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2022-10-24",
+      "detail": "Saint Seiya (Shueisha; 24 Oct - 23 Nov 2022): Bronze + Gold pairs - Badang Pegasus Seiya / Sagittarius Seiya; Chou Dragon Shiryu / Libra Shiryu; Valir Phoenix Ikki / Leo Ikki; draw event with Badge of Victory exchange (800 badges per Gold Saint skin); Pegasus Seiya guaranteed within the first 10 draws; Dragon Shiryu and Phoenix Ikki priced 1288 diamonds in shop from 27 Oct and 3 Nov; two recharge phases from 29 Oct; rerun July 2025 with revamped skin effects",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-saint-seiya-skins-release/ (2022-10-21) + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-saint-seiya-2022.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2022/10/MLBB_SaintSeiya_skinspreview.webp"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2023-02-18",
+      "detail": "Jujutsu Kaisen: Satoru Gojo for Xavier; Nobara Kugisaki for Melissa; Megumi Fushiguro for Julian; Yuji Itadori for Yin; return event June 2024 with updated visual effects (Sukuna) on Yin ultimate when using the Itadori skin",
+      "source": "https://www.oneesports.gg/mobile-legends/anime-skins-mobile-legends/ + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-jujutsu-kaisen-2023.png",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2024-02-02",
+      "detail": "Attack on Titan (announced January 2024; live 2 February 2024): Eren Yeager for Yin; Mikasa Ackerman for Fanny; Levi Ackerman for Martis",
+      "source": "https://www.oneesports.gg/mobile-legends/new-eren-yin-skin-mlbb/ (2024-02-02) + https://www.oneesports.gg/mobile-legends/mikasa-fanny-skin-mlbb/ (2024-02-02) + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-attack-on-titan-2024.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2024/02/MLBB_AttackonTitan_ErenJaeger_Yin_splashart.jpg"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2025-01",
+      "detail": "Hunter x Hunter (28-day event): Gon Freecss for Dyrroth; Hisoka Morow for Cecilion; Kurapika for Julian; Killua Zoldyck for Harith; Hunter Coins earned from draws and exchanged in the event shop at 1200 coins per skin",
+      "source": "https://www.oneesports.gg/mobile-legends/hunter-x-hunter-mlbb-skins/ (2025-01-03) + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-hunter-x-hunter-2025.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2025/01/MLBB_HunterXHunter_splashart_skins-1.jpg"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2025-05-02",
+      "detail": "Naruto Shippuden phase 1 (announced 2025-03-24): Naruto Uzumaki for Lukas; Sasuke Uchiha for Suyou; Sakura Haruno for Kalea; Kakashi Hatake for Hayabusa (Team 7 via draw event); Gaara for Vale (free via event requirements); introduced two new item categories - Common Sacred Statue (Gamakichi) and Loading Effect; themed chat bubbles; sacred statues; battle emotes; free iPhone 16 Pro giveaway",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-x-naruto-skins/ (2025-04-21) + Esports Insider 2025-03-24 via news.google.com/rss/search + https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-naruto-2025.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2025/04/MLBB_Naruto_KV.jpg"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2026-03-27",
+      "detail": "Naruto Shippuden phase 2: Itachi Uchiha for Julian; Minato Namikaze for Gusion; return of all phase-1 skins; final arc announced by Moonton 2026-04-27 with final phase running into May 2026",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + Playasia Blog 2026-03-27 + Moonton 2026-04-27 and AppSpy 2026-04-28 (via news.google.com/rss/search)",
+      "image_path": "images/events/collab-naruto-2026-p2.png",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2025/04/MLBB_Naruto_KV.jpg"
+    },
+    {
+      "aspect": "Collab",
+      "date_or_version": "2025-11",
+      "detail": "SpongeBob SquarePants (Nickelodeon) global collab inside the annual Friend Fest campaign: Cyclops as SpongeBob SquarePants; Gloo as Patrick Star; Undersea Restaurant friend minigame with event currency; friendship-themed missions; battle emotes and limited-time rewards; worldwide with some regional restrictions incl. Russia",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang",
+      "image_path": "images/events/collab-spongebob-2025.png",
+      "image_source": "MISSING_IMAGE"
+    }
+  ],
+  "count": 50,
+  "total": 53,
+  "limit": 50,
+  "offset": 0
+}

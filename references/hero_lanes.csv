@@ -1,0 +1,15 @@
+lane,hero_count,description
+Mid Lane,24,"Mage/mid lane; center lane, fastest rotation to both side lanes."
+Roam,22,"Support/roam role using roaming blessings; wards, vision and map presence."
+Exp Lane,20,Fighter/EXP lane; solo side lane with extra EXP from the EXP minion wave.
+Gold Lane,19,Marksman farming lane; safe gold income from side minion waves and the gold crab.
+Jungle,16,Jungler farming the jungle with Retribution; primary early-game tempo maker.
+Jungle/Exp Lane,7,Jungler farming the jungle with Retribution; primary early-game tempo maker. / Fighter/EXP lane; solo side lane with extra EXP from the EXP minion wave.
+Exp Lane/Jungle,6,Fighter/EXP lane; solo side lane with extra EXP from the EXP minion wave. / Jungler farming the jungle with Retribution; primary early-game tempo maker.
+Roam/Exp Lane,5,"Support/roam role using roaming blessings; wards, vision and map presence. / Fighter/EXP lane; solo side lane with extra EXP from the EXP minion wave."
+Exp Lane/Roam,4,"Fighter/EXP lane; solo side lane with extra EXP from the EXP minion wave. / Support/roam role using roaming blessings; wards, vision and map presence."
+Jungle/Roam,4,"Jungler farming the jungle with Retribution; primary early-game tempo maker. / Support/roam role using roaming blessings; wards, vision and map presence."
+Mid Lane/Roam,2,"Mage/mid lane; center lane, fastest rotation to both side lanes. / Support/roam role using roaming blessings; wards, vision and map presence."
+Jungle/Mid Lane,2,"Jungler farming the jungle with Retribution; primary early-game tempo maker. / Mage/mid lane; center lane, fastest rotation to both side lanes."
+Jungle/Gold Lane,1,Jungler farming the jungle with Retribution; primary early-game tempo maker. / Marksman farming lane; safe gold income from side minion waves and the gold crab.
+Mid Lane/Gold Lane,1,"Mage/mid lane; center lane, fastest rotation to both side lanes. / Marksman farming lane; safe gold income from side minion waves and the gold crab."

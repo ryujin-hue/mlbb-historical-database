@@ -1,0 +1,227 @@
+{
+  "endpoint": "/api/v1/systems/aspects",
+  "data": [
+    {
+      "system": "Academy",
+      "aspect": "In-game Academy content",
+      "record_count": 1
+    },
+    {
+      "system": "Academy",
+      "aspect": "Tutorial evolution",
+      "record_count": 1
+    },
+    {
+      "system": "Academy",
+      "aspect": "Zetian Advanced Guide era",
+      "record_count": 1
+    },
+    {
+      "system": "Emblem",
+      "aspect": "Current structure",
+      "record_count": 1
+    },
+    {
+      "system": "Emblem",
+      "aspect": "Emblem rework LIVE",
+      "record_count": 1
+    },
+    {
+      "system": "Emblem",
+      "aspect": "Old talent adjustment",
+      "record_count": 1
+    },
+    {
+      "system": "Emblem",
+      "aspect": "Original emblem system",
+      "record_count": 1
+    },
+    {
+      "system": "Emblem",
+      "aspect": "Post-rework adjustment",
+      "record_count": 1
+    },
+    {
+      "system": "Emblem",
+      "aspect": "Rework on Advanced Server",
+      "record_count": 1
+    },
+    {
+      "system": "ItemMeta",
+      "aspect": "2025-2026 sustain+crit meta",
+      "record_count": 1
+    },
+    {
+      "system": "ItemMeta",
+      "aspect": "Item revamp meta shift",
+      "record_count": 1
+    },
+    {
+      "system": "ItemMeta",
+      "aspect": "Lifesteal simplification",
+      "record_count": 1
+    },
+    {
+      "system": "ItemMeta",
+      "aspect": "M4 patch item meta",
+      "record_count": 1
+    },
+    {
+      "system": "ItemMeta",
+      "aspect": "Sky Piercer era",
+      "record_count": 1
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Bloody Retribution nerf",
+      "record_count": 1
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Creep/respawn changes",
+      "record_count": 1
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Ice Retribution nerf",
+      "record_count": 1
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Jungle pets",
+      "record_count": 1
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Jungling Footwear introduced",
+      "record_count": 1
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Legacy jungle equipment",
+      "record_count": 1
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Retribution damage buff",
+      "record_count": 1
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Retribution upgrades (current)",
+      "record_count": 1
+    },
+    {
+      "system": "MLBB",
+      "aspect": "AntiCheat",
+      "record_count": 1
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Draft",
+      "record_count": 5
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Economy",
+      "record_count": 8
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Map",
+      "record_count": 9
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Matchmaking",
+      "record_count": 3
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Mode",
+      "record_count": 17
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Objective",
+      "record_count": 9
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Penalty",
+      "record_count": 2
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Ranking",
+      "record_count": 9
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Security",
+      "record_count": 1
+    },
+    {
+      "system": "Roam",
+      "aspect": "Blessing adjustments 1.5.96-1.6.50",
+      "record_count": 1
+    },
+    {
+      "system": "Roam",
+      "aspect": "Blessing income rework",
+      "record_count": 1
+    },
+    {
+      "system": "Roam",
+      "aspect": "Blessing income rework 2",
+      "record_count": 1
+    },
+    {
+      "system": "Roam",
+      "aspect": "Current 4 blessings",
+      "record_count": 1
+    },
+    {
+      "system": "Roam",
+      "aspect": "Legacy roaming equipment",
+      "record_count": 1
+    },
+    {
+      "system": "Roam",
+      "aspect": "Roaming Footwear + blessings introduced",
+      "record_count": 1
+    },
+    {
+      "system": "Spell",
+      "aspect": "Current battle spell list",
+      "record_count": 1
+    },
+    {
+      "system": "Spell",
+      "aspect": "Flameshot added",
+      "record_count": 1
+    },
+    {
+      "system": "Spell",
+      "aspect": "Revitalize naming",
+      "record_count": 1
+    },
+    {
+      "system": "Spell",
+      "aspect": "Spell vs turret rules",
+      "record_count": 1
+    },
+    {
+      "system": "Spell",
+      "aspect": "Vengeance change",
+      "record_count": 1
+    },
+    {
+      "system": "Spell",
+      "aspect": "Vengeance current state",
+      "record_count": 1
+    }
+  ],
+  "count": 44,
+  "total": 44
+}

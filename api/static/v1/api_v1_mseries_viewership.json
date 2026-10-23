@@ -1,0 +1,47 @@
+{
+  "endpoint": "/api/v1/mseries/viewership",
+  "data": [
+    {
+      "edition": "MLBB M7 World Championship",
+      "year": "2026",
+      "peak_viewers": 5680511
+    },
+    {
+      "edition": "MLBB M5 World Championship",
+      "year": "2023",
+      "peak_viewers": 5067107
+    },
+    {
+      "edition": "MLBB M4 World Championship",
+      "year": "2023",
+      "peak_viewers": 4270270
+    },
+    {
+      "edition": "MLBB M6 World Championship",
+      "year": "2024",
+      "peak_viewers": 4017453
+    },
+    {
+      "edition": "MLBB M3 World Championship",
+      "year": "2021",
+      "peak_viewers": 3191404
+    },
+    {
+      "edition": "MLBB M2 World Championship",
+      "year": "2021",
+      "peak_viewers": 3083245
+    },
+    {
+      "edition": "MLBB M1 World Championship",
+      "year": "2019",
+      "peak_viewers": 648069
+    },
+    {
+      "edition": "MLBB M8 World Championship (officially announced - not yet played)",
+      "year": "2027",
+      "peak_viewers": null
+    }
+  ],
+  "count": 8,
+  "total": 8
+}

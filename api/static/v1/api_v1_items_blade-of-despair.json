@@ -1,0 +1,14 @@
+{
+  "endpoint": "/api/v1/items/blade-of-despair",
+  "data": {
+    "item": "Blade of Despair",
+    "category": "T3 Attack",
+    "price_gold": "3010",
+    "build_path": "Legion Sword, Legion Sword (+1190 combine fee)",
+    "unique_passives": "Despair: Dealing damage to non-Minion enemies below 50% HP grants 25% extra Physical Attack for 2 seconds (takes effect...",
+    "sources": "https://mlbbhub.com/items/blade-of-despair (mlbbhub.com, fetched 2026-10-22)",
+    "image_path": "images/t1g/items/blade-of-despair.png",
+    "image_source": "https://mlbbhub.com/images/items/blade-of-despair.png",
+    "image_url": "/img/images/t1g/items/blade-of-despair.png"
+  }
+}

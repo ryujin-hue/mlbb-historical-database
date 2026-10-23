@@ -1,0 +1,79 @@
+{
+  "endpoint": "/api/v1/systems/battle-spells",
+  "data": [
+    {
+      "spell": "Retribution",
+      "cooldown_seconds": "35",
+      "effect": "750+150*Lv dmg to creep/minion",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    },
+    {
+      "spell": "Execute",
+      "cooldown_seconds": "90",
+      "effect": "100+10*Lv + 13% of target's lost HP as True Damage",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    },
+    {
+      "spell": "Flicker",
+      "cooldown_seconds": "120",
+      "effect": "blink + 5+1*Lv Def for 1s",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    },
+    {
+      "spell": "Sprint",
+      "cooldown_seconds": "100",
+      "effect": "50% MS + Slow Immunity 6s",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    },
+    {
+      "spell": "Purify",
+      "cooldown_seconds": "90",
+      "effect": "remove debuffs + Control Immunity + 15% MS 1.2s",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    },
+    {
+      "spell": "Petrify",
+      "cooldown_seconds": "75",
+      "effect": "100+15*Lv dmg, petrify 0.8s + 50% slow",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    },
+    {
+      "spell": "Aegis",
+      "cooldown_seconds": "75",
+      "effect": "750+90*Lv shield 5s",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    },
+    {
+      "spell": "Inspire",
+      "cooldown_seconds": "75",
+      "effect": "up to 8 BAs in 5s at 1.5x AS, cap 500%",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    },
+    {
+      "spell": "Vengeance",
+      "cooldown_seconds": "75",
+      "effect": "3s: 35% Damage Reduction + reflect 35% of damage taken",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    },
+    {
+      "spell": "Revitalize",
+      "cooldown_seconds": "75",
+      "effect": "Healing Spring 4s, 2.5% Max HP per 0.4s to allies",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    },
+    {
+      "spell": "Flameshot",
+      "cooldown_seconds": "50",
+      "effect": "fire Flaming Shot",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    },
+    {
+      "spell": "Arrival",
+      "cooldown_seconds": "75",
+      "effect": "channel 3s, teleport to allied turret/base/minion/trap + 60% MS decay 3s",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)"
+    }
+  ],
+  "count": 12,
+  "total": 12
+}

@@ -1,0 +1,72 @@
+{
+  "endpoint": "/api/v1/reference",
+  "data": [
+    {
+      "table": "battle_spells",
+      "endpoint": "/api/v1/reference/battle_spells",
+      "row_count": 12
+    },
+    {
+      "table": "change_types",
+      "endpoint": "/api/v1/reference/change_types",
+      "row_count": 21
+    },
+    {
+      "table": "currencies",
+      "endpoint": "/api/v1/reference/currencies",
+      "row_count": 13
+    },
+    {
+      "table": "data_dictionary",
+      "endpoint": "/api/v1/reference/data_dictionary",
+      "row_count": 24
+    },
+    {
+      "table": "emblem_sets",
+      "endpoint": "/api/v1/reference/emblem_sets",
+      "row_count": 7
+    },
+    {
+      "table": "game_modes",
+      "endpoint": "/api/v1/reference/game_modes",
+      "row_count": 17
+    },
+    {
+      "table": "hero_lanes",
+      "endpoint": "/api/v1/reference/hero_lanes",
+      "row_count": 14
+    },
+    {
+      "table": "hero_roles",
+      "endpoint": "/api/v1/reference/hero_roles",
+      "row_count": 24
+    },
+    {
+      "table": "host_countries",
+      "endpoint": "/api/v1/reference/host_countries",
+      "row_count": 7
+    },
+    {
+      "table": "item_categories",
+      "endpoint": "/api/v1/reference/item_categories",
+      "row_count": 16
+    },
+    {
+      "table": "lore_regions",
+      "endpoint": "/api/v1/reference/lore_regions",
+      "row_count": 14
+    },
+    {
+      "table": "ranked_ladder",
+      "endpoint": "/api/v1/reference/ranked_ladder",
+      "row_count": 10
+    },
+    {
+      "table": "tournament_event_types",
+      "endpoint": "/api/v1/reference/tournament_event_types",
+      "row_count": 5
+    }
+  ],
+  "count": 13,
+  "total": 13
+}

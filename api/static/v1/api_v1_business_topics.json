@@ -1,0 +1,43 @@
+{
+  "endpoint": "/api/v1/business/topics",
+  "data": [
+    {
+      "topic": "EsportsBiz",
+      "record_count": 12
+    },
+    {
+      "topic": "Monetization",
+      "record_count": 11
+    },
+    {
+      "topic": "Legal",
+      "record_count": 10
+    },
+    {
+      "topic": "Awards",
+      "record_count": 9
+    },
+    {
+      "topic": "Moonton",
+      "record_count": 8
+    },
+    {
+      "topic": "Ownership",
+      "record_count": 7
+    },
+    {
+      "topic": "PlayerBase",
+      "record_count": 6
+    },
+    {
+      "topic": "Creators",
+      "record_count": 4
+    },
+    {
+      "topic": "Revenue",
+      "record_count": 3
+    }
+  ],
+  "count": 9,
+  "total": 9
+}

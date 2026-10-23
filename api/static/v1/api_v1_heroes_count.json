@@ -1,0 +1,14 @@
+{
+  "endpoint": "/api/v1/heroes/count",
+  "data": {
+    "total": 133,
+    "primary_roles": [
+      "Marksman",
+      "assassin",
+      "fighter",
+      "mage",
+      "support",
+      "tank"
+    ]
+  }
+}

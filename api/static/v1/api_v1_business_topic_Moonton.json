@@ -1,0 +1,71 @@
+{
+  "endpoint": "/api/v1/business/topic/Moonton",
+  "data": [
+    {
+      "topic": "Moonton",
+      "detail": "Shanghai Moonton Technology Co. Ltd. (上海沐瞳科技有限公司) founded July 2014 in Shanghai (Minhang District), China; video game development, publishing and esports company with offices in Indonesia, Malaysia, Singapore, Philippines, Latin America, Hong Kong and mainland China",
+      "date_or_value": "July 2014",
+      "source": "https://en.wikipedia.org/wiki/Moonton (fetched 2026-10-22)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "Founders: Xu Zhenhua (Watson Xu), a former Tencent employee who founded Moonton; Yuan Jing also a co-founder and was CEO at the time of the 2021 ByteDance deal; Yuan Jing described as founder interpreting MLBB's rise in Chinese press (ref listed on Wikipedia Moonton page)",
+      "date_or_value": "2014",
+      "source": "https://en.wikipedia.org/wiki/Moonton (refs: Caixin Global 2021-03-24; 36kr/Jakarta Globe ref 'Yuan Jing founder of Mutong Technology')",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "First commercial release: Magic Rush: Heroes (RPG), launched worldwide excluding mainland China in April 2015; listed in Google Play 2015 Best of the Year - Best Strategy Games (per official Moonton company timeline)",
+      "date_or_value": "April 2015",
+      "source": "https://en.moonton.com/about/index.html (fetched 2026-10-22) + https://en.wikipedia.org/wiki/Moonton",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "MLBB first released 14 July 2016 as 'Mobile Legends: 5v5 MOBA' (Android, distributed by Elex in US); removed after Riot complaint and relaunched as Mobile Legends: Bang Bang on 9 November 2016; official Moonton timeline states MLBB launched worldwide November 2016 excluding mainland China and was listed in Google Play 2016 Best of the Year - Best Competitive Games",
+      "date_or_value": "14 July 2016 / November 2016",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://en.moonton.com/about/index.html",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "Growth milestones: first MLBB offline esports tournament in Indonesia May 2017; inaugural MSC (Southeast Asia Cup) September 2017; MPL launched November 2017 in Indonesia/Malaysia/Singapore; Philippines MPL March 2018; Myanmar MPL February 2019; Singapore branch May 2018; Indonesia branch October 2018",
+      "date_or_value": "2017-2019",
+      "source": "https://en.wikipedia.org/wiki/Moonton + https://en.moonton.com/about/index.html",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "Other titles: Mobile Legends: Adventure (August 2019 worldwide ex-China; Japan/Korea 2021 reaching #1 free charts); Watcher of Realms (July 2023 global; mainland China October 2024); Magic Chess: Go Go (February 2025 APAC); Silver and Blood (June 2025); Acecraft (August 2025); MLBB itself launched in mainland China January 2025 after April 2023 Chinese import approval",
+      "date_or_value": "2019-2025",
+      "source": "https://en.wikipedia.org/wiki/Moonton + https://en.moonton.com/about/index.html",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "Leadership over time: CEO Xu Zhenhua cited during 2017-2018 lawsuits; CEO Yuan Jing at March 2021 ByteDance acquisition; Zhang Yunfan (Yunfan Zhang) appointed CEO May 2024 when ByteDance shelved a planned sale (Bloomberg 2024-05-13; SCMP 2024-05-16)",
+      "date_or_value": "2014-2024",
+      "source": "https://en.wikipedia.org/wiki/Moonton (infobox key people; refs Bloomberg + SCMP)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "topic": "Moonton",
+      "detail": "Company scale: 2,000+ employees reported for 2025 (Borneo Bulletin Nov 2023 via Wikipedia infobox); Moonton named National Key Cultural Export Enterprise by China Ministry of Commerce in 2022, 2023, 2024 and 2025 listings",
+      "date_or_value": "2025",
+      "source": "https://en.wikipedia.org/wiki/Moonton",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    }
+  ],
+  "count": 8,
+  "total": 8
+}

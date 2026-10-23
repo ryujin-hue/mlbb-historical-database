@@ -1,0 +1,85 @@
+{
+  "endpoint": "/api/v1/reference/currencies",
+  "data": [
+    {
+      "code": "USD",
+      "currency": "US Dollar",
+      "used_in": "United States; international prize pools",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "IDR",
+      "currency": "Indonesian Rupiah",
+      "used_in": "Indonesia",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "MYR",
+      "currency": "Malaysian Ringgit",
+      "used_in": "Malaysia",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "SGD",
+      "currency": "Singapore Dollar",
+      "used_in": "Singapore",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "PHP",
+      "currency": "Philippine Peso",
+      "used_in": "Philippines",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "THB",
+      "currency": "Thai Baht",
+      "used_in": "Thailand",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "KHR",
+      "currency": "Cambodian Riel",
+      "used_in": "Cambodia",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "MMK",
+      "currency": "Myanmar Kyat",
+      "used_in": "Myanmar",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "VND",
+      "currency": "Vietnamese Dong",
+      "used_in": "Vietnam",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "TRY",
+      "currency": "Turkish Lira",
+      "used_in": "Türkiye (M8 host)",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "SAR",
+      "currency": "Saudi Riyal",
+      "used_in": "Saudi Arabia (EWC host)",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "BRL",
+      "currency": "Brazilian Real",
+      "used_in": "Brazil",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    },
+    {
+      "code": "AED",
+      "currency": "UAE Dirham",
+      "used_in": "United Arab Emirates",
+      "source": "ISO 4217 currency codes (fact table; prize-pool figures in repo are USD)"
+    }
+  ],
+  "count": 13,
+  "total": 13
+}

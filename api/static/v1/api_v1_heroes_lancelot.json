@@ -1,0 +1,19 @@
+{
+  "endpoint": "/api/v1/heroes/lancelot",
+  "data": {
+    "hero": "Lancelot",
+    "role": "assassin",
+    "lane": "Jungle",
+    "release_version": "UNVERIFIED",
+    "release_date": "2017 (year-only, day UNVERIFIED)",
+    "price_bp": "32000",
+    "price_diamond": "599",
+    "reworked_or_revamped": "",
+    "total_buffs": "0",
+    "total_nerfs": "0",
+    "total_adjusts": "0",
+    "sources": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16); https://mlbb.io/en/hero/lancelot (release date/price)",
+    "image_path": "images/heroes/lancelot.png",
+    "image_source": "https://akmweb.youngjoygame.com/web/svnres/img/test/homepage_2_2_16_1232_1/100_aa4070a1eb5a53e1824bc9b2d9a47ed2.png"
+  }
+}

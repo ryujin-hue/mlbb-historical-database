@@ -1,0 +1,177 @@
+{
+  "endpoint": "/api/v1/datasets",
+  "data": [
+    {
+      "table": "business",
+      "file": "business.csv",
+      "columns": "topic, detail, date_or_value, source, image_path, image_source",
+      "row_count": "70",
+      "description": "70 rows: Moonton, legal, ownership, player base, revenue, monetization, creators, esports business, awards."
+    },
+    {
+      "table": "client",
+      "file": "client.csv",
+      "columns": "aspect, date_or_version, detail, source, image_path, image_source",
+      "row_count": "53",
+      "description": "53 rows: client updates, graphics, servers, bugs, social, anti-toxicity, collaborations, security."
+    },
+    {
+      "table": "esports",
+      "file": "esports.csv",
+      "columns": "event, region, season, dates, host, champion, runner_up, mvp, prize_pool_usd, format_notes, sources, image_path, image_source",
+      "row_count": "38",
+      "description": "38 regional/international event records (MSC, EWC-era MSC, MWI, MPL Philippines)."
+    },
+    {
+      "table": "hero_changes",
+      "file": "hero_changes.csv",
+      "columns": "version, date, hero, change_type, detail, source, image_path, image_source",
+      "row_count": "350",
+      "description": "350 hero balance changes 2016-2026 with old->new values where documented."
+    },
+    {
+      "table": "hero_master",
+      "file": "hero_master.csv",
+      "columns": "hero, role, lane, release_version, release_date, price_bp, price_diamond, reworked_or_revamped, total_buffs, total_nerfs, total_adjusts, sources, image_path, image_source",
+      "row_count": "133",
+      "description": "Master roster: 133 heroes with role, lane, release date/version, prices, buff/nerf/adjust totals (patch 2.2.16 era)."
+    },
+    {
+      "table": "heroes_extra",
+      "file": "heroes_extra.csv",
+      "columns": "hero, category, detail, source, image_path, image_source",
+      "row_count": "45",
+      "description": "45 rows: lore regions, Legend/Collector skins, role-tag changes, era tier summaries, counters, upcoming heroes."
+    },
+    {
+      "table": "images_manifest",
+      "file": "images_manifest.csv",
+      "columns": "image_path, url, credit, status, bytes, source_used",
+      "row_count": "683",
+      "description": "683 local images with source URLs, credit and status."
+    },
+    {
+      "table": "item_changes",
+      "file": "item_changes.csv",
+      "columns": "version, date, item, change_type, detail, source, image_path, image_source",
+      "row_count": "99",
+      "description": "99 item/equipment/spell-line changes 2016-2026."
+    },
+    {
+      "table": "items_master",
+      "file": "items_master.csv",
+      "columns": "item, category, price_gold, build_path, unique_passives, sources, image_path, image_source",
+      "row_count": "104",
+      "description": "Full current shop snapshot (104 items) with prices, build paths and passives."
+    },
+    {
+      "table": "mseries",
+      "file": "mseries.csv",
+      "columns": "event, year, dates, host_city, host_country, teams_count, champion, runner_up, finals_mvp, prize_pool_usd, patch_played, top_picks, top_bans, peak_viewers, format, sources, image_path, image_source",
+      "row_count": "8",
+      "description": "M1-M7 world championship editions + announced M8 (2027, Turkiye)."
+    },
+    {
+      "table": "patch_index",
+      "file": "patch_index.csv",
+      "columns": "version, date, source",
+      "row_count": "85",
+      "description": "85 patch versions 1.1.23.109.1 -> 2.2.16a with dates and sources."
+    },
+    {
+      "table": "systems",
+      "file": "systems.csv",
+      "columns": "system, aspect, period_or_version, detail, source, image_path, image_source",
+      "row_count": "98",
+      "description": "98 rows: maps, objectives, economy, modes, ranking, draft, emblems, spells, jungle, roam, academy."
+    },
+    {
+      "table": "battle_spells",
+      "file": "references/battle_spells.csv",
+      "columns": "spell, cooldown_seconds, effect, source",
+      "row_count": "12",
+      "description": "Reference lookup table (see references/README.md)."
+    },
+    {
+      "table": "change_types",
+      "file": "references/change_types.csv",
+      "columns": "dataset, raw_change_type, normalized_type, record_count",
+      "row_count": "21",
+      "description": "Reference lookup table (see references/README.md)."
+    },
+    {
+      "table": "currencies",
+      "file": "references/currencies.csv",
+      "columns": "code, currency, used_in, source",
+      "row_count": "13",
+      "description": "Reference lookup table (see references/README.md)."
+    },
+    {
+      "table": "emblem_sets",
+      "file": "references/emblem_sets.csv",
+      "columns": "emblem_set, base_attributes, notes, source",
+      "row_count": "7",
+      "description": "Reference lookup table (see references/README.md)."
+    },
+    {
+      "table": "game_modes",
+      "file": "references/game_modes.csv",
+      "columns": "mode, period_or_version, description, source",
+      "row_count": "17",
+      "description": "Reference lookup table (see references/README.md)."
+    },
+    {
+      "table": "hero_lanes",
+      "file": "references/hero_lanes.csv",
+      "columns": "lane, hero_count, description",
+      "row_count": "14",
+      "description": "Reference lookup table (see references/README.md)."
+    },
+    {
+      "table": "hero_roles",
+      "file": "references/hero_roles.csv",
+      "columns": "role, hero_count, description",
+      "row_count": "24",
+      "description": "Reference lookup table (see references/README.md)."
+    },
+    {
+      "table": "host_countries",
+      "file": "references/host_countries.csv",
+      "columns": "country, mseries_editions_hosted, esports_events_hosted, esports_event_count",
+      "row_count": "7",
+      "description": "Reference lookup table (see references/README.md)."
+    },
+    {
+      "table": "item_categories",
+      "file": "references/item_categories.csv",
+      "columns": "category, item_count, min_price_gold, max_price_gold, items",
+      "row_count": "16",
+      "description": "Reference lookup table (see references/README.md)."
+    },
+    {
+      "table": "lore_regions",
+      "file": "references/lore_regions.csv",
+      "columns": "region, hero_count, heroes, source",
+      "row_count": "14",
+      "description": "Reference lookup table (see references/README.md)."
+    },
+    {
+      "table": "ranked_ladder",
+      "file": "references/ranked_ladder.csv",
+      "columns": "tier_order, tier, star_band, notes, source",
+      "row_count": "10",
+      "description": "Reference lookup table (see references/README.md)."
+    },
+    {
+      "table": "tournament_event_types",
+      "file": "references/tournament_event_types.csv",
+      "columns": "event_type, description, events, record_count",
+      "row_count": "5",
+      "description": "Reference lookup table (see references/README.md)."
+    }
+  ],
+  "count": 24,
+  "total": 24,
+  "limit": 50,
+  "offset": 0
+}

@@ -1,0 +1,17 @@
+category,item_count,min_price_gold,max_price_gold,items
+T1 Attack,5,250,450,"Dagger, Iron Hunting Bow, Javelin, Knife, Vampire Mallet"
+T1 Attack/Magic,1,500,500,Expert Gloves
+T1 Defense,5,140,450,"Healing Necklace, Hero's Ring, Leather Jerkin, Magic Resist Cloak, Vitality Crystal"
+T1 Jungling,3,0,,"Bloody Retribution, Flame Retribution, Ice Retribution"
+T1 Magic,7,0,820,"Book of Sages, Flower of Hope, Lantern of Hope, Magic Necklace, Magic Wand, Mystery Codex, Power Crystal"
+T1 Movement,4,0,250,"Allow Throw, Boots, Broken Heart, Throw Forbidden"
+T1 Roaming,4,0,,"Conceal, Dire Hit, Encourage, Favor"
+T2 Attack,7,600,1050,"Fury Hammer, Legion Sword, Magic Blade, Ogre Tomahawk, Regular Spear, Rogue Meteor, Swift Crossbow"
+T2 Defense,6,630,1020,"Ares Belt, Black Ice Shield, Dreadnaught Armor, Molten Essence, Silence Robe, Steel Legplates"
+T2 Magic,5,500,950,"Azure Blade, Elegant Gem, Exotic Veil, Mystic Container, Tome of Evil"
+T3 Attack,18,1500,3010,"Berserker's Fury, Blade of Despair, Blade of the Heptaseas, Corrosion Scythe, Demon Hunter Sword, Endless Battle, Golden Staff, Great Dragon Spear, Haas's Claws, Hunter Strike, Malefic Gun, Malefic Roar, Power Potion, Rose Gold Meteor, Sea Halberd, War Axe, Wind of Nature, Windtalker"
+T3 Attack/Magic,2,1500,1910,"Sky Piercer, Winter Crown"
+T3 Attack/Magic/Defense,1,2050,2050,Fleeting Time
+T3 Defense,14,1500,2500,"Antique Cuirass, Athena's Shield, Blade Armor, Brute Force Breastplate, Chastise Pauldron, Cursed Helmet, Dominance Ice, Guardian Helmet, Immortality, Oracle, Queen's Wings, Radiant Armor, Rock Potion, Thunder Belt"
+T3 Magic,15,1500,3000,"Blood Wings, Clock of Destiny, Concentrated Energy, Divine Glaive, Enchanted Talisman, Feather of Heaven, Flask of the Oasis, Genius Wand, Glowing Wand, Holy Crystal, Ice Queen Wand, Lightning Truncheon, Magic Potion, Starlium Scythe, Wishing Lantern"
+T3 Movement,7,690,750,"Arcane Boots, Demon Boots, Magic Boots, Rapid Boots, Swift Boots, Tough Boots, Warrior Boots"

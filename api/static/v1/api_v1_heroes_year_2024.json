@@ -1,0 +1,71 @@
+{
+  "endpoint": "/api/v1/heroes/year/2024",
+  "data": [
+    {
+      "hero": "Lukas",
+      "role": "fighter",
+      "lane": "Exp Lane/Jungle",
+      "release_version": "UNVERIFIED",
+      "release_date": "2024-12-21",
+      "price_bp": "32000",
+      "price_diamond": "599",
+      "reworked_or_revamped": "",
+      "total_buffs": "2",
+      "total_nerfs": "0",
+      "total_adjusts": "0",
+      "sources": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16); https://mlbb.io/en/hero/lukas (release date/price); https://mobile-legends.fandom.com/wiki/Lukas (Fandom)",
+      "image_path": "images/heroes/lukas.png",
+      "image_source": "https://akmweb.youngjoygame.com/web/svnres/img/test/homepage_2_2_16_1232_1/100_454c13b2de7b7d1a20fbf553c620510d.png"
+    },
+    {
+      "hero": "Suyou",
+      "role": "assassin/fighter",
+      "lane": "Jungle",
+      "release_version": "UNVERIFIED",
+      "release_date": "2024-09-21",
+      "price_bp": "32000",
+      "price_diamond": "599",
+      "reworked_or_revamped": "",
+      "total_buffs": "0",
+      "total_nerfs": "1",
+      "total_adjusts": "0",
+      "sources": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16); https://mlbb.io/en/hero/suyou (release date/price); https://mobile-legends.fandom.com/wiki/Suyou (Fandom)",
+      "image_path": "images/heroes/suyou.png",
+      "image_source": "https://akmweb.youngjoygame.com/web/svnres/img/test/homepage_2_2_16_1232_1/100_422ffc7849e8bb01629d2423054ed410.png"
+    },
+    {
+      "hero": "Zhuxin",
+      "role": "mage",
+      "lane": "Mid Lane",
+      "release_version": "UNVERIFIED",
+      "release_date": "2024-06-29",
+      "price_bp": "32000",
+      "price_diamond": "599",
+      "reworked_or_revamped": "",
+      "total_buffs": "0",
+      "total_nerfs": "1",
+      "total_adjusts": "1",
+      "sources": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16); https://mlbb.io/en/hero/zhuxin (release date/price); https://mobile-legends.fandom.com/wiki/Zhuxin (Fandom)",
+      "image_path": "images/heroes/zhuxin.png",
+      "image_source": "https://akmweb.youngjoygame.com/web/svnres/img/test/homepage_2_2_16_1232_1/100_13cfeec4bec7a27a09677e519f1ef9d2.png"
+    },
+    {
+      "hero": "Chip",
+      "role": "support/tank",
+      "lane": "Roam",
+      "release_version": "UNVERIFIED",
+      "release_date": "2024-03-16",
+      "price_bp": "32000",
+      "price_diamond": "599",
+      "reworked_or_revamped": "",
+      "total_buffs": "1",
+      "total_nerfs": "0",
+      "total_adjusts": "0",
+      "sources": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16); https://mlbb.io/en/hero/chip (release date/price)",
+      "image_path": "images/heroes/chip.png",
+      "image_source": "https://akmweb.youngjoygame.com/web/svnres/img/test/homepage_2_2_16_1232_1/100_85e15c66733cab7d8d73f7f725f31f1e.png"
+    }
+  ],
+  "count": 4,
+  "total": 4
+}

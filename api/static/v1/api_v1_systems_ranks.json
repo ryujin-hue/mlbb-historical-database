@@ -1,0 +1,77 @@
+{
+  "endpoint": "/api/v1/systems/ranks",
+  "data": [
+    {
+      "tier_order": "1",
+      "tier": "Warrior",
+      "star_band": "",
+      "notes": "Lowest tier; placement starts here after each season reset (reset chart: Warrior -> Warrior).",
+      "source": "https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+    },
+    {
+      "tier_order": "2",
+      "tier": "Elite",
+      "star_band": "",
+      "notes": "Second tier.",
+      "source": "https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+    },
+    {
+      "tier_order": "3",
+      "tier": "Master",
+      "star_band": "",
+      "notes": "Master 4/3 reset to Elite 1, Master 2/1 to Elite 2 (S40->41 reset chart).",
+      "source": "https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+    },
+    {
+      "tier_order": "4",
+      "tier": "Grandmaster",
+      "star_band": "",
+      "notes": "Draft pick begins here (per repo systems.csv draft rows).",
+      "source": "https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+    },
+    {
+      "tier_order": "5",
+      "tier": "Epic",
+      "star_band": "",
+      "notes": "Epic and above use the 5-ban draft (ban-count progression in systems.csv).",
+      "source": "https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+    },
+    {
+      "tier_order": "6",
+      "tier": "Legend",
+      "star_band": "",
+      "notes": "Above Epic; part of the 4-ban/5-ban ladder progression.",
+      "source": "https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+    },
+    {
+      "tier_order": "7",
+      "tier": "Mythic",
+      "star_band": "1-24 stars",
+      "notes": "Mythic Points replaced by star system at Season 28 (2023-03-25).",
+      "source": "https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+    },
+    {
+      "tier_order": "8",
+      "tier": "Mythical Honor",
+      "star_band": "25-49 stars",
+      "notes": "Introduced with the Mythic star system, Season 28 (2023-03-25).",
+      "source": "https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+    },
+    {
+      "tier_order": "9",
+      "tier": "Mythical Glory",
+      "star_band": "50-99 stars",
+      "notes": "Top leaderboard tier before Immortal; existed in the Mythic Points era.",
+      "source": "https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+    },
+    {
+      "tier_order": "10",
+      "tier": "Mythical Immortal",
+      "star_band": "100+ stars",
+      "notes": "Introduced Season 29 (2023-06-27) as the rank above Mythical Glory.",
+      "source": "https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+    }
+  ],
+  "count": 10,
+  "total": 10
+}

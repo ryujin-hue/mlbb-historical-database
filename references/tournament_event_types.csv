@@ -1,0 +1,6 @@
+event_type,description,events,record_count
+World Championship (M-Series),"Annual MLBB world championship, M1 (2019) to M7 (2026); M8 announced for Türkiye, January 2027.",M1-M7 (mseries.csv); M8 announced,8
+Mid-Season Cup (EWC era),"MLBB Mid-Season Cup held within the Esports World Cup, Riyadh 2024-2026.",EWC MSC 2024/2025/2026,3
+Mid-Season Cup (standalone SEA),"MSC - MLBB Southeast Asia Cup, standalone 2017-2023 editions.",MSC 2017-2023,7
+Women's Invitational,MWI - MLBB Women's Invitational (rebranded Women's International in 2026).,MWI 2022/2024/2025/2026,4
+Regional League (MPL),MPL national/regional professional leagues; repo currently covers MPL Philippines S1-S18.,MPL Philippines S1-S18,18

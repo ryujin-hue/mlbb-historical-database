@@ -1,0 +1,62 @@
+{
+  "endpoint": "/api/v1/items/category/T1 Attack",
+  "data": [
+    {
+      "item": "Dagger",
+      "category": "T1 Attack",
+      "price_gold": "250",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/dagger (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/dagger.png",
+      "image_source": "https://mlbbhub.com/images/items/dagger.png",
+      "image_url": "/img/images/t1g/items/dagger.png"
+    },
+    {
+      "item": "Iron Hunting Bow",
+      "category": "T1 Attack",
+      "price_gold": "450",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/iron-hunting-bow (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/iron-hunting-bow.png",
+      "image_source": "https://mlbbhub.com/images/items/iron-hunting-bow.png",
+      "image_url": "/img/images/t1g/items/iron-hunting-bow.png"
+    },
+    {
+      "item": "Javelin",
+      "category": "T1 Attack",
+      "price_gold": "320",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/javelin (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/javelin.png",
+      "image_source": "https://mlbbhub.com/images/items/javelin.png",
+      "image_url": "/img/images/t1g/items/javelin.png"
+    },
+    {
+      "item": "Knife",
+      "category": "T1 Attack",
+      "price_gold": "280",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/knife (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/knife.png",
+      "image_source": "https://mlbbhub.com/images/items/knife.png",
+      "image_url": "/img/images/t1g/items/knife.png"
+    },
+    {
+      "item": "Vampire Mallet",
+      "category": "T1 Attack",
+      "price_gold": "400",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/vampire-mallet (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/vampire-mallet.png",
+      "image_source": "https://mlbbhub.com/images/items/vampire-mallet.png",
+      "image_url": "/img/images/t1g/items/vampire-mallet.png"
+    }
+  ],
+  "count": 5,
+  "total": 5
+}

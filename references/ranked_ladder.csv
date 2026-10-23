@@ -1,0 +1,11 @@
+tier_order,tier,star_band,notes,source
+1,Warrior,,Lowest tier; placement starts here after each season reset (reset chart: Warrior -> Warrior).,"https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+2,Elite,,Second tier.,"https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+3,Master,,"Master 4/3 reset to Elite 1, Master 2/1 to Elite 2 (S40->41 reset chart).","https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+4,Grandmaster,,Draft pick begins here (per repo systems.csv draft rows).,"https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+5,Epic,,Epic and above use the 5-ban draft (ban-count progression in systems.csv).,"https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+6,Legend,,Above Epic; part of the 4-ban/5-ban ladder progression.,"https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+7,Mythic,1-24 stars,Mythic Points replaced by star system at Season 28 (2023-03-25).,"https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+8,Mythical Honor,25-49 stars,"Introduced with the Mythic star system, Season 28 (2023-03-25).","https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+9,Mythical Glory,50-99 stars,Top leaderboard tier before Immortal; existed in the Mythic Points era.,"https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"
+10,Mythical Immortal,100+ stars,Introduced Season 29 (2023-06-27) as the rank above Mythical Glory.,"https://mlbbhub.com/server-time/season-schedule (reset chart, verified S40->41); repo systems.csv Ranking rows"

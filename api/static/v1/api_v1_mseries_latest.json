@@ -1,0 +1,27 @@
+{
+  "endpoint": "/api/v1/mseries/latest",
+  "data": [
+    {
+      "event": "MLBB M8 World Championship (officially announced - not yet played)",
+      "year": "2027",
+      "dates": "January 2027 (exact dates UNVERIFIED)",
+      "host_city": "UNVERIFIED",
+      "host_country": "Turkiye (wild card stage to be hosted by Thailand)",
+      "teams_count": "UNVERIFIED",
+      "champion": "UNVERIFIED",
+      "runner_up": "UNVERIFIED",
+      "finals_mvp": "UNVERIFIED",
+      "prize_pool_usd": "UNVERIFIED",
+      "patch_played": "UNVERIFIED",
+      "top_picks": "UNVERIFIED",
+      "top_bans": "UNVERIFIED",
+      "peak_viewers": "UNVERIFIED",
+      "format": "UNVERIFIED",
+      "sources": "Announced by Moonton on 2026-01-25 at M7 (GMA News); only confirmed fields are host country Turkiye (January 2027) and Thailand wildcard host; all other fields pending official announcement",
+      "image_path": "https://www.gmanetwork.com/news/sports/ (article: M8 World Championship to be hosted by Turkiye as MLBB unveils roadmap; published 2026-01-25; exact URL stripped in cache; see notes)",
+      "image_source": "MISSING_IMAGE"
+    }
+  ],
+  "count": 1,
+  "total": 1
+}

@@ -1,0 +1,42 @@
+{
+  "endpoint": "/api/v1/mseries/prize-pools",
+  "data": [
+    {
+      "edition": "MLBB M1 World Championship",
+      "year": "2019",
+      "prize_pool_usd": 250000
+    },
+    {
+      "edition": "MLBB M2 World Championship",
+      "year": "2021",
+      "prize_pool_usd": 300000
+    },
+    {
+      "edition": "MLBB M3 World Championship",
+      "year": "2021",
+      "prize_pool_usd": 800000
+    },
+    {
+      "edition": "MLBB M4 World Championship",
+      "year": "2023",
+      "prize_pool_usd": 800000
+    },
+    {
+      "edition": "MLBB M5 World Championship",
+      "year": "2023",
+      "prize_pool_usd": 900000
+    },
+    {
+      "edition": "MLBB M6 World Championship",
+      "year": "2024",
+      "prize_pool_usd": 1000000
+    },
+    {
+      "edition": "MLBB M7 World Championship",
+      "year": "2026",
+      "prize_pool_usd": 1000000
+    }
+  ],
+  "count": 7,
+  "total": 7
+}

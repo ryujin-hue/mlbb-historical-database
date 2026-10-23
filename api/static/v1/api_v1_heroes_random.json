@@ -1,0 +1,23 @@
+{
+  "endpoint": "/api/v1/heroes/random",
+  "data": [
+    {
+      "hero": "Baxia",
+      "role": "tank",
+      "lane": "Jungle/Roam",
+      "release_version": "UNVERIFIED",
+      "release_date": "2019-10-08",
+      "price_bp": "32000",
+      "price_diamond": "599",
+      "reworked_or_revamped": "",
+      "total_buffs": "0",
+      "total_nerfs": "1",
+      "total_adjusts": "0",
+      "sources": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16); https://mlbb.io/en/hero/baxia (release date/price); https://mobile-legends.fandom.com/wiki/Baxia (Fandom)",
+      "image_path": "images/heroes/baxia.png",
+      "image_source": "https://akmweb.youngjoygame.com/web/svnres/img/test/homepage_2_2_16_1232_1/100_ae43a252fda0fe996322ea8d27a6fe69.png"
+    }
+  ],
+  "count": 1,
+  "total": 1
+}

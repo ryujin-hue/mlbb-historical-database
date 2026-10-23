@@ -1,0 +1,369 @@
+{
+  "endpoint": "/api/v1/extras",
+  "data": [
+    {
+      "hero": "Lore",
+      "category": "Moniyan Empire",
+      "detail": "Heroes officially listed under region Moniyan Empire on mlbb.io hero pages: Alucard, Arlott, Cici, Granger, Guinevere, Gusion, Harith, Julian, Kimmy, Lancelot, Lesley, Lolita, Lukas, Marcel, Melissa, Natalia, Paquito, Ruby, Silvanna, Terizla, Tigreal",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Cadia Riverlands",
+      "detail": "Heroes officially listed under region Cadia Riverlands on mlbb.io hero pages: Chang'e, Hanabi, Hayabusa, Hirara, Kagura, Ling, Luo Yi, Sun, Suyou, Yi Sun-shin, Yin, Yu Zhong, Zetian, Zhuxin",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Eruditio",
+      "detail": "Heroes officially listed under region Eruditio on mlbb.io hero pages: Bruno, Diggie, Johnson, Layla, Natan, Nolan, Novaria, X.Borg",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Northern Vale",
+      "detail": "Heroes officially listed under region Northern Vale on mlbb.io hero pages: Aurora, Franco, Freya, Harley, Hilda, Lylia, Masha, Popol and Kupa",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Agelta Drylands",
+      "detail": "Heroes officially listed under region Agelta Drylands on mlbb.io hero pages: Aldous, Esmeralda, Khaleed, Valir",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Azrya Woodlands",
+      "detail": "Heroes officially listed under region Azrya Woodlands on mlbb.io hero pages: Joy",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Sanctum Island",
+      "detail": "Heroes officially listed under region Sanctum Island on mlbb.io hero pages: Edith",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "The Barren Lands",
+      "detail": "Heroes officially listed under region The Barren Lands on mlbb.io hero pages: Phoveus",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Mithlora",
+      "detail": "Heroes officially listed under region Mithlora on mlbb.io hero pages: Yve",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Moonlit Forest",
+      "detail": "Heroes officially listed under region Moonlit Forest on mlbb.io hero pages: Belerick",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Shura Clan",
+      "detail": "Heroes officially listed under region Shura Clan on mlbb.io hero pages: Martis",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Frozen Sea",
+      "detail": "Heroes officially listed under region Frozen Sea on mlbb.io hero pages: Zhask",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Alaghat",
+      "detail": "Heroes officially listed under region Alaghat on mlbb.io hero pages: Karrie",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "Abyss",
+      "detail": "Heroes officially listed under region Abyss on mlbb.io hero pages: Alice",
+      "source": "https://mlbb.io/en/heroes (per-hero Region field)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Lore",
+      "category": "UNVERIFIED regions",
+      "detail": "Region/faction not shown on mlbb.io for: Aamon, Akai, Alpha, Angela, Argus, Atlas, Aulus, Badang, Balmond, Bane, Barats, Baxia, Beatrix, Benedetta, Brody, Carmilla, Cecilion, Chip, Chou, Claude, Clint, Cyclops, Dyrroth, Estes, Eudora, Fanny, Faramis, Floryn, Fredrinn, Gatotkaca, Gloo, Gord, Grock, Hanzo, Helcurt, Hylos, Irithel, Ixia, Jawhead, Kadita, Kaja, Kalea, Karina, Khufra, Lapu-Lapu, Leomord, Lunox, Mathilda, Minotaur, Minsitthar, Miya, Moskov, Nana, Obsidia, Odette, Pharsa, Rafaela, Roger, Saber, Selena, Sora, Thamuz, Uranus, Vale, Valentina, Vexana, Wanwan, Xavier, Zilong. Faction-level lore for these heroes UNVERIFIED in reachable sources this run.",
+      "source": "UNVERIFIED",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Skins",
+      "category": "Legend skins (complete list)",
+      "detail": "12 Legend skins as of Jan 2025: Codename - Storm (Saber, Jun 2017), Modena Butterfly (Miya, Sep 2017), Conqueror (Gord, May 2018), Obsidian Blade (Alucard, Feb 2019), Cosmic Gleam (Gusion, May 2020), Infernal Blaze (Valir, Oct 2021), King of Hell (Franco, Dec 2022), Divine Goddess (Lunox, Jun 2023), Galactic Vanquisher (Freya, Jan 2024), Sovereign of Realms (Johnson, Jan 2025); event-only: Angelic Agent (Lesley, Nov 2019), Starfall Knight (Granger, Apr 2021), Psion of Tomorrow (Guinevere, Apr 2022). Legend skins feature exclusive recall effect, achievement badge, avatar border.",
+      "source": "https://www.oneesports.gg/mobile-legends/full-list-of-legend-skins-mlbb/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Skins",
+      "category": "Collector skins 2020-2023 (summary)",
+      "detail": "Collector skin wave 1 (Jul-Dec 2020): Badang, Pharsa, Khufra, Granger, Yi Sun-shin, Jawhead, Valir; 2021 monthly: Wanwan, Gusion, Angela, Yu Zhong, Ling, Benedetta, Balmond, Aldous, Harley, Lesley, Nana; 2022: Hanabi, Zilong, Silvanna, Brody, Vale, Esmeralda, Luo Yi, Sun, Miya, Cecilion; 2023: Dyrroth, Natan, Cyclops, Clint, Paquito, Ruby, Vexana, Popol and Kupa, Valentina, Lapu-Lapu. Count per hero (total skins incl. Elite/Special/Starlight/Epic) UNVERIFIED for full roster.",
+      "source": "https://www.oneesports.gg/mobile-legends/full-list-collector-skins-mlbb/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Skins",
+      "category": "SpongeBob SquarePants collab (Nov 2025)",
+      "detail": "Friend Fest global collab: Cyclops as SpongeBob, Gloo as Patrick Star skins + themed map content and rewards.",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang (cached fetch)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "RoleTagChange",
+      "category": "Edith",
+      "detail": "First-ever Tank/Marksman hybrid at release (Dec 2021); none before combined these two roles.",
+      "source": "https://www.oneesports.gg/mobile-legends/edith-first-ever-tank-marksman/ (T1-c harvest)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "RoleTagChange",
+      "category": "Masha",
+      "detail": "2.2.16 (2026-09-16) full revamp to 3-HP-bar Feral fighter; official patch notes.",
+      "source": "https://www.mobilelegends.com/news (article 3503357) — T1-d harvest",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "RoleTagChange",
+      "category": "Bruno",
+      "detail": "2.2.16 (2026-09-16) full revamp of all skills; official patch notes.",
+      "source": "https://www.mobilelegends.com/news (article 3503357) — T1-d harvest",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "RoleTagChange",
+      "category": "Leomord",
+      "detail": "2.1.40 (2025-12-25) rework: Oath Keeper energy system + crit conversion; official patch notes.",
+      "source": "https://www.mobilelegends.com/news (article 3250621) — T1-d harvest",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "RoleTagChange",
+      "category": "Argus",
+      "detail": "2.2.16 (2026-09-16) major overhaul (crit-scaling passive, auto-cast ult); official patch notes. Historical assassin-to-fighter tag shift in UI: UNVERIFIED.",
+      "source": "https://www.mobilelegends.com/news (article 3503357) — T1-d harvest",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "RoleTagChange",
+      "category": "Aulus",
+      "detail": "2.2.16 (2026-09-16) passive rework (enhanced basic attack system); official patch notes.",
+      "source": "https://www.mobilelegends.com/news (article 3503357) — T1-d harvest",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "RoleTagChange",
+      "category": "Other heroes",
+      "detail": "Project NEXT (2020-2021, 3 phases per Wikipedia) revamped older heroes' 3D models, skill sets, stories and voice lines; per-hero retag details UNVERIFIED in reachable sources this run.",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang (cached fetch)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "TierList",
+      "category": "Oct 2026 (patch 2.2.16 era)",
+      "detail": "mlbbhub ranked tier snapshot (Legend+ win rates): A: 23 heroes (e.g. Atlas, Barats, Belerick, Benedetta); B: 48 heroes (e.g. Aamon, Akai, Aldous, Alice); C: 36 heroes (e.g. Alpha, Alucard, Arlott, Aurora); D: 13 heroes (e.g. Baxia, Chip, Chou, Fanny); S: 13 heroes (e.g. Argus, Aulus, Carmilla, Floryn).",
+      "source": "https://mlbbhub.com/heroes (fetched 2026-10-22)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "TierList",
+      "category": "MWI 2022 (1.6.94 era)",
+      "detail": "ONE Esports MWI 2022 meta analysis: group-stage pick/ban meta groups article; details in T1-c harvested file (mwi-2022-meta-analysis).",
+      "source": "https://www.oneesports.gg/mobile-legends/mwi-2022-meta-analysis-groups/ (cached in T1-c sources)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "TierList",
+      "category": "May 2021 (1.5.28 era)",
+      "detail": "ONE Esports \"biggest winners and losers of patch 1.5.28\" era meta summary (T1-c harvest).",
+      "source": "https://www.oneesports.gg/mobile-legends/the-biggest-winners-and-losers-of-mobile-legends-patch-1-5-28/ (cached in T1-c sources)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "TierList",
+      "category": "Jan 2023 (1.7.44 era)",
+      "detail": "ONE Esports patch 1.7.44 buff/nerf notes era meta (T1-c harvest).",
+      "source": "https://www.oneesports.gg/mobile-legends/patch-1-7-44-notes-buff-nerf.txt (cached in T1-c sources)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Miya",
+      "detail": "Official hero-page relations: strong against: Saber, Eudora, Sun; weak against: Pharsa, Yve.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Tigreal",
+      "detail": "Official hero-page relations: strong against: Zilong, Freya; weak against: Chang'e, Zhask.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Fanny",
+      "detail": "Official hero-page relations: strong against: Karrie, Irithel; weak against: Kaja, Khufra.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Lancelot",
+      "detail": "Official hero-page relations: strong against: Cecilion, Pharsa; weak against: Minsitthar, Phoveus.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Gusion",
+      "detail": "Official hero-page relations: strong against: Layla, Hanabi; weak against: Franco, Kaja.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Chou",
+      "detail": "Official hero-page relations: strong against: Terizla, Alpha; weak against: Lesley, Pharsa.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Franco",
+      "detail": "Official hero-page relations: strong against: Vale, Estes, Layla; weak against: Wanwan, Fanny, Badang.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Ling",
+      "detail": "Official hero-page relations: strong against: Layla, Hanabi; weak against: Eudora, Jawhead.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Hayabusa",
+      "detail": "Official hero-page relations: strong against: Chang'e, Cecilion; weak against: Franco, Kaja.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Layla",
+      "detail": "Official hero-page relations: strong against: Tigreal, Belerick; weak against: Karina, Ling.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Estes",
+      "detail": "Official hero-page relations: strong against: Valir, Alice; weak against: Saber, Eudora.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Counters",
+      "category": "Diggie",
+      "detail": "Official hero-page relations: strong against: Atlas, Lolita; weak against: Ling, Aamon.",
+      "source": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Upcoming",
+      "category": "Next hero after Hirara",
+      "detail": "No official announcement of the hero following Hirara (released 2026-06-17) found in reachable official/media sources as of 2026-10-22. Roster count officially 133 at patch 2.2.16. UNVERIFIED.",
+      "source": "UNVERIFIED",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Upcoming",
+      "category": "Mythical Honor Battlefield (MHB)",
+      "detail": "2.2.16 patch (2026-09-16) ships Mythical Honor Battlefield-specific balance rows (separate MHB buffs/nerfs for Tigreal, Edith, Alpha, Dyrroth, Melissa, Cecilion) - new mode rollout ongoing.",
+      "source": "https://www.mobilelegends.com/news (article 3503357) — T1-d harvest",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Upcoming",
+      "category": "10th anniversary (Oct 2026)",
+      "detail": "MLBB 10th anniversary in Oct 2026; 2.2.16 framed as anniversary patch with Masha/Bruno revamps; anniversary feature specifics beyond patch notes UNVERIFIED.",
+      "source": "https://www.mobilelegends.com/news (article 3503357); en.wikipedia.org (cached fetch)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    },
+    {
+      "hero": "Upcoming",
+      "category": "Magic Chess: Go Go",
+      "detail": "Magic Chess removed from MLBB client and relaunched as standalone Magic Chess: Go Go (soft launch Nov 2024 MY/SG, global 2025); plans for MCGG esports championships.",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang (cached fetch)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": ""
+    }
+  ],
+  "count": 45,
+  "total": 45,
+  "limit": 50,
+  "offset": 0
+}

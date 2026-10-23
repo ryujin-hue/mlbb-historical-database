@@ -1,0 +1,459 @@
+{
+  "endpoint": "/api/v1/systems",
+  "data": [
+    {
+      "system": "Emblem",
+      "aspect": "Original emblem system",
+      "period_or_version": "2016-2022",
+      "detail": "Pre-rework emblem system: separate emblem sets (Physical, Magic, Tank, Assassin, Mage, Marksman, Fighter, Support) each leveled to max 60; upgraded with Emblem Fragments + Battle Points; each set had 3 fixed attribute bonuses and talent pages (e.g. talent Killing Spree)",
+      "source": "https://mobile-legends.fandom.com/wiki/Emblems (via search snippet: max level 60 per emblem set); old talent evidence: ONE Esports patch 1.6.50 notes https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-6-50-notes/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Emblem",
+      "aspect": "Old talent adjustment",
+      "period_or_version": "1.6.50 (2022-01-26)",
+      "detail": "Old emblem talent Killing Spree nerfed: HP Regen 15% >> 12%, Movement Speed Boost 20% >> 15% (last era of legacy talent pages)",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-6-50-notes/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Emblem",
+      "aspect": "Rework on Advanced Server",
+      "period_or_version": "2022-04",
+      "detail": "Revamped Emblem System (talents + subtalents + attribute sets, unified sets) tested on Advanced Server ~April 2022; community showcase threads",
+      "source": "https://www.reddit.com/r/MobileLegendsGame/comments/trstun/the_revamped_emblem_system_a_quick_look/ (Apr 2022); https://www.reddit.com/r/MobileLegendsGame/comments/u3s1yc/talent_system_emblem_system_revamp_explanation_is/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Emblem",
+      "aspect": "Emblem rework LIVE",
+      "period_or_version": "1.7.44 (2022-12-20)",
+      "detail": "Emblem System revamp went live with patch 1.7.44 (the M4 patch): unified emblem sets + pick-3 talents replacing legacy 60-level emblem pages and talent points",
+      "source": "https://www.facebook.com/BetoskyGaming/posts/708393423977527 (\"This new huge patch 1.7.44... in addition to the MASSIVE EMBLEM SYSTEM revamp\"); corroborated by follow-up changes in Liquipedia Patch 1.7.94 https://liquipedia.net/mobilelegends/Patch_1.7.94",
+      "image_path": "images/emblems/common.png",
+      "image_source": "https://mlbbhub.com/images/emblems/common.png"
+    },
+    {
+      "system": "Emblem",
+      "aspect": "Post-rework adjustment",
+      "period_or_version": "1.7.94 (2023)",
+      "detail": "Patch 1.7.94 adjusted the new Emblem system (e.g. allowing heroes relying on Magic Damage to equip [other] emblem setups)",
+      "source": "https://liquipedia.net/mobilelegends/Patch_1.7.94 (via search snippet)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Emblem",
+      "aspect": "Current structure",
+      "period_or_version": "2026 (patch 2.2.16 era)",
+      "detail": "7 emblem sets: Basic Common, Tank, Assassin, Mage, Fighter, Support, Marksman. Each gives 3 base attributes + a talent pool split into Standard (utility/stats) and Core (combat passives); player equips 1 emblem + 3 talents per match, talents cannot mix across emblems. Sample sets: Common (+12 Hybrid Regen, +275 HP, +22 Adaptive Attack, 8 talents), Tank (+500 HP, +10 Hybrid Def, +4 HP Regen), Mage (+30 MP, +5% CDR, +8 Magic Pen)",
+      "source": "https://mlbbhub.com/emblems (fetched 2026-10-22); cross-check https://mobile-legends.fandom.com/wiki/Emblems (via search snippet: 16 standard talent types + 8 [core] types)",
+      "image_path": "images/emblems/common.png",
+      "image_source": "https://mlbbhub.com/images/emblems/common.png"
+    },
+    {
+      "system": "Spell",
+      "aspect": "Current battle spell list",
+      "period_or_version": "2026-10-22 (patch 2.2.16 era)",
+      "detail": "12 battle spells with cooldowns: Retribution 35s (750+150*Lv dmg to creep/minion); Execute 90s (100+10*Lv + 13% of target's lost HP as True Damage); Flicker 120s (blink + 5+1*Lv Def for 1s); Sprint 100s (50% MS + Slow Immunity 6s); Purify 90s (remove debuffs + Control Immunity + 15% MS 1.2s); Petrify 75s (100+15*Lv dmg, petrify 0.8s + 50% slow); Aegis 75s (750+90*Lv shield 5s); Inspire 75s (up to 8 BAs in 5s at 1.5x AS, cap 500%); Vengeance 75s (3s: 35% Damage Reduction + reflect 35% of damage taken); Revitalize 75s (Healing Spring 4s, 2.5% Max HP per 0.4s to allies); Flameshot 50s (fire Flaming Shot); Arrival 75s (channel 3s, teleport to allied turret/base/minion/trap + 60% MS decay 3s)",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)",
+      "image_path": "images/spells/flicker.png",
+      "image_source": "https://mlbbhub.com/images/spells/flicker.png"
+    },
+    {
+      "system": "Spell",
+      "aspect": "Flameshot added",
+      "period_or_version": "2019 (present by 1.4.14)",
+      "detail": "Flameshot existed by patch 1.4.14 (advance-server nerf list includes Flameshot; official FB confirms 1.4.14 release). Exact adding patch UNVERIFIED",
+      "source": "https://www.facebook.com/mobilelegendsgame/posts/2818197771576311 (Patch 1.4.14 official); https://www.facebook.com/mobilelegendsguidefanpage/posts/2319542038169331 (1.4.14 preview list incl. Flameshot)",
+      "image_path": "images/spells/flameshot.png",
+      "image_source": "https://mlbbhub.com/images/spells/flameshot.png"
+    },
+    {
+      "system": "Spell",
+      "aspect": "Vengeance change",
+      "period_or_version": "2.1.40 (2025-12-25)",
+      "detail": "Vengeance reflect damage nerfed: 35% of damage taken (before reduction) >> 25%",
+      "source": "Official 2.1.40 patch notes https://www.mobilelegends.com/news (article 3250621)",
+      "image_path": "images/spells/vengeance.png",
+      "image_source": "https://mlbbhub.com/images/spells/vengeance.png"
+    },
+    {
+      "system": "Spell",
+      "aspect": "Vengeance current state",
+      "period_or_version": "by 2026-10",
+      "detail": "Vengeance now reads: 3s of 35% Damage Reduction and reflect 35% of damage taken — differs from 2.1.40's 25% reflect, implying a later rework (exact version UNVERIFIED; not in cached 2.1.88/2.2.16 notes)",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Spell",
+      "aspect": "Revitalize naming",
+      "period_or_version": "current",
+      "detail": "Healing spell is named Revitalize on current live; earlier versions used the name Treatment per community/historical usage — rename date/version UNVERIFIED",
+      "source": "https://mlbbhub.com/spells (fetched 2026-10-22); rename status UNVERIFIED",
+      "image_path": "images/spells/revitalize.png",
+      "image_source": "https://mlbbhub.com/images/spells/revitalize.png"
+    },
+    {
+      "system": "Spell",
+      "aspect": "Spell vs turret rules",
+      "period_or_version": "2.2.16 (2026-09-16)",
+      "detail": "Enhanced Basic Attack effects from Emblems, Battle Spells and Equipment can no longer trigger when attacking Turrets; Inspire vs turret: attack speed + defense-ignore apply, no regen",
+      "source": "Official 2.2.16 patch notes https://www.mobilelegends.com/news (article 3503357)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Legacy jungle equipment",
+      "period_or_version": "-2021-06-17",
+      "detail": "Pre-2021 dedicated Jungling equipment line (jungle knife/enchantment-style items) existed; all pre-existing Jungling equipment removed in patch 1.5.88",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-1-5-88-patch-notes/; https://www.gosugamers.net/mobile-legends/news/55560-mlbb-gets-some-huge-changes-for-2022",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Jungling Footwear introduced",
+      "period_or_version": "1.5.88 (2021-06-17)",
+      "detail": "Jungling Footwear added: same attributes as Common Footwear + Jungling Equipment effects; killing 5 creeps upgrades the corresponding Retribution skill into advanced versions (Bloody / Flame / Ice Retribution)",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-1-5-88-patch-notes/; https://www.gosugamers.net/mobile-legends/news/55560-mlbb-gets-some-huge-changes-for-2022",
+      "image_path": "images/items/bloody-retribution.png",
+      "image_source": "https://mlbbhub.com/images/items/bloody-retribution.png"
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Retribution upgrades (current)",
+      "period_or_version": "2026",
+      "detail": "Retribution upgrade tiers sold as equipment: Bloody Retribution, Flame Retribution, Ice Retribution (Tier 3 Jungle items with Hunter passive: after damaging a creep deal 25+3*Lv +1% Total HP True Damage over 3s; each grants different advanced Retribution effect)",
+      "source": "https://mlbbhub.com/items/bloody-retribution, /items/flame-retribution, /items/ice-retribution (fetched 2026-10-22)",
+      "image_path": "images/items/ice-retribution.png",
+      "image_source": "https://mlbbhub.com/images/items/ice-retribution.png"
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Bloody Retribution nerf",
+      "period_or_version": "1.6.94 (2022-06-28)",
+      "detail": "Bloody Retribution Extra HP Bonus 25% >> 20%",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-6-94-notes/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Ice Retribution nerf",
+      "period_or_version": "2.1.40 (2025-12-25)",
+      "detail": "Ice Retribution Movement Speed stolen 70 (+2*Lv) >> 50 (+2*Lv)",
+      "source": "Official 2.1.40 patch notes https://www.mobilelegends.com/news (article 3250621)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Retribution damage buff",
+      "period_or_version": "2.1.88 (2026-06-17)",
+      "detail": "Basic Retribution Damage 520 (+80*Lv) >> 750 (+150*Lv); Advanced Retribution Damage 780 (+120*Lv) >> 750 (+150*Lv)",
+      "source": "Official 2.1.88 patch notes https://www.mobilelegends.com/news (article 3314600)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Creep/respawn changes",
+      "period_or_version": "2.1.88 (2026-06-17)",
+      "detail": "Horned Lizard, Fire Beetle, Lava Golem kills instantly level jungler to Lv2; first respawn moved to 25s; Thunder Fenrir & Molten Fiend EXP reduced while other creeps up; late-game gold up",
+      "source": "Official 2.1.88 patch notes (article 3314600); see also 2.2.16 creep gold -13% (article 3503357)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Jungle",
+      "aspect": "Jungle pets",
+      "period_or_version": "2026 status",
+      "detail": "No jungle pet system found in MLBB as of Oct 2026: no pets in official 2.1.40/2.1.88/2.2.16 patch notes, mlbbhub item list, or trusted media; jungle identity = creeps + Retribution upgrades + 2026 map additions (Revealing Wisps, Healing Turtle — map objects, not pets)",
+      "source": "Official patch notes 2.1.40/2.1.88/2.2.16 (mobilelegends.com news 3250621/3314600/3503357); absence verified by search — UNVERIFIED beyond this",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Roam",
+      "aspect": "Legacy roaming equipment",
+      "period_or_version": "-2021-06-17",
+      "detail": "Old roam item line existed (incl. Courage Mask — confirmed removed item on Fandom); all pre-existing Roaming equipment removed in patch 1.5.88",
+      "source": "https://mobile-legends.fandom.com/wiki/Courage_Mask (via search snippet: \"removed in-game item\"); https://www.oneesports.gg/mobile-legends/mlbb-1-5-88-patch-notes/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Roam",
+      "aspect": "Roaming Footwear + blessings introduced",
+      "period_or_version": "1.5.88 (2021-06-17)",
+      "detail": "Roaming Footwear added: same attributes as Common Footwear + Roaming Equipment effects; collecting 600 gold unlocks the corresponding advanced roaming skill (blessing)",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-1-5-88-patch-notes/; https://www.gosugamers.net/mobile-legends/news/55560-mlbb-gets-some-huge-changes-for-2022",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Roam",
+      "aspect": "Blessing adjustments 1.5.96-1.6.50",
+      "period_or_version": "1.5.96 (2021-07-23) / 1.6.50 (2022-01-26)",
+      "detail": "1.5.96: Encourage Physical ATK/Magic Power 15-38 >> 13-33; Favor stops triggering when no ally needs HP recovery. 1.6.50: Favor HP Regen 360-900 >> 300-750; Conceal MS boost takes 1.5s to reach max",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-5-96-notes/; https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-6-50-notes/",
+      "image_path": "images/items/favor.png",
+      "image_source": "https://mlbbhub.com/images/items/favor.png"
+    },
+    {
+      "system": "Roam",
+      "aspect": "Current 4 blessings",
+      "period_or_version": "2025-2026",
+      "detail": "4 Roaming Blessings: Conceal (active camouflage 5s + MS), Encourage, Favor, Dire Hit; unlocked by accumulating gold from roaming item/boots Thriving effect (~5 min to unlock, max effect ~13 min); blessing items sold as equipment: Conceal/Encourage/Favor/Dire Hit with Devotion passive (first 8 min forfeit minion/creep EXP+gold)",
+      "source": "https://www.oneesports.gg/mobile-legends/4-roaming-blessings-best-heroes/ (updated 2025-06-25); https://mlbbhub.com/items/conceal etc. (fetched 2026-10-22)",
+      "image_path": "images/items/conceal.png",
+      "image_source": "https://mlbbhub.com/images/items/conceal.png"
+    },
+    {
+      "system": "Roam",
+      "aspect": "Blessing income rework",
+      "period_or_version": "2.1.40 (2025-12-25)",
+      "detail": "All Blessings: vision-reveal Gold 30 >> 30 (+1*Lv), EXP 30 first 2min/60 after >> 25+(5*Lv); per-5s-after-8min Gold 9 >> 10, EXP 18 >> 20; Conceal & Dire Hit no longer take income from allies' kills, gain 30+2*Lv gold + 20+8*Lv EXP on hero damage (15s CD); Encourage & Favor ally-kill income 40% >> 35%; Encourage grants nearby allies 20 Hybrid Defense",
+      "source": "Official 2.1.40 patch notes (article 3250621)",
+      "image_path": "images/items/dire-hit.png",
+      "image_source": "https://mlbbhub.com/images/items/dire-hit.png"
+    },
+    {
+      "system": "Roam",
+      "aspect": "Blessing income rework 2",
+      "period_or_version": "2.1.88 (2026-06-17)",
+      "detail": "All blessings can gain EXP/Gold via dealing damage, revealing vision, and sharing minion/creep income (each gain reduced); reduced-solo-gold window 5 min >> 8 min, solo income first 8 min 50% >> 30%; Dire Hit revamped (Force stacks while moving, max 40; at 20 stacks next skill/BA deals stack-based bonus damage); Conceal cooldown 80s >> 60s",
+      "source": "Official 2.1.88 patch notes (article 3314600)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Academy",
+      "aspect": "In-game Academy content",
+      "period_or_version": "2025-2026",
+      "detail": "MLBB Academy = in-game guide hub containing hero guides with recommended builds, emblems and battle spells, plus Advanced Guides; Moonton runs Academy Guide Creation Events when new heroes launch",
+      "source": "https://www.facebook.com/mobilelegendsgame/posts/1163237909174501 (2025-06-21: \"New hero Zetian has arrived! The MLBB Academy Guide Creation Event...\")",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Academy",
+      "aspect": "Zetian Advanced Guide era",
+      "period_or_version": "June 2025",
+      "detail": "Zetian launch (June 2025) accompanied by MLBB Academy Zetian Guide Creation Event; winning community guides featured in Academy Advanced Guides (event concluded with winners announced)",
+      "source": "https://www.facebook.com/mobilelegendsgame/posts/1163237909174501; https://www.facebook.com/thekazukiofficial/posts/1285023049860374 (\"The MLBB Academy Zetian Guide Event has officially concluded and the winners have been announced\")",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "Academy",
+      "aspect": "Tutorial evolution",
+      "period_or_version": "2020-2021",
+      "detail": "Project NEXT (unveiled 2020) was Moonton's in-game quality overhaul program: hero visual/gameplay revamps (Gusion, Lesley etc.) and improved new-player onboarding; in-game Academy guides later became the standard build/emblem/spell recommendation surface",
+      "source": "https://www.oneesports.gg/mobile-legends/moonton-unveils-mobile-legends-bang-bang-project-next/ (cached); Project NEXT tutorial specifics UNVERIFIED",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING"
+    },
+    {
+      "system": "ItemMeta",
+      "aspect": "Item revamp meta shift",
+      "period_or_version": "1.5.88 (2021-06-17)",
+      "detail": "Massive item overhaul reshaped meta: legacy roam/jungle items removed; War Axe + Shadow Twinblades + Radiant Armor added; 20+ items rebalanced; damage formula changed (min def vs heroes 0 >> -60; percent pen prioritized)",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-1-5-88-patch-notes/; https://www.gosugamers.net/mobile-legends/news/55560-mlbb-gets-some-huge-changes-for-2022",
+      "image_path": "images/items/war-axe.png",
+      "image_source": "https://mlbbhub.com/images/items/war-axe.png"
+    },
+    {
+      "system": "ItemMeta",
+      "aspect": "M4 patch item meta",
+      "period_or_version": "1.7.44 (2022-12-20)",
+      "detail": "12 items adjusted for M4 patch: Swift Crossbow added (new attack-speed crit enabler), Corrosion Scythe revamped, Clock of Destiny + Lightning Truncheon + Golden Staff buffed, Brute Force Breastplate buffed — shifted MM/mage itemization",
+      "source": "https://www.oneesports.gg/mobile-legends/patch-1-7-44-notes-buff-nerf/; https://www.gosugamers.net/mobile-legends/news/63992-m4-world-championships-a-new-patch-brings-many-changes",
+      "image_path": "images/items/swift-crossbow.png",
+      "image_source": "https://mlbbhub.com/images/items/swift-crossbow.png"
+    },
+    {
+      "system": "ItemMeta",
+      "aspect": "Lifesteal simplification",
+      "period_or_version": "~1.7.94 era (June 2023)",
+      "detail": "New Starlium Scythe (hybrid lifesteal item) simplified MLBB's lifesteal system; item present by 1.8.44 (2023-12-20, Spell Vamp trigger fix)",
+      "source": "https://www.oneesports.gg/mobile-legends/starlium-scythe-hybrid-lifesteal/ (2023-06-21); https://mobile-legends.fandom.com/wiki/Patch_Notes/1.8.44",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/06/MLBB_lifesteal_changes_StarliumScythe1.jpg"
+    },
+    {
+      "system": "ItemMeta",
+      "aspect": "Sky Piercer era",
+      "period_or_version": "2024-06",
+      "detail": "PROJECT NEXT 2024 added Sky Piercer (assassin execute item) — media framed it as a possible replacement for the Execute battle spell; drove assassin itemization through 2024-2025",
+      "source": "https://www.oneesports.gg/mobile-legends/sky-piercer-mobile-legends/ (2024-06-20)",
+      "image_path": "images/items/sky-piercer.png",
+      "image_source": "https://mlbbhub.com/images/items/sky-piercer.png"
+    },
+    {
+      "system": "ItemMeta",
+      "aspect": "2025-2026 sustain+crit meta",
+      "period_or_version": "2.1.40-2.1.88 (2025-12-25 / 2026-06-17)",
+      "detail": "Official patches reshaped late meta: Demon Hunter Sword Devour reworked to flat HP recovery; Rose Gold Meteor scaling changed; Berserker's Fury crit revamped (crits deal +12% pre-mitigation True Damage, PA 65 >> 60, Crit Dmg 40% >> 30%) to help crit heroes vs frontlines; Rapid Boots reworked (MS 65 >> 55, Side Effect removed)",
+      "source": "Official 2.1.40 + 2.1.88 patch notes (articles 3250621 / 3314600)",
+      "image_path": "images/items/berserkers-fury.png",
+      "image_source": "https://mlbbhub.com/images/items/berserkers-fury.png"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Map",
+      "period_or_version": "2016 launch",
+      "detail": "Land of Dawn launch layout: two bases (bottom-left / top-right on minimap), three lanes, jungle camps and brush between lanes; game described as classic 3-lane MOBA where teams destroy the enemy base while defending their own",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang + https://www.oneesports.gg/mobile-legends/mobile-legends-beginners-guide/",
+      "image_path": "images/map/land-of-dawn-overview-2023.jpg",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/06/MLBB_BeginnersGuide_MapOverview.jpg"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Map",
+      "period_or_version": "2018-2019 (Season 10/11 era, exact date UNVERIFIED)",
+      "detail": "Celestial Palace themed battlefield: Moonton announced 'the fight between good and evil has expanded to a brand new battlefield' (official Facebook post dated by Google index to Feb 2018) and promoted 'The Celestial Palace and creeps revamp' at the Season 10 -> Season 11 transition; CONFLICT: post-index date 2018 vs Season 11 cadence which suggests 2019",
+      "source": "https://www.facebook.com/mobilelegendsgame/posts/1832455773483854 + https://www.facebook.com/mobilelegendsgame/posts/2301972249865535 (via web_search snippets)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Map",
+      "period_or_version": "2019-07-18 announcement / Sept 2019 ship",
+      "detail": "MLBB 2.0 announced at Epicon 2019: Unity 4 -> Unity 2017 engine upgrade; new in-game map 'Imperial Sanctuary' with improved character models, reduced lag and up to 60% faster loading; shipped September 2019",
+      "source": "https://en.wikipedia.org/wiki/Mobile_Legends:_Bang_Bang (citing ONE Esports engine-update article)",
+      "image_path": "images/map/project-next-phase1.jpg",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/06/MLBB_ProjectNextPhase1_wallpaper.jpg"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Map",
+      "period_or_version": "Season 23 (Dec 2021)",
+      "detail": "Jungle changes: new wall gap appears behind purple buff after it is taken; base turrets given added protection; new late-game fountain movement speed buff; Moonton teased brand-new map 'Sanctum Island' promising a 'more intriguing battle experience'",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-season-23-lord-changes/",
+      "image_path": "images/map/jungle-gap-season23.jpg",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2021/12/MLBB_PurpleBuff_Jungle_NewGap.jpg"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Map",
+      "period_or_version": "patch 1.6.42 (2021-12-30)",
+      "detail": "Official patch notes: 'New Map: Sanctum Island. From now on, the old map, Celestial Palace, is no longer available. New map, Sanctum Island, will be available soon' - Celestial Palace retired and Sanctum Island announced as replacement",
+      "source": "https://mobile-legends.fandom.com/wiki/Patch_Notes_1.6.42 (via web_search snippet) + https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-6-42-notes/",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Map",
+      "period_or_version": "Jan 2022",
+      "detail": "Sanctum Island goes live replacing Celestial Palace: Fandom states 'As of January 2022, Celestial Palace map is no longer available after Gusion stole the Heart of Anima, causing its collapse'; lore transition shown in Edith cinematic ('With the collapse of the Celestial Palace, the Sanctum Island in the depths of the Sea of Hope is deprived of peace'); new map widens purple-buff jungle path, shrinks boulders, adds broken walls and flying clouds",
+      "source": "https://mobile-legends.fandom.com/wiki/Celestial_Palace + https://mobile-legends.fandom.com/wiki/Sanctum_Island (via web_search snippets) + official Moonton Facebook posts",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Map",
+      "period_or_version": "2024-06-19",
+      "detail": "Project NEXT 2024 launches with Annual Map Change: Sanctum Island map set for major overhaul - 'entirely revamped map, changing the shade of greens, the shapes of trees, and many more' (official Moonton Facebook: 'Project NEXT 2024 will officially launch on 06/19. The Sanctum Island Map is also set for a major overhaul')",
+      "source": "https://www.facebook.com/mobilelegendsgame/posts/881833540648274 + https://esports.gg/news/mobile/mlbb-next-patch-content-1892 (2024-06-14) (via web_search snippets)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Map",
+      "period_or_version": "2026-09-28 (Season 42 / 2026 Annual Map Change)",
+      "detail": "Sanctum Island gets major revamp with three all-new map changes, new base and turret design, and new battlefield effects: Revealing Wisps, Golden Turrets and Healing Turtle; visual revamp includes a redesigned Lord wielding an icy weapon; 2026 Annual Map Change landed 28 September 2026 per Season 42 patch preview",
+      "source": "https://www.facebook.com/MobileLegendsGameSingapore/posts/1355498986794670 (S42 Patch Preview) + https://timesaver.gg/blog/mobile-legends-sanctum-island-map-changes-season-42 (2026-09-21) (via web_search snippets)",
+      "image_path": "MISSING_IMAGE",
+      "image_source": "MISSING_IMAGE"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Map",
+      "period_or_version": "current 2026",
+      "detail": "Land of Dawn current zone map: river down the middle, blue base (bottom-left) vs red base (top-right), purple buff camp + orange buff camp + creep camp per side jungle, Scavenger Crab in river, gold lane / mid lane / EXP lane plus jungle and roamer roles; game phases Early 0:00-4:00, Mid 4:00-8:00, Late 8:00+",
+      "source": "https://mlbbhub.com/map",
+      "image_path": "images/map/land-of-dawn-overview-2023.jpg",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/06/MLBB_BeginnersGuide_MapOverview.jpg"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Objective",
+      "period_or_version": "as of 2025-2026",
+      "detail": "Turtle: first spawn at 2:00 near EXP-lane side pit, respawns every 2 minutes; spawn location and countdown shown on minimap; contesting Turtles is the core mid-game objective (4:00-8:00 phase)",
+      "source": "https://mlbbhub.com/map + https://www.oneesports.gg/mobile-legends/3-pro-tips-secure-turtle-mlbb/ + https://www.oneesports.gg/mobile-legends/mobile-legends-beginners-guide/",
+      "image_path": "images/objective/turtle-beginners-guide.jpg",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/06/MLBB_BeginnersGuide_Turtle.jpg"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Objective",
+      "period_or_version": "as of 2025-2026",
+      "detail": "Turtle buff: slayer gets a shield plus physical attack / magic power boost that lasts until the shield breaks (restored after 5s without taking damage); teammates get a lesser one-time shield; team also gains gold and EXP; securing multiple Turtles builds a team gold lead",
+      "source": "https://www.oneesports.gg/mobile-legends/3-pro-tips-secure-turtle-mlbb/ + https://mlbbhub.com/map",
+      "image_path": "images/objective/turtle-contest-2023.jpg",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/05/MLBB_Turtle.jpg"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Objective",
+      "period_or_version": "pre-Season 23 -> Season 23 (Dec 2021)",
+      "detail": "Lord old -> new: first spawn 9:00 -> 8:00; respawn timer 4:00 -> 3:00; NEW second evolution after 18:00 (evolved Lord has higher defense, requires more teammates to kill, gains defense when grouped with allies); Season 23 patch also slightly increased summoned Lord attributes",
+      "source": "https://www.oneesports.gg/mobile-legends/mlbb-season-23-lord-changes/ + https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-6-42-notes/",
+      "image_path": "images/objective/lord-evolved-18min.jpg",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2021/12/MLBB_Lord_Evolved_18minutes.jpg"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Objective",
+      "period_or_version": "as of 2026",
+      "detail": "Lord: spawns 8:00, respawns 3 min / 2.5 min (faster from then on), charges turrets from its first spawn, evolves once at 18:00 ('nearly unstoppable' per mlbbhub); killing it grants gold+EXP and summons the Lord to push a lane; game-deciding late-game objective",
+      "source": "https://mlbbhub.com/map + https://www.oneesports.gg/mobile-legends/mobile-legends-beginners-guide/",
+      "image_path": "images/objective/lord-beginners-guide.jpg",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/06/MLBB_BeginnersGuide_Lord.jpg"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Objective",
+      "period_or_version": "as of 2022-2026",
+      "detail": "Purple (blue) buff camp: 75 seconds of -10% CD / -60% mana cost / -25% energy cost; Thunder Morale restores HP on kills (3% max HP per minion kill, 5% per hero kill, 12% per creep kill); patch 1.6.58 cut HP-regen-on-hero-kill 8% -> 5%; current spawns 0:30, respawn 90 sec",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-beginners-guide/ + https://mlbbhub.com/map + patch 1.6.58 notes",
+      "image_path": "images/objective/purple-buff-beginners-guide.jpg",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/06/MLBB_BeginnersGuide_purplebuff.jpg"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Objective",
+      "period_or_version": "as of 2022-2026",
+      "detail": "Orange (red) buff camp: 75 seconds of adaptive penetration (physical if extra physical ATK >= magic power, else magic); Molten Morale: attacks vs heroes deal role-based extra damage and slow 1s (3s CD); patch 1.6.42 (2021-12-30) added killer penetration 10% for MM/Mage/Support and 5% for Fighter/Tank/Assassin; spawns 0:30, respawn 90 sec",
+      "source": "https://www.oneesports.gg/mobile-legends/mobile-legends-beginners-guide/ + https://www.oneesports.gg/mobile-legends/mobile-legends-patch-1-6-42-notes/ + https://mlbbhub.com/map",
+      "image_path": "images/objective/orange-buff-beginners-guide.jpg",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2023/06/MLBB_BeginnersGuide_orangebuff.jpg"
+    },
+    {
+      "system": "MLBB",
+      "aspect": "Objective",
+      "period_or_version": "2021-2026",
+      "detail": "Lithowanderer (Stone Roamer camp): river creep beside mid lane, not a buff camp; spawns 0:45, respawns every 2 min; killing it regenerates mana for nearby allies and leaves a Stone Roamer that follows and reveals enemies (2021 version: 15% movement speed to killer for 45s + 1%/s mana regen)",
+      "source": "https://mlbbhub.com/map + https://www.oneesports.gg/mobile-legends/this-game-changing-lithowanderer-buff-is-every-junglers-dream/",
+      "image_path": "images/objective/lithowanderer-stone-roamer.jpg",
+      "image_source": "https://cdn.oneesports.gg/wp-content/uploads/2021/03/MLBB_Lithowanderer_StoneRoamer.jpg"
+    }
+  ],
+  "count": 50,
+  "total": 98,
+  "limit": 50,
+  "offset": 0
+}

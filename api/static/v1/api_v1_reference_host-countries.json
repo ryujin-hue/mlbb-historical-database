@@ -1,0 +1,49 @@
+{
+  "endpoint": "/api/v1/reference/host-countries",
+  "data": [
+    {
+      "country": "Malaysia",
+      "mseries_editions_hosted": "2",
+      "esports_events_hosted": "MSC; MSC 2022 - MLBB Southeast Asia Cup",
+      "esports_event_count": "2"
+    },
+    {
+      "country": "Singapore",
+      "mseries_editions_hosted": "2",
+      "esports_events_hosted": "",
+      "esports_event_count": "0"
+    },
+    {
+      "country": "Indonesia",
+      "mseries_editions_hosted": "2",
+      "esports_events_hosted": "MSC",
+      "esports_event_count": "1"
+    },
+    {
+      "country": "Philippines",
+      "mseries_editions_hosted": "1",
+      "esports_events_hosted": "MPL Philippines; MSC",
+      "esports_event_count": "2"
+    },
+    {
+      "country": "Turkiye (wild card stage to be hosted by Thailand)",
+      "mseries_editions_hosted": "1",
+      "esports_events_hosted": "",
+      "esports_event_count": "0"
+    },
+    {
+      "country": "Cambodia",
+      "mseries_editions_hosted": "0",
+      "esports_events_hosted": "MSC; MSC 2023 - MLBB Southeast Asia Cup",
+      "esports_event_count": "2"
+    },
+    {
+      "country": "Saudi Arabia",
+      "mseries_editions_hosted": "0",
+      "esports_events_hosted": "EWC 2024 - MLBB Mid-Season Cup; EWC 2025 - MLBB Mid-Season Cup; MLBB Mid Season Cup; MWI 2024 - MLBB Women's Invitational; MWI 2025 - MLBB Women's Invitational",
+      "esports_event_count": "5"
+    }
+  ],
+  "count": 7,
+  "total": 7
+}

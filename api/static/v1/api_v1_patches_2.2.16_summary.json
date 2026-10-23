@@ -1,0 +1,56 @@
+{
+  "endpoint": "/api/v1/patches/2.2.16/summary",
+  "data": {
+    "patch": {
+      "version": "2.2.16",
+      "date": "2026-09-16",
+      "source": "https://www.mobilelegends.com/news (official news API article 3503357)"
+    },
+    "hero_change_count": 27,
+    "hero_changes_by_type": {
+      "Rework": 2,
+      "Buff": 13,
+      "Nerf": 7,
+      "Adjust": 5
+    },
+    "heroes_touched": [
+      "Akai (Classic)",
+      "Aldous",
+      "Alpha",
+      "Argus",
+      "Aulus",
+      "Bruno",
+      "Cici",
+      "Edith",
+      "Edith (MHB)",
+      "Hanabi",
+      "Hylos",
+      "Kadita",
+      "Kagura",
+      "Kaja",
+      "Kalea",
+      "Karina",
+      "Lukas",
+      "Marcel",
+      "Masha",
+      "Melissa",
+      "Miya",
+      "Odette",
+      "Paquito",
+      "Sun",
+      "Tigreal (MHB)",
+      "Yi Sun-shin",
+      "Zilong (Classic)"
+    ],
+    "item_change_count": 7,
+    "items_touched": [
+      "2026 Annual Map Change",
+      "Creeps (economy)",
+      "Minions",
+      "Ranked Seasons",
+      "Targeting",
+      "Team Bounty",
+      "Turret interactions"
+    ]
+  }
+}

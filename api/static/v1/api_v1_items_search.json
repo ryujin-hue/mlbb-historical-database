@@ -1,0 +1,227 @@
+{
+  "endpoint": "/api/v1/items/search",
+  "data": [
+    {
+      "item": "Dagger",
+      "category": "T1 Attack",
+      "price_gold": "250",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/dagger (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/dagger.png",
+      "image_source": "https://mlbbhub.com/images/items/dagger.png",
+      "image_url": "/img/images/t1g/items/dagger.png"
+    },
+    {
+      "item": "Javelin",
+      "category": "T1 Attack",
+      "price_gold": "320",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/javelin (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/javelin.png",
+      "image_source": "https://mlbbhub.com/images/items/javelin.png",
+      "image_url": "/img/images/t1g/items/javelin.png"
+    },
+    {
+      "item": "Vampire Mallet",
+      "category": "T1 Attack",
+      "price_gold": "400",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/vampire-mallet (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/vampire-mallet.png",
+      "image_source": "https://mlbbhub.com/images/items/vampire-mallet.png",
+      "image_url": "/img/images/t1g/items/vampire-mallet.png"
+    },
+    {
+      "item": "Healing Necklace",
+      "category": "T1 Defense",
+      "price_gold": "140",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/healing-necklace (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/healing-necklace.png",
+      "image_source": "https://mlbbhub.com/images/items/healing-necklace.png",
+      "image_url": "/img/images/t1g/items/healing-necklace.png"
+    },
+    {
+      "item": "Leather Jerkin",
+      "category": "T1 Defense",
+      "price_gold": "220",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/leather-jerkin (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/leather-jerkin.png",
+      "image_source": "https://mlbbhub.com/images/items/leather-jerkin.png",
+      "image_url": "/img/images/t1g/items/leather-jerkin.png"
+    },
+    {
+      "item": "Magic Resist Cloak",
+      "category": "T1 Defense",
+      "price_gold": "220",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/magic-resist-cloak (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/magic-resist-cloak.png",
+      "image_source": "https://mlbbhub.com/images/items/magic-resist-cloak.png",
+      "image_url": "/img/images/t1g/items/magic-resist-cloak.png"
+    },
+    {
+      "item": "Vitality Crystal",
+      "category": "T1 Defense",
+      "price_gold": "300",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/vitality-crystal (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/vitality-crystal.png",
+      "image_source": "https://mlbbhub.com/images/items/vitality-crystal.png",
+      "image_url": "/img/images/t1g/items/vitality-crystal.png"
+    },
+    {
+      "item": "Flame Retribution",
+      "category": "T1 Jungling",
+      "price_gold": "0",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/flame-retribution (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/flame-retribution.png",
+      "image_source": "https://mlbbhub.com/images/items/flame-retribution.png",
+      "image_url": "/img/images/t1g/items/flame-retribution.png"
+    },
+    {
+      "item": "Book of Sages",
+      "category": "T1 Magic",
+      "price_gold": "450",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/book-of-sages (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/book-of-sages.png",
+      "image_source": "https://mlbbhub.com/images/items/book-of-sages.png",
+      "image_url": "/img/images/t1g/items/book-of-sages.png"
+    },
+    {
+      "item": "Lantern of Hope",
+      "category": "T1 Magic",
+      "price_gold": "0",
+      "build_path": "Base component (shop)",
+      "unique_passives": "Lantern of Hope: The equipment's attributes scale with hero level.",
+      "sources": "https://mlbbhub.com/items/lantern-of-hope (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/lantern-of-hope.png",
+      "image_source": "https://mlbbhub.com/images/items/lantern-of-hope.png",
+      "image_url": "/img/images/t1g/items/lantern-of-hope.png"
+    },
+    {
+      "item": "Magic Necklace",
+      "category": "T1 Magic",
+      "price_gold": "120",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/magic-necklace (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/magic-necklace.png",
+      "image_source": "https://mlbbhub.com/images/items/magic-necklace.png",
+      "image_url": "/img/images/t1g/items/magic-necklace.png"
+    },
+    {
+      "item": "Magic Wand",
+      "category": "T1 Magic",
+      "price_gold": "820",
+      "build_path": "Mystery Codex (+520 combine fee)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/magic-wand (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/magic-wand.png",
+      "image_source": "https://mlbbhub.com/images/items/magic-wand.png",
+      "image_url": "/img/images/t1g/items/magic-wand.png"
+    },
+    {
+      "item": "Power Crystal",
+      "category": "T1 Magic",
+      "price_gold": "220",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/power-crystal (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/power-crystal.png",
+      "image_source": "https://mlbbhub.com/images/items/power-crystal.png",
+      "image_url": "/img/images/t1g/items/power-crystal.png"
+    },
+    {
+      "item": "Allow Throw",
+      "category": "T1 Movement",
+      "price_gold": "0",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/allow-throw (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/allow-throw.png",
+      "image_source": "https://mlbbhub.com/images/items/allow-throw.png",
+      "image_url": "/img/images/t1g/items/allow-throw.png"
+    },
+    {
+      "item": "Broken Heart",
+      "category": "T1 Movement",
+      "price_gold": "0",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/broken-heart (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/broken-heart.png",
+      "image_source": "https://mlbbhub.com/images/items/broken-heart.png",
+      "image_url": "/img/images/t1g/items/broken-heart.png"
+    },
+    {
+      "item": "Conceal",
+      "category": "T1 Roaming",
+      "price_gold": "0",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/conceal (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/conceal.png",
+      "image_source": "https://mlbbhub.com/images/items/conceal.png",
+      "image_url": "/img/images/t1g/items/conceal.png"
+    },
+    {
+      "item": "Encourage",
+      "category": "T1 Roaming",
+      "price_gold": "0",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/encourage (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/encourage.png",
+      "image_source": "https://mlbbhub.com/images/items/encourage.png",
+      "image_url": "/img/images/t1g/items/encourage.png"
+    },
+    {
+      "item": "Favor",
+      "category": "T1 Roaming",
+      "price_gold": "0",
+      "build_path": "Base component (shop)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/favor (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/favor.png",
+      "image_source": "https://mlbbhub.com/images/items/favor.png",
+      "image_url": "/img/images/t1g/items/favor.png"
+    },
+    {
+      "item": "Fury Hammer",
+      "category": "T2 Attack",
+      "price_gold": "830",
+      "build_path": "Dagger (+580 combine fee)",
+      "unique_passives": "",
+      "sources": "https://mlbbhub.com/items/fury-hammer (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/fury-hammer.png",
+      "image_source": "https://mlbbhub.com/images/items/fury-hammer.png",
+      "image_url": "/img/images/t1g/items/fury-hammer.png"
+    },
+    {
+      "item": "Magic Blade",
+      "category": "T2 Attack",
+      "price_gold": "1050",
+      "build_path": "Dagger, Magic Resist Cloak (+580 combine fee)",
+      "unique_passives": "Lifeline: When taking damage that reduces HP below 30%, gains a (+60*Hero Level) shield (increases with level) and 50% M...",
+      "sources": "https://mlbbhub.com/items/magic-blade (mlbbhub.com, fetched 2026-10-22)",
+      "image_path": "images/t1g/items/magic-blade.png",
+      "image_source": "https://mlbbhub.com/images/items/magic-blade.png",
+      "image_url": "/img/images/t1g/items/magic-blade.png"
+    }
+  ],
+  "count": 20,
+  "total": 85
+}

@@ -1,0 +1,35 @@
+{
+  "endpoint": "/api/v1/esports/regions",
+  "data": [
+    {
+      "region": "Philippines",
+      "event_count": 18
+    },
+    {
+      "region": "Southeast Asia",
+      "event_count": 7
+    },
+    {
+      "region": "International",
+      "event_count": 3
+    },
+    {
+      "region": "Global (Esports World Cup)",
+      "event_count": 3
+    },
+    {
+      "region": "Global (women; Esports World Cup)",
+      "event_count": 3
+    },
+    {
+      "region": "SEA",
+      "event_count": 3
+    },
+    {
+      "region": "Global (women; SEA teams)",
+      "event_count": 1
+    }
+  ],
+  "count": 7,
+  "total": 7
+}

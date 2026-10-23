@@ -1,0 +1,13 @@
+spell,cooldown_seconds,effect,source
+Retribution,35,750+150*Lv dmg to creep/minion,https://mlbbhub.com/spells (fetched 2026-10-22)
+Execute,90,100+10*Lv + 13% of target's lost HP as True Damage,https://mlbbhub.com/spells (fetched 2026-10-22)
+Flicker,120,blink + 5+1*Lv Def for 1s,https://mlbbhub.com/spells (fetched 2026-10-22)
+Sprint,100,50% MS + Slow Immunity 6s,https://mlbbhub.com/spells (fetched 2026-10-22)
+Purify,90,remove debuffs + Control Immunity + 15% MS 1.2s,https://mlbbhub.com/spells (fetched 2026-10-22)
+Petrify,75,"100+15*Lv dmg, petrify 0.8s + 50% slow",https://mlbbhub.com/spells (fetched 2026-10-22)
+Aegis,75,750+90*Lv shield 5s,https://mlbbhub.com/spells (fetched 2026-10-22)
+Inspire,75,"up to 8 BAs in 5s at 1.5x AS, cap 500%",https://mlbbhub.com/spells (fetched 2026-10-22)
+Vengeance,75,3s: 35% Damage Reduction + reflect 35% of damage taken,https://mlbbhub.com/spells (fetched 2026-10-22)
+Revitalize,75,"Healing Spring 4s, 2.5% Max HP per 0.4s to allies",https://mlbbhub.com/spells (fetched 2026-10-22)
+Flameshot,50,fire Flaming Shot,https://mlbbhub.com/spells (fetched 2026-10-22)
+Arrival,75,"channel 3s, teleport to allied turret/base/minion/trap + 60% MS decay 3s",https://mlbbhub.com/spells (fetched 2026-10-22)

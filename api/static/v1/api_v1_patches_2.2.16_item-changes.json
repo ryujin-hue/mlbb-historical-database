@@ -1,0 +1,84 @@
+{
+  "endpoint": "/api/v1/patches/2.2.16/item-changes",
+  "data": [
+    {
+      "version": "2.2.16",
+      "date": "2026-09-16",
+      "item": "Creeps (economy)",
+      "change_type": "Nerf",
+      "detail": "Horned Lizard/Fire Beetle/Lava Golem base gold -13%",
+      "source": "https://www.mobilelegends.com/news (official news article 3503357",
+      "image_path": " 2.2.16 PATCH NOTES)",
+      "image_source": "MISSING_IMAGE",
+      "image_url": "/img/%202.2.16%20PATCH%20NOTES%29"
+    },
+    {
+      "version": "2.2.16",
+      "date": "2026-09-16",
+      "item": "Team Bounty",
+      "change_type": "Adjust",
+      "detail": "Gold deficit threshold for bonus gold on kills 2000 >> 1500",
+      "source": "https://www.mobilelegends.com/news (official news article 3503357",
+      "image_path": " 2.2.16 PATCH NOTES)",
+      "image_source": "MISSING_IMAGE",
+      "image_url": "/img/%202.2.16%20PATCH%20NOTES%29"
+    },
+    {
+      "version": "2.2.16",
+      "date": "2026-09-16",
+      "item": "Minions",
+      "change_type": "Nerf",
+      "detail": "Slightly reduced gold reward growth over time",
+      "source": "https://www.mobilelegends.com/news (official news article 3503357",
+      "image_path": " 2.2.16 PATCH NOTES)",
+      "image_source": "MISSING_IMAGE",
+      "image_url": "/img/%202.2.16%20PATCH%20NOTES%29"
+    },
+    {
+      "version": "2.2.16",
+      "date": "2026-09-16",
+      "item": "2026 Annual Map Change",
+      "change_type": "Adjust",
+      "detail": "Live 09/28 server time: Revealing Wisps (vision pick-up), Healing Turtle (allied Turtle push + HP regen instead of shield), Golden Turret (team gold on turret destroy up; Inner/Base Turret HP up), Flying Cloud art upgrade",
+      "source": "https://www.mobilelegends.com/news (official news article 3503357",
+      "image_path": " 2.2.16 PATCH NOTES)",
+      "image_source": "MISSING_IMAGE",
+      "image_url": "/img/%202.2.16%20PATCH%20NOTES%29"
+    },
+    {
+      "version": "2.2.16",
+      "date": "2026-09-16",
+      "item": "Turret interactions",
+      "change_type": "Adjust",
+      "detail": "All skill-triggered Enhanced Basic Attacks now hit Turrets with HP-regen effects (Sun/Argus/Gusion/Thamuz/Dyrroth/Masha regen on turrets); emblem/spell/equip Enhanced BAs disabled vs turrets; Quantum Charge no trigger vs turrets; Inspire vs turret: AS+def-ignore apply, no regen",
+      "source": "https://www.mobilelegends.com/news (official news article 3503357",
+      "image_path": " 2.2.16 PATCH NOTES)",
+      "image_source": "MISSING_IMAGE",
+      "image_url": "/img/%202.2.16%20PATCH%20NOTES%29"
+    },
+    {
+      "version": "2.2.16",
+      "date": "2026-09-16",
+      "item": "Targeting",
+      "change_type": "Adjust",
+      "detail": "Lowest HP >> Lowest Effective HP (factors attacker penetration); True-damage heroes (Karina/Karrie/Lesley/Thamuz) keep Lowest HP",
+      "source": "https://www.mobilelegends.com/news (official news article 3503357",
+      "image_path": " 2.2.16 PATCH NOTES)",
+      "image_source": "MISSING_IMAGE",
+      "image_url": "/img/%202.2.16%20PATCH%20NOTES%29"
+    },
+    {
+      "version": "2.2.16",
+      "date": "2026-09-16",
+      "item": "Ranked Seasons",
+      "change_type": "Adjust",
+      "detail": "S41 ends 09/15 21:59:59; S42 starts 09/16 00:00:00 (server time); S42 seasonal skin Popol and Kupa Flamehide Thane, avatar border Starward Decade",
+      "source": "https://www.mobilelegends.com/news (official news article 3503357",
+      "image_path": " 2.2.16 PATCH NOTES)",
+      "image_source": "MISSING_IMAGE",
+      "image_url": "/img/%202.2.16%20PATCH%20NOTES%29"
+    }
+  ],
+  "count": 7,
+  "total": 7
+}
