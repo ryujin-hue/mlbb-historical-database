@@ -1,6 +1,6 @@
 {
-  "run_at": "2026-10-23 10:15 (+08)",
-  "applied": true,
+  "run_at": "2026-10-23 11:32 (+08)",
+  "applied": false,
   "sources_checked": {
     "heroes": "https://mlbbhub.com/heroes",
     "patches": "https://mlbbhub.com/patch-notes",
@@ -19,6 +19,6 @@
     "end_date": "2026-DEC-16",
     "latest_patch": "2.2.16a (2026-10-14)"
   },
-  "static_api_rebuilt": true,
+  "static_api_rebuilt": false,
   "rows_appended": 0
 }
