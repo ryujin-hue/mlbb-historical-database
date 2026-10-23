@@ -9,7 +9,7 @@ images_manifest,images_manifest.csv,"image_path, url, credit, status, bytes, sou
 item_changes,item_changes.csv,"version, date, item, change_type, detail, source, image_path, image_source",99,99 item/equipment/spell-line changes 2016-2026.
 items_master,items_master.csv,"item, category, price_gold, build_path, unique_passives, sources, image_path, image_source",104,"Full current shop snapshot (104 items) with prices, build paths and passives."
 mseries,mseries.csv,"event, year, dates, host_city, host_country, teams_count, champion, runner_up, finals_mvp, prize_pool_usd, patch_played, top_picks, top_bans, peak_viewers, format, sources, image_path, image_source",8,"M1-M7 world championship editions + announced M8 (2027, Turkiye)."
-patch_index,patch_index.csv,"version, date, source",85,85 patch versions 1.1.23.109.1 -> 2.2.16a with dates and sources.
+patch_index,patch_index.csv,"version, date, source",86,85 patch versions 1.1.23.109.1 -> 2.2.16a with dates and sources.
 systems,systems.csv,"system, aspect, period_or_version, detail, source, image_path, image_source",98,"98 rows: maps, objectives, economy, modes, ranking, draft, emblems, spells, jungle, roam, academy."
 battle_spells,references/battle_spells.csv,"spell, cooldown_seconds, effect, source",12,Reference lookup table (see references/README.md).
 change_types,references/change_types.csv,"dataset, raw_change_type, normalized_type, record_count",21,Reference lookup table (see references/README.md).

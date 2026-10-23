@@ -6,7 +6,7 @@
       "hero_changes": 350,
       "item_changes": 99,
       "items_master": 104,
-      "patch_index": 85,
+      "patch_index": 86,
       "mseries": 8,
       "esports": 38,
       "systems": 98,
@@ -15,7 +15,7 @@
       "heroes_extra": 45,
       "images_manifest": 683
     },
-    "datasets_total_rows": 1766,
+    "datasets_total_rows": 1767,
     "reference_tables": {
       "battle_spells": 12,
       "change_types": 21,

@@ -11,6 +11,7 @@ from fastapi.testclient import TestClient
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from api.data import load  # noqa: E402
 from api.main import app, count_api_routes  # noqa: E402
 
 client = TestClient(app)
@@ -36,29 +37,32 @@ def test_health_and_version():
 
 
 def test_heroes_master():
+    n = len(load("hero_master.csv"))
     r = client.get("/api/v1/heroes?limit=500").json()
-    assert r["total"] == 133
+    assert r["total"] == n
     hero = client.get("/api/v1/heroes/lancelot").json()["data"]
     assert hero["hero"] == "Lancelot"
-    assert client.get("/api/v1/heroes/count").json()["data"]["total"] == 133
+    assert client.get("/api/v1/heroes/count").json()["data"]["total"] == n
 
 
 def test_hero_changes():
     r = client.get("/api/v1/heroes/changes?limit=1000").json()
-    assert r["total"] == 350
+    assert r["total"] == len(load("hero_changes.csv"))
     r2 = client.get("/api/v1/heroes/changes/type/New?limit=1000").json()
-    assert r2["total"] == 115
+    assert r2["total"] == sum(1 for x in load("hero_changes.csv")
+                              if x["change_type"] == "New")
 
 
 def test_items():
-    assert client.get("/api/v1/items?limit=500").json()["total"] == 104
+    assert client.get("/api/v1/items?limit=1000").json()["total"] == len(load("items_master.csv"))
     assert client.get("/api/v1/items/blade-of-despair").status_code == 200
     assert client.get("/api/v1/items/does-not-exist").status_code == 404
 
 
 def test_patches():
+    n = len(load("patch_index.csv"))
     r = client.get("/api/v1/patches?limit=1000").json()
-    assert r["total"] == 85
+    assert r["total"] == n
     latest = client.get("/api/v1/patches/latest").json()["data"]
     assert latest["version"].startswith("2.2.16")
     s = client.get("/api/v1/patches/2.2.16/summary").json()["data"]
@@ -75,24 +79,27 @@ def test_mseries():
 
 
 def test_esports():
-    assert client.get("/api/v1/esports?limit=100").json()["total"] == 38
+    assert client.get("/api/v1/esports?limit=100").json()["total"] == len(load("esports.csv"))
     assert client.get("/api/v1/esports/region/Philippines").json()["total"] > 0
 
 
 def test_systems_and_reference():
-    assert client.get("/api/v1/systems?limit=200").json()["total"] == 98
-    assert client.get("/api/v1/systems/battle-spells").json()["total"] == 12
+    assert client.get("/api/v1/systems?limit=200").json()["total"] == len(load("systems.csv"))
+    assert client.get("/api/v1/systems/battle-spells").json()["total"] == \
+        len(load("battle_spells.csv", ref=True))
     assert client.get("/api/v1/reference").json()["total"] >= 13
     assert client.get("/api/v1/reference/roles").status_code == 200
     assert client.get("/api/v1/reference/nope").status_code == 404
 
 
 def test_client_business_extras():
-    assert client.get("/api/v1/client?limit=100").json()["total"] == 53
-    assert client.get("/api/v1/client/collabs").json()["total"] == 18
-    assert client.get("/api/v1/business?limit=100").json()["total"] == 70
-    assert client.get("/api/v1/business/ownership").json()["total"] == 7
-    assert client.get("/api/v1/extras?limit=100").json()["total"] == 45
+    assert client.get("/api/v1/client?limit=100").json()["total"] == len(load("client.csv"))
+    assert client.get("/api/v1/client/collabs").json()["total"] == \
+        sum(1 for r in load("client.csv") if r["aspect"] == "Collab")
+    assert client.get("/api/v1/business?limit=100").json()["total"] == len(load("business.csv"))
+    assert client.get("/api/v1/business/ownership").json()["total"] == \
+        sum(1 for r in load("business.csv") if r["topic"] == "Ownership")
+    assert client.get("/api/v1/extras?limit=100").json()["total"] == len(load("heroes_extra.csv"))
 
 
 def test_reports():

@@ -75,7 +75,7 @@
       "table": "patch_index",
       "file": "patch_index.csv",
       "columns": "version, date, source",
-      "row_count": "85",
+      "row_count": "86",
       "description": "85 patch versions 1.1.23.109.1 -> 2.2.16a with dates and sources."
     },
     {

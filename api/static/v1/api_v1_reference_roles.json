@@ -4,122 +4,122 @@
     {
       "role": "fighter",
       "hero_count": "25",
-      "description": "Balanced melee bruiser; durable damage dealer for the EXP lane or jungle."
+      "description": ""
     },
     {
       "role": "mage",
       "hero_count": "24",
-      "description": "Magic damage dealer with area control and burst or poke from the mid lane."
+      "description": ""
     },
     {
       "role": "marksman",
       "hero_count": "18",
-      "description": "Ranged physical damage carry scaling into late game; gold lane."
+      "description": ""
     },
     {
       "role": "assassin",
       "hero_count": "14",
-      "description": "Burst damage dealer that hunts squishy backline targets; jungle or roam."
+      "description": ""
     },
     {
       "role": "tank",
       "hero_count": "10",
-      "description": "Frontline protector; high durability, initiates fights and soaks damage for the team."
+      "description": ""
     },
     {
       "role": "support",
       "hero_count": "7",
-      "description": "Shields, heals and crowd control to protect and empower teammates; roam lane."
+      "description": ""
     },
     {
       "role": "fighter/assassin",
       "hero_count": "6",
-      "description": "Balanced melee bruiser; durable damage dealer for the EXP lane or jungle. / Burst damage dealer that hunts squishy backline targets; jungle or roam."
+      "description": ""
     },
     {
       "role": "fighter/tank",
       "hero_count": "4",
-      "description": "Balanced melee bruiser; durable damage dealer for the EXP lane or jungle. / Frontline protector; high durability, initiates fights and soaks damage for the team."
+      "description": ""
     },
     {
       "role": "assassin/fighter",
       "hero_count": "3",
-      "description": "Burst damage dealer that hunts squishy backline targets; jungle or roam. / Balanced melee bruiser; durable damage dealer for the EXP lane or jungle."
+      "description": ""
     },
     {
       "role": "support/tank",
       "hero_count": "3",
-      "description": "Shields, heals and crowd control to protect and empower teammates; roam lane. / Frontline protector; high durability, initiates fights and soaks damage for the team."
+      "description": ""
     },
     {
       "role": "tank/fighter",
       "hero_count": "3",
-      "description": "Frontline protector; high durability, initiates fights and soaks damage for the team. / Balanced melee bruiser; durable damage dealer for the EXP lane or jungle."
+      "description": ""
     },
     {
       "role": "tank/mage",
       "hero_count": "2",
-      "description": "Frontline protector; high durability, initiates fights and soaks damage for the team. / Magic damage dealer with area control and burst or poke from the mid lane."
+      "description": ""
     },
     {
       "role": "assassin/mage",
       "hero_count": "2",
-      "description": "Burst damage dealer that hunts squishy backline targets; jungle or roam. / Magic damage dealer with area control and burst or poke from the mid lane."
+      "description": ""
     },
     {
       "role": "tank/support",
       "hero_count": "2",
-      "description": "Frontline protector; high durability, initiates fights and soaks damage for the team. / Shields, heals and crowd control to protect and empower teammates; roam lane."
+      "description": ""
     },
     {
       "role": "support/fighter",
       "hero_count": "1",
-      "description": "Shields, heals and crowd control to protect and empower teammates; roam lane. / Balanced melee bruiser; durable damage dealer for the EXP lane or jungle."
+      "description": ""
     },
     {
       "role": "tank/marksman",
       "hero_count": "1",
-      "description": "Frontline protector; high durability, initiates fights and soaks damage for the team. / Ranged physical damage carry scaling into late game; gold lane."
+      "description": ""
     },
     {
       "role": "support/assassin",
       "hero_count": "1",
-      "description": "Shields, heals and crowd control to protect and empower teammates; roam lane. / Burst damage dealer that hunts squishy backline targets; jungle or roam."
+      "description": ""
     },
     {
       "role": "support/mage",
       "hero_count": "1",
-      "description": "Shields, heals and crowd control to protect and empower teammates; roam lane. / Magic damage dealer with area control and burst or poke from the mid lane."
+      "description": ""
     },
     {
       "role": "mage/assassin",
       "hero_count": "1",
-      "description": "Magic damage dealer with area control and burst or poke from the mid lane. / Burst damage dealer that hunts squishy backline targets; jungle or roam."
+      "description": ""
     },
     {
       "role": "marksman/mage",
       "hero_count": "1",
-      "description": "Ranged physical damage carry scaling into late game; gold lane. / Magic damage dealer with area control and burst or poke from the mid lane."
+      "description": ""
     },
     {
       "role": "marksman/assassin",
       "hero_count": "1",
-      "description": "Ranged physical damage carry scaling into late game; gold lane. / Burst damage dealer that hunts squishy backline targets; jungle or roam."
+      "description": ""
     },
     {
       "role": "fighter/marksman",
       "hero_count": "1",
-      "description": "Balanced melee bruiser; durable damage dealer for the EXP lane or jungle. / Ranged physical damage carry scaling into late game; gold lane."
+      "description": ""
     },
     {
       "role": "assassin/marksman",
       "hero_count": "1",
-      "description": "Burst damage dealer that hunts squishy backline targets; jungle or roam. / Ranged physical damage carry scaling into late game; gold lane."
+      "description": ""
     },
     {
       "role": "fighter/mage",
       "hero_count": "1",
-      "description": "Balanced melee bruiser; durable damage dealer for the EXP lane or jungle. / Magic damage dealer with area control and burst or poke from the mid lane."
+      "description": ""
     }
   ],
   "count": 24,

@@ -4,72 +4,72 @@
     {
       "lane": "Mid Lane",
       "hero_count": "24",
-      "description": "Mage/mid lane; center lane, fastest rotation to both side lanes."
+      "description": ""
     },
     {
       "lane": "Roam",
       "hero_count": "22",
-      "description": "Support/roam role using roaming blessings; wards, vision and map presence."
+      "description": ""
     },
     {
       "lane": "Exp Lane",
       "hero_count": "20",
-      "description": "Fighter/EXP lane; solo side lane with extra EXP from the EXP minion wave."
+      "description": ""
     },
     {
       "lane": "Gold Lane",
       "hero_count": "19",
-      "description": "Marksman farming lane; safe gold income from side minion waves and the gold crab."
+      "description": ""
     },
     {
       "lane": "Jungle",
       "hero_count": "16",
-      "description": "Jungler farming the jungle with Retribution; primary early-game tempo maker."
+      "description": ""
     },
     {
       "lane": "Jungle/Exp Lane",
       "hero_count": "7",
-      "description": "Jungler farming the jungle with Retribution; primary early-game tempo maker. / Fighter/EXP lane; solo side lane with extra EXP from the EXP minion wave."
+      "description": ""
     },
     {
       "lane": "Exp Lane/Jungle",
       "hero_count": "6",
-      "description": "Fighter/EXP lane; solo side lane with extra EXP from the EXP minion wave. / Jungler farming the jungle with Retribution; primary early-game tempo maker."
+      "description": ""
     },
     {
       "lane": "Roam/Exp Lane",
       "hero_count": "5",
-      "description": "Support/roam role using roaming blessings; wards, vision and map presence. / Fighter/EXP lane; solo side lane with extra EXP from the EXP minion wave."
+      "description": ""
     },
     {
       "lane": "Exp Lane/Roam",
       "hero_count": "4",
-      "description": "Fighter/EXP lane; solo side lane with extra EXP from the EXP minion wave. / Support/roam role using roaming blessings; wards, vision and map presence."
+      "description": ""
     },
     {
       "lane": "Jungle/Roam",
       "hero_count": "4",
-      "description": "Jungler farming the jungle with Retribution; primary early-game tempo maker. / Support/roam role using roaming blessings; wards, vision and map presence."
+      "description": ""
     },
     {
       "lane": "Mid Lane/Roam",
       "hero_count": "2",
-      "description": "Mage/mid lane; center lane, fastest rotation to both side lanes. / Support/roam role using roaming blessings; wards, vision and map presence."
+      "description": ""
     },
     {
       "lane": "Jungle/Mid Lane",
       "hero_count": "2",
-      "description": "Jungler farming the jungle with Retribution; primary early-game tempo maker. / Mage/mid lane; center lane, fastest rotation to both side lanes."
+      "description": ""
     },
     {
       "lane": "Jungle/Gold Lane",
       "hero_count": "1",
-      "description": "Jungler farming the jungle with Retribution; primary early-game tempo maker. / Marksman farming lane; safe gold income from side minion waves and the gold crab."
+      "description": ""
     },
     {
       "lane": "Mid Lane/Gold Lane",
       "hero_count": "1",
-      "description": "Mage/mid lane; center lane, fastest rotation to both side lanes. / Marksman farming lane; safe gold income from side minion waves and the gold crab."
+      "description": ""
     }
   ],
   "count": 14,

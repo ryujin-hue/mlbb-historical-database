@@ -1,0 +1,49 @@
+name: auto-update
+
+# Daily automatic data update: detects new patches / heroes / items / spells on
+# mlbbhub.com and appends them to the CSV datasets, then refreshes the static
+# API mirror and commits. Runs at 02:00 Asia/Kuala_Lumpur (18:00 UTC) and can
+# be triggered manually from the Actions tab.
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install API deps (for static mirror rebuild)
+        run: pip install -r api/requirements.txt
+
+      - name: Run updater
+        run: python3 scripts/update_data.py
+
+      - name: Run test suite
+        run: python3 -m pytest tests/ -q
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "mlbb-auto-updater"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit."
+          else
+            git commit -m "[auto-update] data refresh $(date -u +%F)"
+            git push
+          fi
