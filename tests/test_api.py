@@ -63,10 +63,16 @@ def test_patches():
     n = len(load("patch_index.csv"))
     r = client.get("/api/v1/patches?limit=1000").json()
     assert r["total"] == n
+
+    # Versi terkini sepatutnya sama dengan baris terakhir dalam CSV
+    expected_latest = load("patch_index.csv")[-1]["version"]
+
     latest = client.get("/api/v1/patches/latest").json()["data"]
-    assert latest["version"].startswith("2.2.16")
-    s = client.get("/api/v1/patches/2.2.16/summary").json()["data"]
+    assert latest["version"] == expected_latest
+
+    s = client.get(f"/api/v1/patches/{expected_latest}/summary").json()["data"]
     assert s["hero_change_count"] > 0
+
 
 
 def test_mseries():
