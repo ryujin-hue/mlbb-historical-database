@@ -262,11 +262,25 @@ def refresh_derived_tables() -> None:
     # data dictionary row counts
     dd_path = ref / "data_dictionary.csv"
     dd = read_csv(dd_path)
+    fields = [k for k in (dd[0].keys() if dd else []) if k is not None]
+    clean: list[dict] = []
     for r in dd:
+        row = {k: v for k, v in r.items() if k is not None}
+        extra = r.get(None)
+        if extra:
+            # Baris CSV kelebihan kolom (mis. koma yang tak di-quote pada kolom
+            # deskripsi) — gabungkan sisanya ke kolom terakhir, jangan sampai
+            # menjatuhkan job harian.
+            warn(f"baris '{row.get('table', '?')}' punya kolom berlebih — digabung ke kolom terakhir")
+            if isinstance(extra, list):
+                extra = ", ".join(str(x).strip() for x in extra)
+            row[fields[-1]] = f"{row.get(fields[-1], '')} {extra}".strip()
+        clean.append(row)
+    for r in clean:
         f = REPO / r["file"]
         if f.exists():
             r["row_count"] = len(read_csv(f))
-    write_lookup(dd_path, list(dd[0].keys()), dd)
+    write_lookup(dd_path, fields, clean)
 
     # keep items_master item slugs in sync with live-shop detection: categories refresh only
 
