@@ -1,8 +1,8 @@
 {
   "endpoint": "/api/v1/patches/latest",
   "data": {
-    "version": "2.2.16a",
-    "date": "2026-10-14",
-    "source": "https://mlbbhub.com/patch-notes (auto-update 2026-10-23)"
+    "version": "2.2.23",
+    "date": "2026-11-11",
+    "source": "https://mlbbhub.com/patch-notes (auto-update 2026-11-20)"
   }
 }

@@ -2,20 +2,20 @@
   "endpoint": "/api/v1/heroes/random",
   "data": [
     {
-      "hero": "Granger",
-      "role": "Marksman",
-      "lane": "Gold Lane",
+      "hero": "Lunox",
+      "role": "mage",
+      "lane": "Mid Lane",
       "release_version": "UNVERIFIED",
-      "release_date": "2019-04-23",
+      "release_date": "2018-09-04",
       "price_bp": "32000",
       "price_diamond": "599",
       "reworked_or_revamped": "",
-      "total_buffs": "0",
-      "total_nerfs": "1",
-      "total_adjusts": "0",
-      "sources": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16); https://mlbb.io/en/hero/granger (release date/price); https://mobile-legends.fandom.com/wiki/Granger (Fandom)",
-      "image_path": "images/heroes/granger.png",
-      "image_source": "https://akmweb.youngjoygame.com/web/svnres/img/test/homepage_2_2_16_1232_1/100_9ed57f48f91012fd110935258cd1ab61.png"
+      "total_buffs": "1",
+      "total_nerfs": "0",
+      "total_adjusts": "1",
+      "sources": "https://www.mobilelegends.com/hero (official hero data, patch 2.2.16); https://mlbb.io/en/hero/lunox (release date/price); https://mobile-legends.fandom.com/wiki/Lunox (Fandom)",
+      "image_path": "images/heroes/lunox.png",
+      "image_source": "https://akmweb.youngjoygame.com/web/svnres/img/test/homepage_2_2_16_1232_1/100_69d35cd0c549a9bdbcf9fbfddf3122a5.png"
     }
   ],
   "count": 1,

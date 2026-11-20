@@ -75,8 +75,8 @@
       "table": "patch_index",
       "file": "patch_index.csv",
       "columns": "version, date, source",
-      "row_count": "86",
-      "description": "85 patch versions 1.1.23.109.1 -> 2.2.16a with dates and sources."
+      "row_count": "87",
+      "description": "Patch version timeline 1.1.23.109.1 -> latest live patch with dates and sources."
     },
     {
       "table": "systems",
