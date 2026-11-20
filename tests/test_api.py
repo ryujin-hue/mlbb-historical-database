@@ -5,6 +5,7 @@ The critical invariant: the API MUST expose exactly 78 GET endpoints.
 import re
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 import pytest
 from fastapi.testclient import TestClient
@@ -15,6 +16,11 @@ from api.data import load  # noqa: E402
 from api.main import app, count_api_routes  # noqa: E402
 
 client = TestClient(app)
+
+
+def _count_rows(dataset: str, version: str) -> int:
+    """Berapa baris dataset yang tercatat untuk sebuah versi patch."""
+    return sum(1 for x in load(dataset) if x["version"].lower() == version.lower())
 
 
 def test_exactly_78_endpoints():
@@ -71,8 +77,36 @@ def test_patches():
     assert latest["version"] == expected_latest
 
     s = client.get(f"/api/v1/patches/{expected_latest}/summary").json()["data"]
-    assert s["hero_change_count"] > 0
 
+    # Patch yang baru di-append oleh auto-update belum tentu punya baris
+    # hero/item change (data perubahannya butuh riset manual), jadi ringkasan
+    # WAJIB konsisten dengan dataset — bukan boleh diasumsikan non-zero.
+    assert s["hero_change_count"] == _count_rows("hero_changes.csv", expected_latest)
+    assert s["item_change_count"] == _count_rows("item_changes.csv", expected_latest)
+    assert s["heroes_touched"] == sorted(
+        {x["hero"] for x in load("hero_changes.csv")
+         if x["version"].lower() == expected_latest.lower()})
+
+    # Guard dataset kurasi: patch baseline wajib tetap punya data hero change
+    base = client.get("/api/v1/patches/2.2.16/summary").json()["data"]
+    assert base["hero_change_count"] > 0
+
+
+def test_patch_summary_consistent_for_every_patch():
+    """Ringkasan tiap versi patch harus cocok dengan dataset aslinya.
+
+    Termasuk patch hasil auto-update yang belum punya data perubahan — ini
+    yang dulu bikin CI merah terus-menerus.
+    """
+    hero_rows = load("hero_changes.csv")
+    item_rows = load("item_changes.csv")
+    for p in load("patch_index.csv"):
+        v = p["version"]
+        s = client.get(f"/api/v1/patches/{quote(v, safe='')}/summary").json()["data"]
+        want_hc = sum(1 for x in hero_rows if x["version"].lower() == v.lower())
+        want_ic = sum(1 for x in item_rows if x["version"].lower() == v.lower())
+        assert s["hero_change_count"] == want_hc, f"hero_change_count salah untuk {v}"
+        assert s["item_change_count"] == want_ic, f"item_change_count salah untuk {v}"
 
 
 def test_mseries():

@@ -53,6 +53,24 @@ def fetch(url: str) -> str:
         return r.read().decode("utf-8", "replace")
 
 
+def warn(message: str) -> None:
+    """Catat peringatan sebagai anotasi GitHub Actions (tidak menggagalkan job)."""
+    print(f"::warning::{message}")
+
+
+def fetch_optional(url: str, label: str) -> str | None:
+    """Ambil halaman sumber; None kalau tidak terjangkau / gagal parse.
+
+    Job harian harus tetap hijau saat mlbbhub sedang lambat atau rate-limit —
+    sumber yang tidak terbaca berarti "tidak ada update hari ini", bukan error.
+    """
+    try:
+        return fetch(url)
+    except Exception as e:
+        warn(f"sumber '{label}' tidak bisa diakses ({type(e).__name__}: {e}) — dilewati")
+        return None
+
+
 def slugify(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", value.lower()).strip("-")
 
@@ -69,6 +87,19 @@ def parse_heroes(html: str) -> list[dict]:
     return heroes
 
 
+MONTHS = {name: i + 1 for i, name in enumerate(
+    ["january", "february", "march", "april", "may", "june", "july", "august",
+     "september", "october", "november", "december"])}
+
+
+def _format_patch_date(d: "re.Match[str] | None") -> str:
+    """'October 14, 2026' -> '2026-10-14'; '' kalau tidak ada match."""
+    if not d:
+        return ""
+    year, month, day = d.group(3), d.group(1).lower(), int(d.group(2))
+    return f"{year}-{MONTHS[month]:02d}-{day:02d}"
+
+
 def latest_patch(html: str) -> tuple[str, str]:
     """(version, date) of the latest patch block; date '' if not found."""
     i = html.find('\\"version\\":\\"')
@@ -79,9 +110,7 @@ def latest_patch(html: str) -> tuple[str, str]:
     version = m.group(1) if m else "UNKNOWN"
     d = re.search(r"(January|February|March|April|May|June|July|August|September|"
                   r"October|November|December) (\d{1,2}), (20\d\d)", seg)
-    date = f"{d.group(3)}-{dict((m, i+1) for i, m in enumerate(
-        ['january','february','march','april','may','june','july','august',
-         'september','october','november','december']))[d.group(1).lower()]:02d}-{int(d.group(2)):02d}" if d else ""
+    date = _format_patch_date(d)
     return version, date
 
 
@@ -304,8 +333,13 @@ def main(dry_run: bool = False) -> int:
     spells = read_csv(REPO / "references" / "battle_spells.csv")
 
     # ---- patches
-    phtml = fetch(SOURCES["patches"])
-    version, date = latest_patch(phtml)
+    version, date = "UNKNOWN", ""
+    phtml = fetch_optional(SOURCES["patches"], "patch-notes")
+    if phtml is not None:
+        try:
+            version, date = latest_patch(phtml)
+        except Exception as e:
+            warn(f"halaman patch-notes tidak bisa diparse ({type(e).__name__}: {e}) — dilewati")
     known_versions = {p["version"].lower() for p in patches}
     new_patch_row = None
     if version.lower() not in known_versions and version != "UNKNOWN":
@@ -315,21 +349,30 @@ def main(dry_run: bool = False) -> int:
                          "source": f"{SOURCES['patches']} (auto-update {TODAY})"}
 
     # ---- heroes
-    heroes_live = parse_heroes(fetch(SOURCES["heroes"]))
+    heroes_live: list[dict] = []
+    hhtml = fetch_optional(SOURCES["heroes"], "heroes")
+    if hhtml is not None:
+        try:
+            heroes_live = parse_heroes(hhtml)
+        except Exception as e:
+            warn(f"daftar hero tidak bisa diparse ({type(e).__name__}: {e}) — dilewati")
     added_heroes = new_heroes(heroes_live, master)
 
     # ---- items
-    live_items = item_slugs(fetch(SOURCES["items"]))
+    live_items: set[str] = set()
+    ihtml = fetch_optional(SOURCES["items"], "items")
+    if ihtml is not None:
+        live_items = item_slugs(ihtml)
     known_items = {slugify(i["item"]) for i in items}
     added_items = sorted(s for s in live_items if slugify(s) not in known_items)
 
     # ---- spells
-    try:
-        live_spells = item_slugs(fetch(SOURCES["spells"]))
-        known_spells = {slugify(s["spell"]) for s in spells}
-        added_spells = sorted(s for s in live_spells if slugify(s) not in known_spells)
-    except Exception:
-        added_spells = []
+    live_spells: set[str] = set()
+    shtml = fetch_optional(SOURCES["spells"], "spells")
+    if shtml is not None:
+        live_spells = item_slugs(shtml)
+    known_spells = {slugify(s["spell"]) for s in spells}
+    added_spells = sorted(s for s in live_spells if slugify(s) not in known_spells)
 
     if added_heroes:
         detected["heroes"] = [h["name"] for h in added_heroes]
@@ -339,22 +382,27 @@ def main(dry_run: bool = False) -> int:
         detected["spells"] = added_spells
 
     # ---- season snapshot
-    season = season_status(fetch(SOURCES["season"]))
+    season_html = fetch_optional(SOURCES["season"], "season")
+    season = season_status(season_html) if season_html is not None else {}
+    # Season dianggap valid hanya kalau nomornya benar-benar terbaca.
+    season_ok = bool(season) and season.get("season") is not None
     season["latest_patch"] = version + (f" ({date})" if date else "")
     prev = UPDATES / "season_status.json"
-    season_changed = True
-    if prev.exists():
-        try:
-            old = json.loads(prev.read_text(encoding="utf-8"))
-            season_changed = (old.get("season") != season["season"] or
-                              old.get("end_date") != season["end_date"])
-        except Exception:
-            pass
+    season_changed = False
+    if season_ok:
+        season_changed = True
+        if prev.exists():
+            try:
+                old = json.loads(prev.read_text(encoding="utf-8"))
+                season_changed = (old.get("season") != season["season"] or
+                                  old.get("end_date") != season["end_date"])
+            except Exception:
+                pass
 
     print(f"[{RUN_TAG}] live check: patch={version} ({date or 'date n/a'}), "
           f"heroes={len(heroes_live)} (new: {len(added_heroes)}), "
           f"items={len(live_items)} (new: {len(added_items)}), "
-          f"spells new: {len(added_spells)}, season={season['season']}")
+          f"spells new: {len(added_spells)}, season={season.get('season')}")
 
     if not (detected["patches"] or detected["heroes"] or detected["items"] or
             detected["spells"] or season_changed):
@@ -397,8 +445,11 @@ def main(dry_run: bool = False) -> int:
         append_csv(REPO / "systems.csv", rows)
 
     (UPDATES).mkdir(exist_ok=True)
-    (UPDATES / "season_status.json").write_text(
-        json.dumps(season, indent=2), encoding="utf-8")
+    if season_ok:
+        # Jangan timpa season_status.json kalau sumbernya gagal dibaca —
+        # data season yang sudah diketahui lebih berharga daripada yang kosong.
+        (UPDATES / "season_status.json").write_text(
+            json.dumps(season, indent=2), encoding="utf-8")
 
     refresh_derived_tables()
     rebuilt = rebuild_static_api()

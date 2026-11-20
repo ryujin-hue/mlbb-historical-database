@@ -20,6 +20,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -45,5 +46,11 @@ jobs:
             echo "No changes — nothing to commit."
           else
             git commit -m "[auto-update] data refresh $(date -u +%F)"
-            git push
+            # Kalau branch bergerak selama job berjalan, rebase lalu push ulang
+            # daripada gagal dan menggagalkan pipeline harian.
+            if ! git push; then
+              echo "::warning::push ditolak, mencoba rebase ke origin/main"
+              git fetch --unshallow origin main || git fetch origin main
+              git rebase "origin/main" && git push
+            fi
           fi
