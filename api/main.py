@@ -12,7 +12,7 @@ from .routers import (business, client, esports, extras, heroes, items, meta,
                       mseries, patches, reference, systems)
 
 app = FastAPI(
-    title="MLBB Historical Database API",
+    title="MLBB Almanac — Archive API",
     version=__version__,
     description=DESCRIPTION + "\n\nSource repo: https://github.com/ryujin-hue/mlbb-historical-database",
     docs_url="/docs",

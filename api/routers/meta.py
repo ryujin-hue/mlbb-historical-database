@@ -1,4 +1,6 @@
 """Meta router — 6 endpoints."""
+import re
+
 from fastapi import APIRouter, HTTPException
 
 from .. import __version__
@@ -15,7 +17,7 @@ DATASETS = ["hero_master", "hero_changes", "item_changes", "items_master",
 @router.get("/", summary="API index")
 def index():
     return {
-        "name": "MLBB Historical Database API",
+        "name": "MLBB Almanac — Archive API",
         "version": __version__,
         "description": DESCRIPTION,
         "repo": "https://github.com/ryujin-hue/mlbb-historical-database",
@@ -35,12 +37,35 @@ def health():
             "dataset_rows_loaded": n_rows, "reference_tables": len(reference_tables())}
 
 
+_ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def _patch_timeline() -> tuple[str, str, str]:
+    """(versi terkini, tarikh patch terkini, tarikh data paling baru).
+
+    Versi diambil dari baris terakhir patch_index (senarai kronologi).
+    Tarikh data diambil daripada tarikh ISO paling baru - baris auto-update
+    yang tiada tarikh tepat tak boleh jadi data_cutoff.
+    """
+    rows = load("patch_index.csv")
+    if not rows:
+        return ("UNKNOWN", "", "")
+    last = rows[-1]
+    newest = ""
+    for r in rows:
+        d = (r.get("date") or "").strip()
+        if _ISO_DATE.match(d) and d > newest:
+            newest = d
+    return (last.get("version") or "UNKNOWN", last.get("date") or "", newest)
+
+
 @router.get("/api/v1/version", summary="API and data version")
 def version():
+    patch, patch_date, newest = _patch_timeline()
     return {
         "api_version": __version__,
-        "data_cutoff": "2026-10-22",
-        "current_live_patch": "2.2.16 (2026-09-16; hotfix 2.2.16a 2026-10-14)",
+        "data_cutoff": newest,
+        "current_live_patch": f"{patch} ({patch_date})" if patch_date else patch,
         "current_ranked_season": "Season 42 (ends 2026-12-16 08:00 UTC)",
         "hero_count": len(load("hero_master.csv")),
         "m_series_latest": "M7 (Jan 2026, Jakarta); M8 announced for Turkiye, Jan 2027",

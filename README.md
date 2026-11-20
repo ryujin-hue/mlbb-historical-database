@@ -1,9 +1,14 @@
-# MLBB Historical Database (2016 → 2026)
+# MLBB Almanac — Archive (2016 → 2026)
 
-A fully-sourced, cross-verified historical database of **Mobile Legends: Bang Bang** —
+Ten years of patch history and balance changes for **Mobile Legends: Bang Bang** —
 patches, hero and item balance history, game systems, the M-Series world championship,
 esports events, client/platform history and Moonton business records — with **exactly 78
 REST API endpoints** and **13 reference lookup tables**.
+
+This is the archive half of **MLBB Almanac**. The live half (win rate, pick rate, ban
+rate, tier lists, meta movers) lives in
+[mlbb-data-workflow](https://github.com/ryujin-hue/mlbb-data-workflow); both are the same
+table, and the live entry is the last one.
 
 ![data](https://img.shields.io/badge/datasets-12%20tables-2ea44f) ![api](https://img.shields.io/badge/API-78%20endpoints-blue) ![images](https://img.shields.io/badge/images-683%20sourced-orange)
 

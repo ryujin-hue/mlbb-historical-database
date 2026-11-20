@@ -93,17 +93,55 @@ print(f"api/static/v1: {len(built)} JSON files")
 # ---------------- static index.html ----------------
 rows = "\n".join(
     f'<li><a href="v1/{f}"><code>GET {p}</code></a></li>' for p, f in built)
+# Mark "the almanac table": 12 sel (3 x 4), satu sel menyala = entri terkini.
+ALMANAC_CELLS = [(2, 3), (9, 3), (16, 3), (2, 8), (9, 8), (16, 8),
+                 (2, 13), (9, 13), (16, 13), (2, 18), (9, 18)]
+almanac_mark = (
+    '<svg class="brand__mark" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">'
+    + "".join(f'<rect x="{x}" y="{y}" width="6" height="2.5" fill="#2F3C57"/>'
+              for x, y in ALMANAC_CELLS)
+    + '<rect x="16" y="18" width="6" height="2.5" fill="#00E5FF"/></svg>'
+)
+
 html = f"""<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>MLBB Historical Database — Static API (78 endpoints)</title>
-<style>body{{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem}}
-li{{margin:.2rem 0}}code{{background:#f2f2f2;padding:.1rem .3rem;border-radius:4px}}</style></head>
-<body><h1>MLBB Historical Database — Static API</h1>
-<p>Static JSON mirror of all <b>{len(built)}</b> endpoints. Serve this folder via GitHub Pages,
-or run the live FastAPI server (see <a href="https://github.com/ryujin-hue/mlbb-historical-database#readme">README</a>).
-Values shown are representative examples for endpoints with path parameters.</p>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MLBB Almanac — Archive API ({len(built)} endpoints)</title>
+<style>
+:root{{--bg:#0B0F1A;--panel:#111726;--line:#222C42;--ink:#EEF3FA;--body:#C7D0E0;--muted:#8A97B0;--cyan:#00E5FF}}
+*{{box-sizing:border-box}}
+body{{margin:0;background:var(--bg);color:var(--body);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:15px;line-height:1.6}}
+.wrap{{max-width:1000px;margin:0 auto;padding:48px 24px 72px}}
+.brand{{display:flex;align-items:center;gap:10px;margin-bottom:26px}}
+.brand__p{{color:var(--muted);font-weight:500;letter-spacing:.16em;font-size:.72em}}
+.brand__w{{color:var(--ink);font-weight:700;letter-spacing:.012em}}
+h1{{margin:0 0 10px;font-size:30px;line-height:1.2;font-weight:600;letter-spacing:-.015em;color:var(--ink)}}
+p{{margin:0 0 14px;max-width:64ch}}
+.meta{{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 30px}}
+.chip{{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;padding:5px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted)}}
+.chip b{{color:var(--cyan);font-weight:500}}
+ul{{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:2px}}
+li a{{display:block;padding:7px 10px;border:1px solid transparent;border-radius:6px;color:var(--body);text-decoration:none;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px}}
+li a:hover{{border-color:var(--line);background:var(--panel);color:var(--cyan)}}
+code{{background:transparent;padding:0;font-size:inherit;color:inherit}}
+footer{{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}}
+footer a{{color:var(--cyan)}}
+@media(max-width:640px){{.wrap{{padding:32px 16px 56px}}ul{{grid-template-columns:1fr}}}}
+</style></head>
+<body><div class="wrap">
+<div class="brand">{almanac_mark}<span class="brand__p">MLBB</span><span class="brand__w">ALMANAC</span></div>
+<h1>Archive API — {len(built)} endpoints</h1>
+<p>Static JSON mirror of every endpoint in the MLBB Almanac archive: patch history, hero and item
+balance changes, M-Series, esports, client and business records. Serve this folder via GitHub Pages,
+or run the live FastAPI server. Values shown are representative examples for endpoints with path
+parameters.</p>
+<div class="meta"><span class="chip"><b>{len(built)}</b> endpoints</span><span class="chip">2016 &rarr; 2026</span><span class="chip">13 reference tables</span></div>
 <ul>
 {rows}
-</ul></body></html>
+</ul>
+<footer>Part of <strong>MLBB Almanac</strong> &mdash; ten years of patch history and today&rsquo;s live meta.
+<a href="https://github.com/ryujin-hue/mlbb-historical-database#readme">README</a></footer>
+</div></body></html>
 """
 (STATIC.parent / "index.html").write_text(html, encoding="utf-8")
 print("api/static/index.html written")

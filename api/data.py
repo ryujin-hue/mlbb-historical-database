@@ -8,10 +8,10 @@ from urllib.parse import quote
 BASE_DIR = Path(__file__).resolve().parent.parent
 REF_DIR = BASE_DIR / "references"
 
-DESCRIPTION = ("Open REST API over the MLBB (Mobile Legends: Bang Bang) historical "
-               "database 2016-2026: patches, hero/item balance history, M-Series world "
-               "championships, esports events, game systems, client/collabs and "
-               "business records. Exactly 78 endpoints, all read-only.")
+DESCRIPTION = ("Open REST API over the MLBB Almanac archive (2016-2026): patches, "
+               "hero/item balance history, M-Series world championships, esports "
+               "events, game systems, client/collabs and business records. Exactly "
+               "78 endpoints, all read-only.")
 
 YEAR_RE = re.compile(r"(19|20)\d{2}")
 

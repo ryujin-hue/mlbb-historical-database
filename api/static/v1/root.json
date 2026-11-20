@@ -1,7 +1,7 @@
 {
-  "name": "MLBB Historical Database API",
+  "name": "MLBB Almanac — Archive API",
   "version": "1.0.0",
-  "description": "Open REST API over the MLBB (Mobile Legends: Bang Bang) historical database 2016-2026: patches, hero/item balance history, M-Series world championships, esports events, game systems, client/collabs and business records. Exactly 78 endpoints, all read-only.",
+  "description": "Open REST API over the MLBB Almanac archive (2016-2026): patches, hero/item balance history, M-Series world championships, esports events, game systems, client/collabs and business records. Exactly 78 endpoints, all read-only.",
   "repo": "https://github.com/ryujin-hue/mlbb-historical-database",
   "interactive_docs": "/docs",
   "openapi": "/openapi.json",

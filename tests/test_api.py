@@ -33,13 +33,16 @@ def test_root_index():
     assert r.status_code == 200
     body = r.json()
     assert body["total_endpoints"] == 78
-    assert body["name"] == "MLBB Historical Database API"
+    assert body["name"] == "MLBB Almanac — Archive API"
 
 
 def test_health_and_version():
     assert client.get("/api/v1/health").json()["status"] == "ok"
     v = client.get("/api/v1/version").json()
-    assert v["current_live_patch"].startswith("2.2.16")
+    # Versi terkini mesti datang dari dataset, bukan string hardcode.
+    latest = load("patch_index.csv")[-1]["version"]
+    assert v["current_live_patch"].startswith(latest)
+    assert v["data_cutoff"] >= "2016-01-01"
 
 
 def test_heroes_master():
