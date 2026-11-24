@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo-mlbb-a.svg" alt="MLBB Almanac" width="380" />
+
 # MLBB Almanac — Archive (2016 → 2026)
 
 **Ten years of patch history for Mobile Legends: Bang Bang.**

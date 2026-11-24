@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="800" height="240">
+  <defs>
+    <!-- Bayang-bayang lembut untuk efek 3D kertas -->
+    <filter id="paperShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="4" dy="8" stdDeviation="6" flood-color="#050a14" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Latar Belakang Biru Gelap (Padam baris ini jika mahu latar belakang lutsinar/transparent) -->
+
+  <!-- Kumpulan Huruf Origami MLBB-A -->
+  <g filter="url(#paperShadow)" transform="translate(85, 65)">
+    
+    <!-- HURUF M (Emas & Perak) -->
+    <g transform="translate(0, 0)">
+      <polygon points="0,110 0,0 24,25 24,110" fill="#d49b27"/>
+      <polygon points="0,0 45,50 45,80 24,25" fill="#f3c65f"/>
+      <polygon points="45,50 90,0 66,25 45,80" fill="#e2e8f0"/>
+      <polygon points="90,0 90,110 66,110 66,25" fill="#cbd5e1"/>
+    </g>
+
+    <!-- HURUF L (Perak & Emas) -->
+    <g transform="translate(115, 0)">
+      <polygon points="0,0 26,0 26,84 0,110" fill="#f8fafc"/>
+      <polygon points="0,110 26,84 75,84 75,110" fill="#d49b27"/>
+      <polygon points="26,84 75,84 55,110 0,110" fill="#b47b14" opacity="0.4"/>
+    </g>
+
+    <!-- HURUF B Pertama (Emas & Perak) -->
+    <g transform="translate(210, 0)">
+      <polygon points="0,0 25,0 25,110 0,110" fill="#b47b14"/>
+      <polygon points="25,0 65,0 78,22 52,22 25,22" fill="#f3c65f"/>
+      <polygon points="52,22 78,22 78,45 52,55" fill="#d49b27"/>
+      <polygon points="25,45 52,45 78,45 65,58 25,58" fill="#cbd5e1"/>
+      <polygon points="52,58 82,65 82,92 52,88" fill="#f3c65f"/>
+      <polygon points="25,88 82,92 68,110 25,110" fill="#d49b27"/>
+    </g>
+
+    <!-- HURUF B Kedua (Perak & Emas) -->
+    <g transform="translate(312, 0)">
+      <polygon points="0,0 25,0 25,110 0,110" fill="#94a3b8"/>
+      <polygon points="25,0 65,0 78,22 52,22 25,22" fill="#f8fafc"/>
+      <polygon points="52,22 78,22 78,45 52,55" fill="#e2e8f0"/>
+      <polygon points="25,45 52,45 78,45 65,58 25,58" fill="#d49b27"/>
+      <polygon points="52,58 82,65 82,92 52,88" fill="#f8fafc"/>
+      <polygon points="25,88 82,92 68,110 25,110" fill="#cbd5e1"/>
+    </g>
+
+    <!-- TANDA SEMPANG - (Perak) -->
+    <g transform="translate(415, 44)">
+      <polygon points="0,0 42,0 36,22 0,22" fill="#f8fafc"/>
+      <polygon points="42,0 42,22 36,22" fill="#94a3b8"/>
+    </g>
+
+    <!-- HURUF A (Emas & Perak) -->
+    <g transform="translate(480, 0)">
+      <polygon points="48,0 22,0 0,110 26,110 48,32" fill="#f3c65f"/>
+      <polygon points="48,0 70,0 96,110 70,110 48,32" fill="#e2e8f0"/>
+      <polygon points="24,68 72,68 76,88 20,88" fill="#cbd5e1"/>
+      <polygon points="48,68 72,68 76,88 48,88" fill="#94a3b8"/>
+    </g>
+
+  </g>
+</svg>
